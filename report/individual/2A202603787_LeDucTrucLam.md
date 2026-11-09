@@ -18,14 +18,14 @@
 
 Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng hợp nhiều thông tin** · **Pain từ người khác**.
 
-| # | Lăng kính               | Job Story: Khi… tôi muốn… để…                                                                                                                                                                                     | Ai chịu ảnh hưởng?     | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng)                                          |
-|--:|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|----------------------------------------------------------------------------------------------------|
-| 1 | Tốn thời gian           | Khi kiểm tra hệ thống mạng, tôi cần giải pháp tổng hợp chung về tình trạng hệ thống (các cổng mạng, thiết lập IP, etc.) để không phải kiểm tra từng thiết bị (có thể kiểm tra sau)                                | SysAdmin               | Các lần kiểm tra thiết bị (chạy command) tốn 10-15 phút                                            |
-| 2 | Tốn thời gian           | Khi máy tính các nhân viên gặp sự cố, tôi cần phân cấp các sự cố để xếp lịch ưu tiên xử lý tuỳ theo mức độ ảnh hưởng và loại sự cố                                                                                | SysAdmin, nhân viên    | 1 số sự cố gây gián đoạn công việc bị xử lý chậm                                                   |
-| 3 | Pain từ người khác      | Các nhân viên mới cần hướng dẫn kỹ thuật cô đọng, dễ hiểu để tự xử lý mà không cần viết ticket lên SysAdmin                                                                                                       | Nhân viên              | Nhiều ticket được viết để xử lý các lỗi nhỏ, khiến sự cố lớn hơn bị chậm trễ                       |
-| 4 | Lặp lại                 | Khi ban lãnh đạo yêu cầu tổng hợp tình trạng phần mềm bản quyền, tôi cần có danh sách tổng hợp tự động tình trạng cho toàn bộ máy tính để không phải check từng máy                                               | SysAdmin, ban lãnh đạo | Mỗi lần kiểm tra tốn 5-10 phút, ảnh hưởng công việc nhân viên                                      |
-| 5 | Tốn thời gian           | Khi xảy ra sự cố hệ thống, tôi cần một bản báo cáo ngắn gọn về những gì đã xảy ra kèm log để bàn quy trình xử lý với các SysAdmin khác                                                                            | SysAdmin, team         | Khi xảy ra sự cố phải kiểm tra log bằng tay, rất tốn thời gian và làm chậm trễ quá trình xử lý     |
-| 6 | Cần đọc nhiều thông tin | Khi các tổ chức an ninh mạng công bố danh sách lỗ hổng bảo mật mới, tôi muốn một bản tóm tắt đối chiếu trực tiếp các lỗ hổng đó với hạ tầng hiện tại của công ty, để nhận biết ngay thiết bị nào đang gặp rủi ro. | SysAdmin, công ty      | Tốn 3 tiếng kể từ lúc nhận được cảnh báo bảo mật cho đến khi xác định được ảnh hưởng trong công ty |
+| # | Lăng kính               | Job Story: Khi… tôi muốn… để…                                                                                                                                                                | Ai chịu ảnh hưởng?     | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng)                                          |
+|--:|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|----------------------------------------------------------------------------------------------------|
+| 1 | Tốn thời gian           | Khi kiểm tra hệ thống mạng, tôi cần giải pháp tổng hợp chung về tình trạng hệ thống (các cổng mạng, thiết lập IP, etc.) để không phải kiểm tra từng thiết bị (có thể kiểm tra sau)           | SysAdmin               | Các lần kiểm tra thiết bị (chạy command) tốn 10-15 phút                                            |
+| 2 | Tốn thời gian           | Khi máy tính các nhân viên gặp sự cố, tôi cần phân cấp các sự cố để xếp lịch ưu tiên xử lý tuỳ theo mức độ ảnh hưởng và loại sự cố                                                           | SysAdmin, nhân viên    | 1 số sự cố gây gián đoạn công việc bị xử lý chậm                                                   |
+| 3 | Pain từ người khác      | Các nhân viên mới cần hướng dẫn kỹ thuật cô đọng, dễ hiểu để tự xử lý mà không cần viết ticket lên SysAdmin                                                                                  | Nhân viên              | Nhiều ticket được viết để xử lý các lỗi nhỏ, khiến sự cố lớn hơn bị chậm trễ                       |
+| 4 | Lặp lại                 | Khi ban lãnh đạo yêu cầu tổng hợp tình trạng phần mềm bản quyền, tôi cần có danh sách tổng hợp tự động tình trạng cho toàn bộ máy tính để không phải check từng máy                          | SysAdmin, ban lãnh đạo | Mỗi lần kiểm tra tốn 5-10 phút, ảnh hưởng công việc nhân viên                                      |
+| 5 | Tốn thời gian           | Khi xảy ra sự cố hệ thống, tôi cần một bản báo cáo ngắn gọn về những gì đã xảy ra kèm log để bàn quy trình xử lý với các SysAdmin khác                                                       | SysAdmin, team         | Khi xảy ra sự cố phải kiểm tra log bằng tay, rất tốn thời gian và làm chậm trễ quá trình xử lý     |
+| 6 | Cần đọc nhiều thông tin | Khi lỗ hổng bảo mật mới được công bố rộng rãi, tôi muốn một bản tóm tắt đối chiếu trực tiếp các lỗ hổng đó với hạ tầng hiện tại của công ty, để nhận biết ngay thiết bị nào đang gặp rủi ro. | SysAdmin, công ty      | Tốn 3 tiếng kể từ lúc nhận được cảnh báo bảo mật cho đến khi xác định được ảnh hưởng trong công ty |
 
 **Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
 
@@ -63,56 +63,65 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 Quy trình nháp hiện tại:
 
 ```text
-
+1. Nhân viên viết ticket lên SysAdmin (5')
+2. SysAdmin tiếp nhận và phân loại sự cố và mức ưu tiên (5'/ticket)
+3. Team dựa trên mức ưu tiên để sắp lịch xử lý (5'/ticket)
+4. Nhân viên được hỗ trợ xử lý (thời gian tuỳ theo từng sự cố)
 ```
 
 ### Problem Card #2
 
-| Trường                                    | Nội dung                                                                                                                                                                                                                                               |
-|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Job Story                                 | Khi các tổ chức an ninh mạng công bố danh sách lỗ hổng bảo mật mới, tôi muốn một bản tóm tắt đối chiếu trực tiếp các lỗ hổng đó với hạ tầng hiện tại của công ty, để nhận biết ngay thiết bị nào đang gặp rủi ro.                                      |
-| Actor                                     | SysAdmin, Công ty                                                                                                                                                                                                                                      |
-| Thời điểm / bối cảnh                      | Khi lỗ hổng bảo mật được công bố                                                                                                                                                                                                                       |
-| Quy trình hiện tại (3–7 bước)             | 1. Nhân thông tin về lỗ hổng bảo mật · 2. Kiểm tra và ghi lại các thiết bị trong công ty có thể bị ảnh hưởng · 3. Đối chiếu và ghi chép những rủi ro ảnh hưởng đến hạ tầng công ty · 4. Dựa theo hướng dẫn khắc phục của nhà sản xuất để xử lý lỗ hổng |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 1, 2, 3: Quá trình nghiên cứu tài liệu về lỗ hổng và kiểm tra thiết bị bị kéo dài (có thể lên đến 3-4 tiếng)                                                                                                                                      |
-| Impact (nếu không giải thì sao)           | Lỗ hổng bảo mật không được vá kịp thời, tạo cơ hội cho hacker xâm nhập làm lộ lọt thông tin hoặc gây tê liệt hệ thống, ảnh hưởng đến hoạt động công ty                                                                                                 |
-| Success metric (baseline → target)        | Thời gian kể từ khi lỗ hổng được phát hiện đến khi được khắc phục phải 1-2 tiếng trở xuống                                                                                                                                                             |
-| Phương án không dùng AI                   | Có kế hoạch xử lý trước và khắc phục hậu quả nếu lỗ hổng bị khai thác - Không phù hợp với lỗ hổng Zero-day bị khai thác ngay ngày đầu phát hiện, "phòng bệnh hơn chữa bệnh"                                                                            |
-| Giả thuyết về AI (nếu có)                 | Tổng hợp nhanh những thiết bị bị ảnh hưởng và cách khắc phục dựa trên tài liệu được cho sẵn (giới hạn chỉ tài liệu về lỗ hổng đó)                                                                                                                      |
-| Cảm nhận nhanh                            | Workflow                                                                                                                                                                                                                                               |
+| Trường                                    | Nội dung                                                                                                                                                                                                                                                             |
+|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Job Story                                 | Khi các tổ chức an ninh mạng công bố danh sách lỗ hổng bảo mật mới, tôi muốn một bản tóm tắt đối chiếu trực tiếp các lỗ hổng đó với hạ tầng hiện tại của công ty, để nhận biết ngay thiết bị nào đang gặp rủi ro.                                                    |
+| Actor                                     | SysAdmin, Công ty                                                                                                                                                                                                                                                    |
+| Thời điểm / bối cảnh                      | Khi lỗ hổng bảo mật được công bố                                                                                                                                                                                                                                     |
+| Quy trình hiện tại (3–7 bước)             | 1. Nhận và nghiên cứu thông tin về lỗ hổng bảo mật · 2. Kiểm tra và ghi lại các thiết bị trong công ty có thể bị ảnh hưởng · 3. Đối chiếu và ghi chép những rủi ro ảnh hưởng đến hạ tầng công ty · 4. Dựa theo hướng dẫn khắc phục của nhà sản xuất để xử lý lỗ hổng |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 1, 2, 3: Quá trình nghiên cứu tài liệu về lỗ hổng và kiểm tra thiết bị bị kéo dài (có thể lên đến 3-4 tiếng)                                                                                                                                                    |
+| Impact (nếu không giải thì sao)           | Lỗ hổng bảo mật không được vá kịp thời, tạo cơ hội cho hacker xâm nhập làm lộ lọt thông tin hoặc gây tê liệt hệ thống, ảnh hưởng đến hoạt động công ty                                                                                                               |
+| Success metric (baseline → target)        | Thời gian kể từ khi lỗ hổng được phát hiện đến khi được khắc phục phải 1-2 tiếng trở xuống                                                                                                                                                                           |
+| Phương án không dùng AI                   | Có kế hoạch xử lý trước và khắc phục hậu quả nếu lỗ hổng bị khai thác - Không phù hợp với lỗ hổng Zero-day bị khai thác ngay ngày đầu phát hiện, "phòng bệnh hơn chữa bệnh"                                                                                          |
+| Giả thuyết về AI (nếu có)                 | Tổng hợp nhanh những thiết bị bị ảnh hưởng và cách khắc phục dựa trên tài liệu được cho sẵn (giới hạn chỉ tài liệu về lỗ hổng đó)                                                                                                                                    |
+| Cảm nhận nhanh                            | Workflow                                                                                                                                                                                                                                                             |
 
 Quy trình nháp hiện tại:
 
 ```text
-
+1. Nhận và nghiên cứu thông tin về lỗ hổng bảo mật (40')
+2. Kiểm tra và ghi lại các thiết bị trong công ty có thể bị ảnh hưởng (45'-60')
+3. Đối chiếu và ghi chép những rủi ro ảnh hưởng đến hạ tầng công ty (60')
+4. Dựa theo hướng dẫn khắc phục của nhà sản xuất để xử lý lỗ hổng (40'-60')
 ```
 
 ### Problem Card #3
 
-| Trường                                    | Nội dung                                                                                                                                                                                               |
-|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Job Story                                 | Khi kiểm tra hệ thống mạng, tôi cần giải pháp tổng hợp chung về tình trạng hệ thống (các cổng mạng, thiết lập IP, etc.) để không phải kiểm tra từng thiết bị (có thể kiểm tra sau)                     |
-| Actor                                     | SysAdmin                                                                                                                                                                                               |
-| Thời điểm / bối cảnh                      | Hẵng ngày vào mỗi buổi sáng                                                                                                                                                                            |
-| Quy trình hiện tại (3–7 bước)             | 1. Login vào từng thiết bị · 2. Chạy command để kiểm tra status và tạo log · 3. Ghi chép lại tình trạng và vấn đề (nếu có) dựa trên log · 4. Tổng hợp thành báo cáo để gửi cấp trên (nếu được yêu cầu) |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 1 và 2: Quá trình đăng nhập và chạy command tạo log có thể mất 10 phút / thiết bị. Ghi chép mất thêm 5 phút / thiết bị nữa                                                                        |
-| Impact (nếu không giải thì sao)           | 15 phút cho 1 thiết bị được kiểm tra. Nếu công ty có 50 thiết bị, con số sẽ rất lớn.                                                                                                                   |
-| Success metric (baseline → target)        | Thời gian kiểm tra rút ngắn còn bình quên 5 phút / thiết bị (chưa kể thời gian viết report)                                                                                                            |
-| Phương án không dùng AI                   | Tuyển thêm nhân viên SysAdmin kiểm tra nhiều thiết bị 1 lúc - Tốn tiền, có yếu tố con người có thể sai sót khi kiểm tra                                                                                |
-| Giả thuyết về AI (nếu có)                 | Tự thu thập status và log từ thiết bị và tổng hợp thành 1 báo cáo chung dễ đọc về tình trạng, với highlight về các vấn đề nếu có, hỗ trợ SysAdmin viết báo cáo và khắc phục sự cố                      |
-| Cảm nhận nhanh                            | Workflow                                                                                                                                                                                               |
+| Trường                                    | Nội dung                                                                                                                                                                                                                         |
+|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Job Story                                 | Khi kiểm tra hệ thống mạng, tôi cần giải pháp tổng hợp chung về tình trạng hệ thống (các cổng mạng, thiết lập IP, etc.) để không phải kiểm tra từng thiết bị (có thể kiểm tra sau)                                               |
+| Actor                                     | SysAdmin                                                                                                                                                                                                                         |
+| Thời điểm / bối cảnh                      | Hẵng ngày vào mỗi buổi sáng                                                                                                                                                                                                      |
+| Quy trình hiện tại (3–7 bước)             | 1. Login vào từng thiết bị · 2. Chạy command để kiểm tra status và tạo log · 3. Ghi chép lại tình trạng và vấn đề (nếu có) dựa trên log · 4. Tổng hợp thành báo cáo để gửi cấp trên (nếu được yêu cầu) và khắc phục lỗi (nếu có) |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 1 và 2: Quá trình đăng nhập và chạy command tạo log có thể mất 10 phút / thiết bị. Ghi chép mất thêm 5 phút / thiết bị nữa                                                                                                  |
+| Impact (nếu không giải thì sao)           | 15 phút cho 1 thiết bị được kiểm tra. Nếu công ty có 50 thiết bị, con số sẽ rất lớn.                                                                                                                                             |
+| Success metric (baseline → target)        | Thời gian kiểm tra rút ngắn còn bình quên 5 phút / thiết bị (chưa kể thời gian viết report)                                                                                                                                      |
+| Phương án không dùng AI                   | Tuyển thêm nhân viên SysAdmin kiểm tra nhiều thiết bị 1 lúc - Tốn tiền, có yếu tố con người có thể sai sót khi kiểm tra                                                                                                          |
+| Giả thuyết về AI (nếu có)                 | Tự thu thập status và log từ thiết bị và tổng hợp thành 1 báo cáo chung dễ đọc về tình trạng, với highlight về các vấn đề nếu có, hỗ trợ SysAdmin viết báo cáo và khắc phục sự cố                                                |
+| Cảm nhận nhanh                            | Workflow                                                                                                                                                                                                                         |
 
 Quy trình nháp hiện tại:
 
 ```text
-
+1. Login vào từng thiết bị (5'/thiết bị)
+2. Chạy command để kiểm tra status và tạo log (5'/thiết bị)
+3. Ghi chép lại tình trạng và vấn đề (nếu có) dựa trên log (10'/thiết bị)
+4. Tổng hợp thành báo cáo để gửi cấp trên (nếu được yêu cầu) (20-30') và khắc phục lỗi (nếu có) (5-10' tuỳ lỗi)
 ```
 
 ### Card muốn pitch nhất
 
-- Card số:
-- Vì sao:
-- Câu hỏi muốn nhóm phản biện:
+- Card số: 1
+- Vì sao: Tình huống hay gặp trong công sở, có impact lớn đến vận hành công việc
+- Câu hỏi muốn nhóm phản biện: Có những tiêu chí cụ thể nào để xác định mức độ ưu tiên của các sự cố kỹ thuật?
 
 ### AI đã phản biện card thế nào
 
