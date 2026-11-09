@@ -65,7 +65,7 @@ Những ý **loại khỏi tầng opportunity** vì là solution:
 | #7 — Phân loại sự cố thiết bị | 4 | 3 | 1 | 4 | 4 | 5 | 3 | **24** |
 
 
-**Candidate được chọn:**: Kiểm tra đủ yêu cầu bài lab trước khi nộp.
+**Candidate được chọn:** Kiểm tra đủ yêu cầu bài lab trước khi nộp.
 
 **Vì sao chọn:** Do có điểm cao nhất và dễ tổ chức kiểm chứng trong điều kiện lớp học. Nếu baseline được xác nhận, giảm 45 xuống 25 phút/bài ở tần suất 2 bài/tuần giúp người nộp tiết kiệm khoảng 40 phút/tuần. Mục tiêu đi kèm là giảm số bài còn thiếu yêu cầu bắt buộc từ giả định 2/8 xuống 0/8; nhanh hơn nhưng bỏ sót nhiều hơn không được coi là thành công. Phạm vi chỉ là kiểm độ đầy đủ của một bài có 10 yêu cầu, chưa chấm toàn bộ tính đúng của nội dung. Chọn problem ở CP3 không đồng nghĩa chọn dùng AI.
 
