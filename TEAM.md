@@ -13,9 +13,8 @@
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
 | 1 | Hoàng Dương Anh Quân | 2A202603735 | Trưởng nhóm| HoangQuan23112004 |
-| 2 | | | | |
+| 2 | Đinh Hoài Nam | 2A202603672 | Thành viên nhóm | |
 | 3 | | | | |
-| 4 | | | | |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
