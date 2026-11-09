@@ -43,31 +43,46 @@
 Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
 
 ```text
-OUTCOME: 
-├── Opportunity A: 
-├── Opportunity B: 
-└── Opportunity C: 
+OUTCOME: Giảm thời gian kiểm tra một bài lab từ giả định 45 xuống ≤25 phút/bài,
+         với 0/8 bài thử nghiệm còn thiếu yêu cầu bắt buộc lúc nộp.
+├── Opportunity A: Người nộp phải tìm yêu cầu trong đề, rubric và thông báo bổ sung.
+├── Opportunity B: Người kiểm khó xác định đoạn nào trong bài đáp ứng từng yêu cầu.
+├── Opportunity C: Nhóm khó nhận ra yêu cầu chưa có bằng chứng trước hạn nộp.
+└── Opportunity D: Người kiểm sau khó biết mục nào đã được kiểm và còn thiếu gì.
 ```
 
-Những ý đã gạch bỏ vì là solution đội lốt opportunity:
-
--
+Những ý **loại khỏi tầng opportunity** vì là solution: 
+- “Checklist kiểm bài tự động”: là cách giải; opportunity tương ứng là khó biết yêu cầu nào chưa được đáp ứng.
+- “Chatbot đọc rubric”: là công cụ; opportunity tương ứng là yêu cầu nằm rải rác và khó tra cứu.
+- “Agent tự sửa và nộp bài”: là phương án can thiệp; chưa có bằng chứng cần tự động hóa các hành động này.
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
+| #1 — Kiểm tra bài lab | 5 | 5 | 1 | 5 | 5 | 5 | 5 | **31** |
+| #2 — Đối soát chi phí phòng trọ | 5 | 5 | 1 | 5 | 4 | 5 | 5 | **30** |
+| #7 — Phân loại sự cố thiết bị | 4 | 3 | 1 | 4 | 4 | 5 | 3 | **24** |
 
-**Candidate được chọn:**
 
-**Vì sao chọn:**
+**Candidate được chọn:**: Kiểm tra đủ yêu cầu bài lab trước khi nộp.
 
-**Vì sao loại các candidate còn lại:**
+**Vì sao chọn:** Do có điểm cao nhất và dễ tổ chức kiểm chứng trong điều kiện lớp học. Nếu baseline được xác nhận, giảm 45 xuống 25 phút/bài ở tần suất 2 bài/tuần giúp người nộp tiết kiệm khoảng 40 phút/tuần. Mục tiêu đi kèm là giảm số bài còn thiếu yêu cầu bắt buộc từ giả định 2/8 xuống 0/8; nhanh hơn nhưng bỏ sót nhiều hơn không được coi là thành công. Phạm vi chỉ là kiểm độ đầy đủ của một bài có 10 yêu cầu, chưa chấm toàn bộ tính đúng của nội dung. Chọn problem ở CP3 không đồng nghĩa chọn dùng AI.
 
-**Xử lý bất đồng (nếu có):**
+**Vì sao chưa chọn các candidate còn lại:**
+
+| Candidate | Lý do chưa chọn ở vòng này | Điều kiện để xem xét lại |
+|---|---|---|
+| #2 — Chi phí phòng trọ | Chênh #1 chỉ 1 điểm, vẫn là ứng viên mạnh; kỳ đối soát thật diễn ra hằng tháng và phụ thuộc chứng từ của nhiều người. | Có sổ chi 30 khoản và người dùng sẵn sàng tái hiện kỳ chốt; nếu #1 không có pain đáng kể, ưu tiên kiểm chứng #2. |
+| #3 — Lịch học nhóm | Cần tách thiếu lịch chung khỏi khó thu thập lịch; mẫu trả lời thống nhất và phép tìm giao có thể đủ. | Sau khi thu lịch theo mẫu, người điều phối vẫn mất nhiều thời gian hoặc vẫn chốt sai lịch. |
+| #4 — Sai tư thế | Chưa có baseline hoặc chuẩn xác định đúng/sai; việc kiểm chứng cần người có chuyên môn và dữ liệu động tác. | Có người hướng dẫn đánh giá độc lập, giới hạn một động tác và thống nhất tiêu chí quan sát. |
+| #5 — Chọn lịch tập | Chưa xác định “phù hợp” và chưa biết thời gian mất chủ yếu ở tìm, so sánh hay quyết định. | Có một lần chọn lịch thực tế được tái hiện và tập ràng buộc cụ thể. |
+| #6 — Tiến độ tập | Chưa rõ dữ liệu đã được ghi đủ hay chưa; có thể điểm nghẽn là ghi dữ liệu thay vì tổng hợp. | Có nhật ký nhiều buổi và đo riêng thời gian ghi, tìm lại, tổng hợp. |
+| #7 — Sự cố thiết bị | Chưa có card đầy đủ, bộ ticket và tiêu chí mức khẩn cấp để chấm kết quả phân loại. | Có ticket đã ẩn thông tin riêng, nhãn chuẩn và người IT xác nhận phạm vi. |
+| #8 — Đối chiếu lỗ hổng | Phụ thuộc danh mục tài sản, phiên bản và điều kiện ảnh hưởng; chưa rõ dữ liệu đầu vào hoặc cách phát hiện bỏ sót. | Có bộ thông báo và tài sản được phép dùng, cùng người phụ trách kiểm tra kết quả. |
+| #9 — Tình trạng mạng | Chưa rõ nguồn log, chu kỳ báo cáo và tiêu chí bất thường; phạm vi dễ mở rộng vượt một buổi lab. | Giới hạn một nguồn dữ liệu, một kỳ báo cáo và bộ tiêu chí bất thường xác nhận được. |
+
+**Xử lý bất đồng (nếu có):** chưa có thông tin về thảo luận thực tế nên không ghi nhận tên hoặc ý kiến của thành viên. Đề xuất cách xử lý: nếu nhóm ưu tiên #2 hoặc #7, đối chiếu khả năng lấy dữ liệu, tái hiện một trường hợp gần nhất và đo bottleneck trước khi chấm lại. Nếu #1 không xác nhận được bước đối chiếu là điểm nghẽn hoặc checklist đã xử lý đủ, cập nhật cây OST và thứ hạng theo bằng chứng; không giữ lựa chọn chỉ vì điểm dự đoán cao hơn. Kết quả đồng thuận thực tế và người đặt câu hỏi sẽ được bổ sung sau buổi pitch.
 
 ---
 
