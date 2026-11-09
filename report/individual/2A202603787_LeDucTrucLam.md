@@ -53,9 +53,9 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | Quy trình hiện tại (3–7 bước)             | 1. Nhân viên viết ticket lên SysAdmin · 2. SysAdmin tiếp nhận và phân loại sự cố và mức ưu tiên · 3. Team dựa trên mức ưu tiên để sắp lịch xử lý · 4. Nhân viên được hỗ trợ xử lý |
 | Bottleneck (bước nào, mất bao nhiêu phút) | Bước 2: Việc sắp xếp tốn nhiều thời gian và làm chậm trễ quá trình xử lý sự cố                                                                                                    |
 | Impact (nếu không giải thì sao)           | Các sự cố nghiêm trọng như không vào được mạng, máy tính không chạy bị giải quyết chậm, ảnh hưởng đến công việc                                                                   |
-| Success metric (baseline → target)        | Các sự cố nghiệm trọng được giải quyết nhanh, giảm downtime đến mức thấp nhất trong công việc                                                                                     |
+| Success metric (baseline → target)        | Các sự cố nghiệm trọng được giải quyết nhanh, giảm downtime đến tối đa 20-30 phút                                                                                                 |
 | Phương án không dùng AI                   | Để nhân viên tự đặt mức độ cấp thiết tuỳ theo việc sự cố có gây ảnh hưởng đến công việc không: dễ bị lạm dụng để ưu tiên các lỗi nhỏ, ảnh hưởng đến sự cố cần uư tiên thực sự.    |
-| Giả thuyết về AI (nếu có)                 | AI tổng hợp và phân loại mức ưu tiên cho các ticket dựa trên tiêu chỉ được đặt sẵn, đồng thời tự động xếp lịch cho các SysAdmin xử lý                                             |
+| Giả thuyết về AI (nếu có)                 | AI tổng hợp và phân loại mức ưu tiên cho các ticket dựa trên tiêu chỉ được đặt sẵn, giúp SysAdmin chủ động xếp lịch xử lý 1 cách hợp lý                                           |
 | Cảm nhận nhanh                            | Workflow                                                                                                                                                                          |
 
 
@@ -71,18 +71,18 @@ Quy trình nháp hiện tại:
 
 ### Problem Card #2
 
-| Trường                                    | Nội dung                                                                                                                                                                                                                                                             |
-|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Job Story                                 | Khi các tổ chức an ninh mạng công bố danh sách lỗ hổng bảo mật mới, tôi muốn một bản tóm tắt đối chiếu trực tiếp các lỗ hổng đó với hạ tầng hiện tại của công ty, để nhận biết ngay thiết bị nào đang gặp rủi ro.                                                    |
-| Actor                                     | SysAdmin, Công ty                                                                                                                                                                                                                                                    |
-| Thời điểm / bối cảnh                      | Khi lỗ hổng bảo mật được công bố                                                                                                                                                                                                                                     |
+| Trường                                    | Nội dung                                                                                                                                                                                                                                                            |
+|-------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Job Story                                 | Khi các tổ chức an ninh mạng công bố danh sách lỗ hổng bảo mật mới, tôi muốn một bản tóm tắt đối chiếu trực tiếp các lỗ hổng đó với hạ tầng hiện tại của công ty, để nhận biết ngay thiết bị nào đang gặp rủi ro.                                                   |
+| Actor                                     | SysAdmin, Công ty                                                                                                                                                                                                                                                   |
+| Thời điểm / bối cảnh                      | Khi lỗ hổng bảo mật được công bố                                                                                                                                                                                                                                    |
 | Quy trình hiện tại (3–7 bước)             | 1. Nhận và nghiên cứu thông tin về lỗ hổng bảo mật · 2. Kiểm tra và ghi lại các thiết bị trong công ty có thể bị ảnh hưởng · 3. Đối chiếu và ghi chép những rủi ro ảnh hưởng đến hạ tầng công ty · 4. Dựa theo hướng dẫn khắc phục của nhà sản xuất để xử lý lỗ hổng |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 1, 2, 3: Quá trình nghiên cứu tài liệu về lỗ hổng và kiểm tra thiết bị bị kéo dài (có thể lên đến 3-4 tiếng)                                                                                                                                                    |
-| Impact (nếu không giải thì sao)           | Lỗ hổng bảo mật không được vá kịp thời, tạo cơ hội cho hacker xâm nhập làm lộ lọt thông tin hoặc gây tê liệt hệ thống, ảnh hưởng đến hoạt động công ty                                                                                                               |
-| Success metric (baseline → target)        | Thời gian kể từ khi lỗ hổng được phát hiện đến khi được khắc phục phải 1-2 tiếng trở xuống                                                                                                                                                                           |
-| Phương án không dùng AI                   | Có kế hoạch xử lý trước và khắc phục hậu quả nếu lỗ hổng bị khai thác - Không phù hợp với lỗ hổng Zero-day bị khai thác ngay ngày đầu phát hiện, "phòng bệnh hơn chữa bệnh"                                                                                          |
-| Giả thuyết về AI (nếu có)                 | Tổng hợp nhanh những thiết bị bị ảnh hưởng và cách khắc phục dựa trên tài liệu được cho sẵn (giới hạn chỉ tài liệu về lỗ hổng đó)                                                                                                                                    |
-| Cảm nhận nhanh                            | Workflow                                                                                                                                                                                                                                                             |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 2, 3: Quá trình kiểm tra thiết bị bị kéo dài (có thể lên đến 3-4 tiếng)                                                                                                                                                                                        |
+| Impact (nếu không giải thì sao)           | Lỗ hổng bảo mật không được vá kịp thời, tạo cơ hội cho hacker xâm nhập làm lộ lọt thông tin hoặc gây tê liệt hệ thống, ảnh hưởng đến hoạt động công ty                                                                                                              |
+| Success metric (baseline → target)        | Thời gian kể từ khi lỗ hổng được phát hiện đến khi được khắc phục phải 1-2 tiếng trở xuống                                                                                                                                                                          |
+| Phương án không dùng AI                   | Có kế hoạch xử lý trước và khắc phục hậu quả nếu lỗ hổng bị khai thác - Không phù hợp với lỗ hổng Zero-day bị khai thác ngay ngày đầu phát hiện, "phòng bệnh hơn chữa bệnh"                                                                                         |
+| Giả thuyết về AI (nếu có)                 | Tổng hợp nhanh những thiết bị bị ảnh hưởng và cách khắc phục dựa trên tài liệu được cho sẵn (giới hạn chỉ tài liệu về lỗ hổng đó và danh sách thiết bị của công ty)                                                                                                 |
+| Cảm nhận nhanh                            | Workflow                                                                                                                                                                                                                                                            |
 
 Quy trình nháp hiện tại:
 
@@ -125,26 +125,30 @@ Quy trình nháp hiện tại:
 
 ### AI đã phản biện card thế nào
 
-| Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
-|---|---|---|
-| | | |
+| Điểm yếu AI chỉ ra                                        | Đồng ý? | Đã sửa gì                                                                       |
+|-----------------------------------------------------------|---------|---------------------------------------------------------------------------------|
+| Card #1: Success metric không có con số đảm bảo cụ thể    | Có      | Thêm con số downtime tối đa cho phép (20 đến 30 phút)                           |
+| Card #1: Để AI tự xử lý xếp lịch là quá rủi ro            | Có      | Xoá cơ chế tự xếp lích, để SysAdmin tự sắp xếp theo gợi ý của AI                |
+| Card #2: Bottleneck quá rộng, không rõ ràng               | Có      | Tập trung vào quá trình tốn thời gian nhất: rà soát thiết bị có thể dính lỗ hổng |
+| Card #2: AI thiếu đầu vào quan trọng (danh sách thiết bị) | Có      | Thêm giới hạn về danh sách thiết bị tại công ty                                 |
+
 
 ---
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
-| Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
-|---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Hoạt động                  | Tôi đã làm gì?                                                                                                                                       | Kết quả / ảnh hưởng tới bài nhóm                                     |
+|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| Pitch Problem Card         | Tôi lựa chọn các vấn đề của một quản trị viên hệ thống (System Administrator), một công việc đòi hỏi việc kiểm tra và giám sát liên tục các thiết bị | Giới thiệu cho nhóm về 1 trong những lĩnh vực AI ứng dụng mới thú vị |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Sử dụng AI để phân tích hình ảnh động tác, liệu có ảnh hưởng gì đến quyền riêng tư không?                                        |                                                                      |
+| Nhận phản biện             | Câu hỏi tôi nhận được: Tiêu chí cấp thiết là gì? Có bao nhiêu ticket/tuần và bao nhiêu ticket bị phân loại lại?                                      | Tôi đã sửa gì:                                                       |
+| Gom cluster / cây OST      |                                                                                                                                                      |                                                                      |
+| Chọn candidate problem     |                                                                                                                                                      |                                                                      |
+| Kiểm chứng / research      |                                                                                                                                                      |                                                                      |
+| Quy trình nhóm             |                                                                                                                                                      |                                                                      |
+| Problem Statement          |                                                                                                                                                      |                                                                      |
+| Mức can thiệp AI           |                                                                                                                                                      |                                                                      |
+| Quyết định                 |                                                                                                                                                      |                                                                      |
 
 ---
 
