@@ -18,57 +18,71 @@
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
-| 7 | | | | | |
-| 8 | | | | | |
-| 9 | | | | | |
-| 10 | | | | | |
-| 11 | | | | | |
-| 12 | | | | | |
+| 1 | Hoàng Dương Anh Quân | **Kiểm tra đủ yêu cầu bài lab:** Khi còn 1 giờ trước hạn nộp, tôi muốn biết bài đã đủ yêu cầu bắt buộc chưa, để tránh mất điểm vì thiếu mục. | Sinh viên phụ trách nộp bài nhóm 4 người. | Đối chiếu 10 yêu cầu với bản nộp: giả định 20/45 phút/bài, 2 bài/tuần. | Thời gian còn 1 giờ trước khi nộp bài là quá ngắn, liệu có đủ thời gian để khắc phục vấn đề AI tìm ra trong bài nộp?(Lâm) |
+| 2 | Hoàng Dương Anh Quân | **Đối soát chi phí phòng trọ:** Khi chốt tiền cuối tháng, tôi muốn biết mỗi người đã trả và còn phải trả bao nhiêu, để chia đúng chi phí. | Sinh viên tổng hợp chi cho phòng 3 người. | Đối chiếu người trả, người chịu và khoản trùng: giả định 30/80 phút/kỳ, 30 khoản/tháng. | Chậm vì tính toán hay vì 4 khoản chưa đủ thông tin? Nếu ghi đầy đủ ngay từ đầu, vấn đề còn đáng giải không? |
+| 3 | Hoàng Dương Anh Quân | **Chốt lịch học nhóm:** Khi 4 người cần học chung, tôi muốn tìm được khung giờ đủ người, để sớm chốt lịch trước bài kiểm tra. | Sinh viên điều phối nhóm học 4 người. | So sánh lịch và hỏi lại phản hồi mơ hồ: giả định 15/35 phút/lần, 1 lần/tuần. | 35 phút có gồm thời gian chờ không? Nếu không có khung chung, kết quả hợp lệ là gì? |
+| 4 | Đinh Hoài Nam | **Không nhận ra sai tư thế:** Khi tự thực hiện squat hoặc push-up, tôi muốn biết tư thế có đúng không, để điều chỉnh kỹ thuật và tập hiệu quả hơn. | Người mới hoặc người tự tập không có HLV theo sát. | Tự kiểm tra tư thế khi đang vận động; chưa đo thời gian và số lỗi bỏ sót. |Sử dụng AI để phân tích hình ảnh động tác, liệu có ảnh hưởng gì đến quyền riêng tư không?(Lâm) |
+| 5 | Đinh Hoài Nam | **Người mới khó chọn bài/lịch tập:** Khi mới tập và có mục tiêu cụ thể, tôi muốn chọn bài và lịch phù hợp, để tránh thử nhiều chương trình thiếu căn cứ. | Người mới tập, chưa có lịch ổn định. | So sánh và xác định lịch phù hợp; chưa đo thời gian. |Với vấn đề này, liệu bạn đã có những tiêu chí cụ thể nào để xác định bài tập phù hợp không?(Lâm) |
+| 6 | Đinh Hoài Nam | **Khó theo dõi tiến độ tập:** Khi đã tập nhiều tuần, tôi muốn xem thay đổi từ kết quả đã ghi, để đánh giá tiến độ và cân nhắc điều chỉnh. | Người tập muốn theo dõi kết quả qua nhiều buổi. | Tổng hợp và so sánh kết quả; chưa đo. Bước ghi dữ liệu cũng có thể là điểm nghẽn. | Có nhật ký đủ để so sánh không? Nếu chưa ghi dữ liệu, giải tổng hợp có đúng vấn đề gốc không? |
+| 7 | Lê Đức Trúc Lâm | **Phân loại sự cố thiết bị nhân viên:** Khi nhiều yêu cầu hỗ trợ đến cùng lúc, tôi muốn xác định loại sự cố và mức ưu tiên, để chuyển đúng người và xử lý việc cấp thiết trước. | Nhân viên IT tiếp nhận yêu cầu hỗ trợ thiết bị. | Đọc mô tả, hỏi bổ sung và xác định mức ưu tiên; chưa có quy trình chi tiết hoặc thời gian. | Tiêu chí cấp thiết là gì? Có bao nhiêu ticket/tuần và bao nhiêu ticket bị phân loại lại? |
+| 8 | Lê Đức Trúc Lâm | **Đối chiếu lỗ hổng với hệ thống công ty:** Khi có thông báo lỗ hổng mới, tôi muốn biết tài sản nào có thể liên quan, để ưu tiên kiểm tra đúng phạm vi. | Nhân viên IT/bảo mật theo dõi thông báo và danh mục tài sản. | Đối chiếu sản phẩm, phiên bản và điều kiện ảnh hưởng với danh mục tài sản; chưa đo thời gian. | Danh mục tài sản có đủ phiên bản không? Ai kiểm tra kết quả đối chiếu để phát hiện bỏ sót? |
+| 9 | Lê Đức Trúc Lâm | **Tổng hợp tình trạng mạng:** Khi đến kỳ kiểm tra vận hành, tôi muốn biết bất thường nào cần chú ý từ dữ liệu mạng, để ưu tiên xác minh và báo cáo kịp thời. | Nhân viên IT phụ trách theo dõi mạng nội bộ. | Gom dữ liệu và phân biệt bất thường đáng chú ý với cảnh báo thông thường; chưa rõ nguồn, chu kỳ hoặc thời gian. | Bất thường được xác định bằng ngưỡng nào? Đã có dữ liệu chứng minh báo cáo hiện tại bỏ sót vấn đề chưa? |
 
 ### 2.2. Cluster
 
 | Cluster | Các candidate | Pattern chung |
 |---|---|---|
-| A | | |
-| B | | |
-| C | | |
+| A — Đối chiếu với yêu cầu/điều kiện | #1 Kiểm bài lab; #8 Đối chiếu lỗ hổng | Đối chiếu nội dung hoặc đối tượng hiện có với một tập yêu cầu/điều kiện để tìm phần thiếu hay có liên quan. Chung pattern, nhưng khác domain và mức rủi ro; không gộp thành một sản phẩm. |
+| B — Tổng hợp dữ liệu đã ghi | #2 Chi phí phòng trọ; #6 Tiến độ tập | Tìm, chuẩn hóa và tổng hợp các bản ghi để có kết quả kiểm tra được. Cần phân biệt thiếu dữ liệu với khó tổng hợp dữ liệu. |
+| C — Lựa chọn theo ràng buộc | #3 Lịch học nhóm; #5 Lựa chọn lịch tập | So sánh phương án theo thời gian, mục tiêu hoặc điều kiện tham gia để ra quyết định. |
+| D — Phân loại và ưu tiên vận hành | #7 Sự cố thiết bị; #9 Tình trạng mạng | Đọc tín hiệu đầu vào và xác định vấn đề nào cần chú ý trước; cần tiêu chí ưu tiên rõ. |
+| E — Tự đánh giá kỹ thuật vận động | #4 Sai tư thế | Đánh giá động tác đang thực hiện; cần dữ liệu quan sát và chuẩn đánh giá từ người có chuyên môn. Giữ riêng vì khác bản chất dữ liệu và cách kiểm chứng. |
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
 Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
 
 ```text
-OUTCOME: 
-├── Opportunity A: 
-├── Opportunity B: 
-└── Opportunity C: 
+OUTCOME: Giảm thời gian kiểm tra một bài lab từ giả định 45 xuống ≤25 phút/bài,
+         với 0/8 bài thử nghiệm còn thiếu yêu cầu bắt buộc lúc nộp.
+├── Opportunity A: Người nộp phải tìm yêu cầu trong đề, rubric và thông báo bổ sung.
+├── Opportunity B: Người kiểm khó xác định đoạn nào trong bài đáp ứng từng yêu cầu.
+├── Opportunity C: Nhóm khó nhận ra yêu cầu chưa có bằng chứng trước hạn nộp.
+└── Opportunity D: Người kiểm sau khó biết mục nào đã được kiểm và còn thiếu gì.
 ```
 
-Những ý đã gạch bỏ vì là solution đội lốt opportunity:
-
--
+Những ý **loại khỏi tầng opportunity** vì là solution: 
+- “Checklist kiểm bài tự động”: là cách giải; opportunity tương ứng là khó biết yêu cầu nào chưa được đáp ứng.
+- “Chatbot đọc rubric”: là công cụ; opportunity tương ứng là yêu cầu nằm rải rác và khó tra cứu.
+- “Agent tự sửa và nộp bài”: là phương án can thiệp; chưa có bằng chứng cần tự động hóa các hành động này.
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
+| #1 — Kiểm tra bài lab | 5 | 5 | 1 | 5 | 5 | 5 | 5 | **31** |
+| #2 — Đối soát chi phí phòng trọ | 5 | 5 | 1 | 5 | 4 | 5 | 5 | **30** |
+| #7 — Phân loại sự cố thiết bị | 4 | 3 | 1 | 4 | 4 | 5 | 3 | **24** |
 
-**Candidate được chọn:**
 
-**Vì sao chọn:**
+**Candidate được chọn:** Kiểm tra đủ yêu cầu bài lab trước khi nộp.
 
-**Vì sao loại các candidate còn lại:**
+**Vì sao chọn:** Do có điểm cao nhất và dễ tổ chức kiểm chứng trong điều kiện lớp học. Nếu baseline được xác nhận, giảm 45 xuống 25 phút/bài ở tần suất 2 bài/tuần giúp người nộp tiết kiệm khoảng 40 phút/tuần. Mục tiêu đi kèm là giảm số bài còn thiếu yêu cầu bắt buộc từ giả định 2/8 xuống 0/8; nhanh hơn nhưng bỏ sót nhiều hơn không được coi là thành công. Phạm vi chỉ là kiểm độ đầy đủ của một bài có 10 yêu cầu, chưa chấm toàn bộ tính đúng của nội dung. Chọn problem ở CP3 không đồng nghĩa chọn dùng AI.
 
-**Xử lý bất đồng (nếu có):**
+**Vì sao chưa chọn các candidate còn lại:**
+
+| Candidate | Lý do chưa chọn ở vòng này | Điều kiện để xem xét lại |
+|---|---|---|
+| #2 — Chi phí phòng trọ | Chênh #1 chỉ 1 điểm, vẫn là ứng viên mạnh; kỳ đối soát thật diễn ra hằng tháng và phụ thuộc chứng từ của nhiều người. | Có sổ chi 30 khoản và người dùng sẵn sàng tái hiện kỳ chốt; nếu #1 không có pain đáng kể, ưu tiên kiểm chứng #2. |
+| #3 — Lịch học nhóm | Cần tách thiếu lịch chung khỏi khó thu thập lịch; mẫu trả lời thống nhất và phép tìm giao có thể đủ. | Sau khi thu lịch theo mẫu, người điều phối vẫn mất nhiều thời gian hoặc vẫn chốt sai lịch. |
+| #4 — Sai tư thế | Chưa có baseline hoặc chuẩn xác định đúng/sai; việc kiểm chứng cần người có chuyên môn và dữ liệu động tác. | Có người hướng dẫn đánh giá độc lập, giới hạn một động tác và thống nhất tiêu chí quan sát. |
+| #5 — Chọn lịch tập | Chưa xác định “phù hợp” và chưa biết thời gian mất chủ yếu ở tìm, so sánh hay quyết định. | Có một lần chọn lịch thực tế được tái hiện và tập ràng buộc cụ thể. |
+| #6 — Tiến độ tập | Chưa rõ dữ liệu đã được ghi đủ hay chưa; có thể điểm nghẽn là ghi dữ liệu thay vì tổng hợp. | Có nhật ký nhiều buổi và đo riêng thời gian ghi, tìm lại, tổng hợp. |
+| #7 — Sự cố thiết bị | Chưa có card đầy đủ, bộ ticket và tiêu chí mức khẩn cấp để chấm kết quả phân loại. | Có ticket đã ẩn thông tin riêng, nhãn chuẩn và người IT xác nhận phạm vi. |
+| #8 — Đối chiếu lỗ hổng | Phụ thuộc danh mục tài sản, phiên bản và điều kiện ảnh hưởng; chưa rõ dữ liệu đầu vào hoặc cách phát hiện bỏ sót. | Có bộ thông báo và tài sản được phép dùng, cùng người phụ trách kiểm tra kết quả. |
+| #9 — Tình trạng mạng | Chưa rõ nguồn log, chu kỳ báo cáo và tiêu chí bất thường; phạm vi dễ mở rộng vượt một buổi lab. | Giới hạn một nguồn dữ liệu, một kỳ báo cáo và bộ tiêu chí bất thường xác nhận được. |
+
+**Xử lý bất đồng (nếu có):** chưa có thông tin về thảo luận thực tế nên không ghi nhận tên hoặc ý kiến của thành viên. Đề xuất cách xử lý: nếu nhóm ưu tiên #2 hoặc #7, đối chiếu khả năng lấy dữ liệu, tái hiện một trường hợp gần nhất và đo bottleneck trước khi chấm lại. Nếu #1 không xác nhận được bước đối chiếu là điểm nghẽn hoặc checklist đã xử lý đủ, cập nhật cây OST và thứ hạng theo bằng chứng; không giữ lựa chọn chỉ vì điểm dự đoán cao hơn. Kết quả đồng thuận thực tế và người đặt câu hỏi sẽ được bổ sung sau buổi pitch.
 
 ---
 
