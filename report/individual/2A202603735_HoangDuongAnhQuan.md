@@ -160,7 +160,7 @@ Thời gian chờ phản hồi được ghi riêng, chưa nằm trong 35 phút.
 |---|---|---|
 | Pitch Problem Card | | |
 | Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
+| Nhận phản biện | Câu hỏi tôi nhận được: Thời gian còn 1 giờ trước khi nộp bài là quá ngắn, liệu có đủ thời gian để khắc phục vấn đề AI tìm ra trong bài nộp? | Tôi đã sửa gì:  |
 | Gom cluster / cây OST | | |
 | Chọn candidate problem | | |
 | Kiểm chứng / research | | |
