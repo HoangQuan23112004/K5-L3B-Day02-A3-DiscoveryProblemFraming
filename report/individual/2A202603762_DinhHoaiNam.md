@@ -41,8 +41,6 @@
 | 2 | Người mới không biết nên chọn bài tập/lịch tập nào | Có thể mô tả từng bước tìm, đọc, so sánh và chọn lịch, phù hợp phạm vi phân tích CP2. | Chưa rõ người thật mất thời gian ở khâu tìm, so sánh hay quyết định. |
 | 3 | Người tập khó theo dõi tiến độ | Có thể mô tả chu trình ghi, tìm lại và tổng hợp kết quả theo thời gian. | Chưa rõ tỷ lệ người ghi dữ liệu, số nguồn và thời gian tổng hợp. |
 
-**Quy ước thời gian:** mỗi bước bên dưới ghi `chưa đo/TBD phút` vì tài liệu gốc không cung cấp phép đo thực tế. Thời gian của bước tùy chọn chỉ tính khi bước đó thực sự xảy ra. Đây là **quy trình giả thuyết cần quan sát/xác nhận**, không phải quy trình đã kiểm chứng.
-
 ---
 
 ### Problem Card #1 — Không nhận ra sai tư thế khi tập
@@ -75,9 +73,6 @@
   ↓
 [6] Điều chỉnh và tiếp tục tập (chưa đo/TBD phút)
 ```
-
-**Cần đối chiếu với trải nghiệm thật:** người tập có thực sự làm bước 4/5 không, động tác nào, mỗi bước mất bao lâu và lỗi được xác định như thế nào.
-
 ---
 
 ### Problem Card #2 — Người mới không biết nên tập bài gì
@@ -112,9 +107,6 @@
   ↓
 [7] Nếu không phù hợp: tìm/chọn lịch khác (chưa đo/TBD phút; tùy chọn)
 ```
-
-**Cần đối chiếu với trải nghiệm thật:** ghi rõ một lần tìm lịch có thật; không cộng thời gian của nhiều ngày thử tập vào một lần tìm kiếm.
-
 ---
 
 ### Problem Card #3 — Khó theo dõi tiến độ tập luyện
@@ -147,9 +139,6 @@
   ↓
 [6] Đánh giá và cân nhắc điều chỉnh lịch tập (chưa đo/TBD phút)
 ```
-
-**Cần đối chiếu với trải nghiệm thật:** nếu người tập không ghi dữ liệu thì các bước 3–5 có thể không diễn ra; cần ghi nhận đúng nhánh hành vi thực tế.
-
 ---
 
 ### Nhận xét sau CP2 (đánh giá sơ bộ, chưa phải kết quả kiểm chứng)
