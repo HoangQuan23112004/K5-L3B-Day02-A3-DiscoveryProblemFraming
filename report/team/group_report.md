@@ -32,9 +32,11 @@
 
 | Cluster | Các candidate | Pattern chung |
 |---|---|---|
-| A | | |
-| B | | |
-| C | | |
+| A — Đối chiếu với yêu cầu/điều kiện | #1 Kiểm bài lab; #8 Đối chiếu lỗ hổng | Đối chiếu nội dung hoặc đối tượng hiện có với một tập yêu cầu/điều kiện để tìm phần thiếu hay có liên quan. Chung pattern, nhưng khác domain và mức rủi ro; không gộp thành một sản phẩm. |
+| B — Tổng hợp dữ liệu đã ghi | #2 Chi phí phòng trọ; #6 Tiến độ tập | Tìm, chuẩn hóa và tổng hợp các bản ghi để có kết quả kiểm tra được. Cần phân biệt thiếu dữ liệu với khó tổng hợp dữ liệu. |
+| C — Lựa chọn theo ràng buộc | #3 Lịch học nhóm; #5 Lựa chọn lịch tập | So sánh phương án theo thời gian, mục tiêu hoặc điều kiện tham gia để ra quyết định. |
+| D — Phân loại và ưu tiên vận hành | #7 Sự cố thiết bị; #9 Tình trạng mạng | Đọc tín hiệu đầu vào và xác định vấn đề nào cần chú ý trước; cần tiêu chí ưu tiên rõ. |
+| E — Tự đánh giá kỹ thuật vận động | #4 Sai tư thế | Đánh giá động tác đang thực hiện; cần dữ liệu quan sát và chuẩn đánh giá từ người có chuyên môn. Giữ riêng vì khác bản chất dữ liệu và cách kiểm chứng. |
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
