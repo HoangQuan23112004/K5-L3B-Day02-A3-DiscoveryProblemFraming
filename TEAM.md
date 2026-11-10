@@ -12,7 +12,7 @@
 |---:|---|---|---|---|
 | 1 | Hoàng Dương Anh Quân | 2A202603735 | Phụ trách CP5–CP6: quy trình, Problem Statement, mức can thiệp và quyết định | HoangQuan23112004 |
 | 2 | Đinh Hoài Nam | 2A202603762 | Điều phối thời gian, ghi chép và tổng hợp nội dung; phụ trách CP4 | hoainamdnu-arch |
-| 3 | Lê Đức Trúc Lâm | 2A202603787 | Hỗ trợ vẽ quy trình, phản biện và rà soát Problem Statement | |
+| 3 | Lê Đức Trúc Lâm | 2A202603787 | Hỗ trợ vẽ quy trình, phản biện và rà soát Problem Statement | truclamld |
 
 ## Phân công theo checkpoint
 
