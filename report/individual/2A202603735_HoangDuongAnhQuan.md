@@ -220,3 +220,4 @@ Problem của nhóm là người nộp mất nhiều thời gian đối chiếu 
 
 https://vov.vn/xa-hoi/dung-ai-trong-hoc-tap-the-nao-de-hoc-sinh-khong-luoi-suy-nghi-post1264982.vov
 https://www.quanlynhanuoc.vn/2025/05/27/sinh-vien-viet-nam-voi-viec-su-dung-tri-tue-nhan-tao-thuc-trang-nhan-thuc-va-dinh-huong/
+studocu.vn/vn/document/truong-dai-hoc-ngoai-thuong/tai-lieu-clb/thuc-trang-thue-tro-cua-sinh-vien-gia-ca-moi-truong-va-kho-khan/145344463
