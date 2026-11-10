@@ -86,3 +86,22 @@
 **Điều mình học được từ phần nhóm:**
 
 -
+
+### LeDucTrucLam-2A202603787
+
+**Phần việc phụ trách:**
+
+- Làm hội tụ nhóm (cluster), ghi nhận các phản biện và chấm điểm
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Mình tổng hợp lại các problem của từng thành viên, tiếp nhận câu hỏi phản biện của các thành viên khác và cũng phản biện lại problems của các thành viên khác, đồng thời gom các problem vào từng cluster chung.
+- Dựa trên các problem card của candidate, cộng thêm việc thảo luận thêm với nhóm về mức độ phức tạp của candidate, mình đã chấm điểm phù hợp cho các candidate được nhóm chọn ra sau quá trình shortlist 
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- Phần CP3
+
+**Điều mình học được từ phần nhóm:**
+
+- Mình học cách phản biện một cách có tính xây dựng, giúp cả nhóm và bản thân hiểu hơn về vấn đề và tránh lạc đề hay gây mâu thuẫn với các thành viên khác. Mình cũng được học về cách chấm điểm các candidate problem dựa trên các tiêu chí liên quan đến actor của candidate, bằng chứng pain và bottleneck rõ ràng, và mức độ phù hợp trong môi trường lab để lựa chọn được candidate phù hợp nhất cho bài lab.
