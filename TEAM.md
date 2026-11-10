@@ -12,13 +12,9 @@
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | Hoàng Dương Anh Quân | 2A202603735 | Trưởng nhóm| HoangQuan23112004 |
-| 2 | Đinh Hoài Nam | 2A202603672 | Thành viên nhóm | |
-| 3 | Lê Đức Trúc Lâm | 2A202603787 | Thành viên nhóm | |
-
-Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
-
-Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối thời gian, ghi chép, người phản biện chính, phụ trách kiểm chứng (phỏng vấn/survey), phụ trách research, vẽ quy trình, viết Problem Statement.
+| 1 | Hoàng Dương Anh Quân | 2A202603735 | phụ trách kiểm chứng (phỏng vấn/survey), phụ trách research| HoangQuan23112004 |
+| 2 | Đinh Hoài Nam | 2A202603672 | điều phối thời gian, ghi chép | |
+| 3 | Lê Đức Trúc Lâm | 2A202603787 | vẽ quy trình, viết Problem Statement | |
 
 ## Phân công theo checkpoint
 
