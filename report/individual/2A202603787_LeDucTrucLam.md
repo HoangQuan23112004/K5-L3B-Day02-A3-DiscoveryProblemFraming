@@ -144,24 +144,19 @@ Quy trình nháp hiện tại:
 | Nhận phản biện             | Câu hỏi tôi nhận được: Tiêu chí cấp thiết là gì? Có bao nhiêu ticket/tuần và bao nhiêu ticket bị phân loại lại?                                      | Tôi đã sửa gì:                                                       |
 | Gom cluster / cây OST      |                                                                                                                                                      |                                                                      |
 | Chọn candidate problem     |                                                                                                                                                      |                                                                      |
-| Kiểm chứng / research      |                                                                                                                                                      |                                                                      |
-| Quy trình nhóm             |                                                                                                                                                      |                                                                      |
-| Problem Statement          |                                                                                                                                                      |                                                                      |
-| Mức can thiệp AI           |                                                                                                                                                      |                                                                      |
-| Quyết định                 |                                                                                                                                                      |                                                                      |
 
 ---
 
 ## 5. Dùng AI
 
-| Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
-|---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| Checkpoint                     | Tôi dùng AI để làm gì?                                                 | AI hữu ích ở đâu?                                 | AI sai hoặc hời hợt ở đâu?                            | Tôi sửa gì bằng nhận định của mình?                                   |
+|--------------------------------|------------------------------------------------------------------------|---------------------------------------------------|-------------------------------------------------------|-----------------------------------------------------------------------|
+| CP1 Scan                       | Tạo thêm một số problem dựa trên 5 problem đã tự nghĩ trước đó (#1-#5) | Gợi ý rõ ràng với actor, job story và lens cụ thể | Một số gợi ý problem không phù hợp với môi trường lab | Chọn ra problem thứ 6: Đối chiếu lỗ hổng bảo mật với hệ thống công ty |
+| CP2 Problem Card               |                                                                        |                                                   |                                                       |                                                                       |
+| CP4 Research                   |                                                                        |                                                   |                                                       |                                                                       |
+| CP5 Quy trình                  |                                                                        |                                                   |                                                       |                                                                       |
+| CP5–6 Problem Statement        |                                                                        |                                                   |                                                       |                                                                       |
+| CP6 Mức can thiệp / quyết định |                                                                        |                                                   |                                                       |                                                                       |
 
 ---
 
@@ -171,11 +166,19 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+Qua việc lắng nghe problems từ các thành viên khác trong nhóm, tôi nhận ra có nhiều vấn đề xung quanh cũng có thể được ứng dụng với AI, không nhất thiết phải là các vấn đề chuyên ngành cụ thể như IT, nhân sự, hay giáo dục. Những vấn đề trong cuộc sống như làm bài tập hay thể thao cũng có thể là vấn đề ứng dụng AI.
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+Khi làm problem card, chúng tôi đôi lúc nghĩ ngay đến việc AI sẽ giải quyết như thế nào trước khi hiểu thấu đáo về việc vấn đề đó có impact thực sự như thế nào, bottleneck ở đâu và liệu có cần thiết dùng AI để khắc phục không. Nhóm chỉ nhận ra khi nhờ AI phản biện theo hướng dẫn, nhờ vậy chúng tôi đã có cái nhìn tốt hơn về vấn đề và có những điều chỉnh phù hợp cho các giải pháp.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+Tôi đã bị phản biện trên vấn đề "Tổng hợp tình trạng mạng", khi 1 thành viên đặt câu hỏi về việc cách xác định ngưỡng bất thường trong hệ thống mạng như thế nào. Với câu hỏi này, tôi nhận ra việc phân loại các sự cố hệ thống mạng rất quan trọng để xác định mức độ ưu tiên xử lý, và đây là một phần mà AI có thể làm tương tự như problem phân loại ticket.
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+Với candidate nhóm đã chọn ("Kiểm tra đủ yêu cầu bài lab trước khi nộp"), nhóm đã thực hiện research và kết quả không khiến chúng tôi
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
@@ -187,4 +190,5 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 ## 7. Tài liệu tham khảo
 
--
+- https://www.auxilion.com/insights/what-does-a-system-administrator-do-discover-the-essential-skills-of-a-system-administrator
+- https://www.ooma.com/blog/business/sysadmins-day-in-the-life-of-it-professionals/
