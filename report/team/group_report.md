@@ -107,42 +107,71 @@ Nhóm cần xác định việc đối chiếu thực sự là điểm nghẽn h
 
 ### 3.2. Kiểm chứng
 
-**Cách dự kiến dùng:** Phỏng vấn ngắn kết hợp xem bản nộp, rubric và quan sát thao tác.
+**Cách dùng:** Phỏng vấn theo 5 câu hỏi, kết hợp đối chiếu bản nộp và rubric.
 
-**Phạm vi đề xuất:**
+**Quy mô mô phỏng:**
 
-- Phỏng vấn 3 sinh viên từng phụ trách nộp bài nhóm.
-- Mỗi người tái hiện một lần kiểm bài gần nhất.
-- Ghi riêng thời gian đọc yêu cầu, tìm bằng chứng, ghi mục thiếu và chờ bổ sung.
-- Xem các trường hợp thiếu mục để phân biệt lỗi kiểm tra với việc chưa làm xong.
+- 3 sinh viên từng phụ trách nộp bài nhóm.
+- Mỗi người trả lời 5 câu hỏi, tổng cộng 15 lượt trả lời.
+- 8 bản nộp được dùng để đối chiếu mức độ đầy đủ.
+- 3 lượt tái hiện thao tác kiểm bài để ước lượng thời gian.
 
-**Interview snapshot — mẫu chờ thu thập:**
+**Năm câu hỏi phỏng vấn:**
+
+1. Lần gần nhất bạn kiểm bài nhóm trước khi nộp diễn ra như thế nào?
+2. Bạn mất bao lâu và bước nào mất nhiều thời gian nhất?
+3. Nếu bài thiếu mục, nguyên nhân là chưa làm xong hay chưa phát hiện ra?
+4. Bạn đang dùng cách nào để hạn chế bỏ sót?
+5. Nếu có bảng yêu cầu kèm vị trí bằng chứng, bạn có dễ kiểm hơn không?
+
+#### Interview snapshot 1
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | Sinh viên từng phụ trách kiểm và nộp bài nhóm. |
-| Câu nói đáng nhớ nhất (nguyên văn) | Chưa thu thập; bổ sung sau phỏng vấn. |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Cần ghi bài nào, thiếu yêu cầu gì và phát hiện ở thời điểm nào. |
-| Hiện đang xử lý bằng cách nào (workaround)? | Cần xác nhận có dùng checklist, đọc lại rubric hoặc nhờ thành viên khác kiểm không. |
-| Mất bao lâu, bao lần? | Mốc tham chiếu: 45 phút/bài, 2 bài/tuần; cần bấm giờ để đối chiếu. |
-| Insight / opportunity rút ra | Cần xác định người kiểm khó tìm yêu cầu, khó tìm bằng chứng hay thiếu thời gian sửa bài. |
+| Người được hỏi (vai trò, không ghi tên thật) | SV01 — sinh viên thường phụ trách nộp bài nhóm. |
+| Câu nói đáng nhớ nhất (nguyên văn) | Không có trích dẫn thực tế. Ý kiến mô phỏng: khó nhất là tìm đoạn đáp ứng từng yêu cầu. |
+| Lần gần nhất gặp vấn đề này | Bản nộp có phần kết quả nhưng thiếu phần giải thích theo rubric. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Mở đề và bài cạnh nhau, kiểm lần lượt. |
+| Mất bao lâu, bao lần? | Ước lượng 45 phút/bài, khoảng 2 bài/tuần. |
+| Insight / opportunity rút ra | Cần gắn từng yêu cầu với vị trí bằng chứng để giảm tìm kiếm. |
 
-**Tổng hợp:**
+#### Interview snapshot 2
+
+| Trường | Nội dung |
+|---|---|
+| Người được hỏi (vai trò, không ghi tên thật) | SV02 — sinh viên tổng hợp nội dung của các thành viên. |
+| Câu nói đáng nhớ nhất (nguyên văn) | Không có trích dẫn thực tế. Ý kiến mô phỏng: có mục đã được làm nhưng chưa đưa vào bản cuối. |
+| Lần gần nhất gặp vấn đề này | Thành viên gửi phần bổ sung riêng, người tổng hợp chưa cập nhật trước lượt kiểm cuối. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Nhắn từng người xác nhận và kiểm lại file chung. |
+| Mất bao lâu, bao lần? | Ước lượng 50 phút/bài; có thời gian chờ được ghi riêng. |
+| Insight / opportunity rút ra | Cần xác định bản cuối và trạng thái từng yêu cầu, không chỉ kiểm sự hiện diện của tiêu đề. |
+
+#### Interview snapshot 3
+
+| Trường | Nội dung |
+|---|---|
+| Người được hỏi (vai trò, không ghi tên thật) | SV03 — sinh viên kiểm bài bằng checklist cá nhân. |
+| Câu nói đáng nhớ nhất (nguyên văn) | Không có trích dẫn thực tế. Ý kiến mô phỏng: checklist giúp nhớ mục nhưng vẫn phải đọc lại để xác nhận. |
+| Lần gần nhất gặp vấn đề này | Bài có đủ tiêu đề nhưng một phần chưa trình bày đủ nội dung được yêu cầu. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Đánh dấu checklist rồi đọc lại các mục chưa rõ. |
+| Mất bao lâu, bao lần? | Ước lượng 40 phút/bài. |
+| Insight / opportunity rút ra | Checklist cần có bằng chứng và trạng thái “chưa đủ cơ sở”. |
+
+**Tổng hợp dữ liệu mô phỏng:**
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| Problem Card | 1 card | Actor, quy trình và bottleneck được mô tả cụ thể. | Các con số vẫn là ước lượng. |
-| Phản biện của Lâm tại CP3 | 1 ý kiến | Kiểm quá sát hạn có thể không đủ thời gian sửa. | Chưa xác nhận đối chiếu là nguyên nhân chính gây chậm. |
-| Phỏng vấn và quan sát | Dự kiến 3 người | Chờ thu thập. | Chờ thu thập. |
-| Bản nộp và rubric | Dự kiến 8 bài baseline | Chờ đối chiếu số mục thiếu và thời gian kiểm. | Chờ xác định các nguyên nhân khác. |
+| Phỏng vấn | 3 người, 5 câu/người | 2/3 trường hợp xem tìm và đối chiếu bằng chứng là phần khó nhất. | 1/3 trường hợp còn chậm do tổng hợp thiếu nội dung từ thành viên. |
+| Tái hiện thao tác | 3 lượt | Thời gian 40, 45 và 50 phút; trung bình 45 phút/lượt. Bước đối chiếu trung bình 20 phút. | Các lượt có độ dài bài khác nhau nên chưa đủ để suy rộng. |
+| Đối chiếu bản nộp với rubric | 8 bài | 2/8 bài còn thiếu ít nhất một yêu cầu bắt buộc. | Trong 2 bài thiếu, 1 bài liên quan nội dung chưa được đưa vào bản cuối; không phải mọi lỗi đều do kiểm tra. |
 
-**Nhóm điều chỉnh problem sau phản biện và sẽ tiếp tục cập nhật sau kiểm chứng:**
+**Nhóm đã sửa problem thế nào sau phân tích tình huống mô phỏng:**
 
-- Chuyển lượt kiểm đầu tiên sang trước hạn ít nhất 2 giờ.
-- Giới hạn vào kiểm độ đầy đủ của yêu cầu bắt buộc.
-- Tách thời gian thao tác khỏi thời gian chờ thành viên.
-- Yêu cầu mỗi mục được đánh dấu hoàn tất phải có vị trí bằng chứng.
-- Thử checklist trước khi quyết định bổ sung AI.
+- Giới hạn vấn đề vào tìm và đối chiếu bằng chứng cho yêu cầu bắt buộc.
+- Bổ sung bước xác nhận phiên bản bản nộp trước khi kiểm.
+- Chuyển lượt kiểm đầu sang trước hạn ít nhất 2 giờ.
+- Mỗi yêu cầu có trạng thái, vị trí bằng chứng và người xác nhận.
+- Thử checklist trước; chỉ cân nhắc AI khi bước đối chiếu vẫn chậm.
 
 ### 3.3. Research giải pháp đã có
 
