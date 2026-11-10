@@ -125,25 +125,25 @@ Quy trình nháp hiện tại:
 
 ### AI đã phản biện card thế nào
 
-| Điểm yếu AI chỉ ra                                        | Đồng ý? | Đã sửa gì                                                                       |
-|-----------------------------------------------------------|---------|---------------------------------------------------------------------------------|
-| Card #1: Success metric không có con số đảm bảo cụ thể    | Có      | Thêm con số downtime tối đa cho phép (20 đến 30 phút)                           |
-| Card #1: Để AI tự xử lý xếp lịch là quá rủi ro            | Có      | Xoá cơ chế tự xếp lích, để SysAdmin tự sắp xếp theo gợi ý của AI                |
+| Điểm yếu AI chỉ ra                                        | Đồng ý? | Đã sửa gì                                                                        |
+|-----------------------------------------------------------|---------|----------------------------------------------------------------------------------|
+| Card #1: Success metric không có con số đảm bảo cụ thể    | Có      | Thêm con số downtime tối đa cho phép (20 đến 30 phút)                            |
+| Card #1: Để AI tự xử lý xếp lịch là quá rủi ro            | Có      | Xoá cơ chế tự xếp lích, để SysAdmin tự sắp xếp theo gợi ý của AI                 |
 | Card #2: Bottleneck quá rộng, không rõ ràng               | Có      | Tập trung vào quá trình tốn thời gian nhất: rà soát thiết bị có thể dính lỗ hổng |
-| Card #2: AI thiếu đầu vào quan trọng (danh sách thiết bị) | Có      | Thêm giới hạn về danh sách thiết bị tại công ty                                 |
+| Card #2: AI thiếu đầu vào quan trọng (danh sách thiết bị) | Có      | Thêm giới hạn về danh sách thiết bị tại công ty                                  |
 
 
 ---
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
-| Hoạt động                  | Tôi đã làm gì?                                                                                                                                       | Kết quả / ảnh hưởng tới bài nhóm                                     |
-|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
-| Pitch Problem Card         | Tôi lựa chọn các vấn đề của một quản trị viên hệ thống (System Administrator), một công việc đòi hỏi việc kiểm tra và giám sát liên tục các thiết bị | Giới thiệu cho nhóm về 1 trong những lĩnh vực AI ứng dụng mới thú vị |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Sử dụng AI để phân tích hình ảnh động tác, liệu có ảnh hưởng gì đến quyền riêng tư không?                                        |                                                                      |
-| Nhận phản biện             | Câu hỏi tôi nhận được: Tiêu chí cấp thiết là gì? Có bao nhiêu ticket/tuần và bao nhiêu ticket bị phân loại lại?                                      | Tôi đã sửa gì:                                                       |
-| Gom cluster / cây OST      |                                                                                                                                                      |                                                                      |
-| Chọn candidate problem     |                                                                                                                                                      |                                                                      |
+| Hoạt động                  | Tôi đã làm gì?                                                                                                                                               | Kết quả / ảnh hưởng tới bài nhóm                                                                                                                                             |
+|----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Pitch Problem Card         | Tôi lựa chọn các vấn đề của một quản trị viên hệ thống (System Administrator), một công việc đòi hỏi việc kiểm tra và giám sát liên tục các thiết bị         | Giới thiệu cho nhóm về 1 trong những lĩnh vực AI ứng dụng mới thú vị                                                                                                         |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Thời gian còn 1 giờ trước khi nộp bài là quá ngắn, liệu có đủ thời gian để khắc phục vấn đề AI tìm ra trong bài nộp?                     | Thành viên với problem đó đã tiếp nhận và chỉnh sửa tình huống sang ít nhất 2 tiếng và tách thời gian kiểm ra khỏi thời gian chỉnh sửa bài                                   |
+| Nhận phản biện             | Câu hỏi tôi nhận được: Bất thường được xác định bằng ngưỡng nào? Đã có dữ liệu chứng minh báo cáo hiện tại bỏ sót vấn đề chưa?                               | Tôi đã sửa gì: Thêm vấn đề xác định cấp độ bất thường trong hệ thống mạng để ưu tiên xử lý, theo dõi                                                                         |
+| Gom cluster / cây OST      | Tổng hợp các candidate problem của thành viên nhóm, đặt câu hỏi phản biện với các thành viên khác đồng thời tiếp nhận phản biện và chỉnh sửa problem nếu cần | Các thành viên tiếp nhận và thảo luận kỹ về các problem khác nhau, từ đó cả nhóm đều hiểu các workflow và xây dựng được cây OST, đồng thời shortlist được 3 problem tốt nhất |
+| Chọn candidate problem     | Thảo luận cùng các thành viên khác về lý do chọn problem như actor rõ ràng, bối cảnh thực tế, hay phù hợp môi trường lab                                     | Dựa trên các tiêu chí về actor, job story và mức độ phù hợp với lab, candidate đã được chọn là "Kiểm tra đủ yêu cầu bài lab trước khi nộp"                                   |
 
 ---
 
@@ -152,7 +152,7 @@ Quy trình nháp hiện tại:
 | Checkpoint                     | Tôi dùng AI để làm gì?                                                 | AI hữu ích ở đâu?                                 | AI sai hoặc hời hợt ở đâu?                            | Tôi sửa gì bằng nhận định của mình?                                   |
 |--------------------------------|------------------------------------------------------------------------|---------------------------------------------------|-------------------------------------------------------|-----------------------------------------------------------------------|
 | CP1 Scan                       | Tạo thêm một số problem dựa trên 5 problem đã tự nghĩ trước đó (#1-#5) | Gợi ý rõ ràng với actor, job story và lens cụ thể | Một số gợi ý problem không phù hợp với môi trường lab | Chọn ra problem thứ 6: Đối chiếu lỗ hổng bảo mật với hệ thống công ty |
-| CP2 Problem Card               |                                                                        |                                                   |                                                       |                                                                       |
+| CP2 Problem Card               | Phản biện lại các problem card đã xây dựng nhằm chỉnh sửa phù hợp      | AI đã chỉ rõ ràng các vấn đề trong từng card      |                                                       |                                                                       |
 | CP4 Research                   |                                                                        |                                                   |                                                       |                                                                       |
 | CP5 Quy trình                  |                                                                        |                                                   |                                                       |                                                                       |
 | CP5–6 Problem Statement        |                                                                        |                                                   |                                                       |                                                                       |
@@ -178,11 +178,15 @@ Tôi đã bị phản biện trên vấn đề "Tổng hợp tình trạng mạn
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
-Với candidate nhóm đã chọn ("Kiểm tra đủ yêu cầu bài lab trước khi nộp"), nhóm đã thực hiện research và kết quả không khiến chúng tôi
+Với candidate nhóm đã chọn ("Kiểm tra đủ yêu cầu bài lab trước khi nộp"), nhóm đã thực hiện research và kết quả không khiến chúng tôi không bất ngờ khi những tool hỗ trợ như vậy có từ lâu. Hiện tại, chúng tôi cần thử nghiệm các tool này trước khi quyết định liệu có cần giải pháp mới hay không.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Với phần này, nhóm cần hiểu rõ về những vấn đề trong candidate đã chọn, ví dụ như xác định thời gian bottleneck trung bình khi kiểm tra lại bài theo rubric thủ công và cách đặt metric phù hợp cho candidate.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+
+Nếu được làm lại, tôi sẽ cố gắng nghiên cứu sâu hơn về các vấn đề khi scan để có thể đưa ra con số cụ thể hơn, từ đó có cái nhìn rõ ràng và thuyết phục hơn về các vấn đề và cách AI giải quyết vấn đề đó. Tôi cũng sẽ phản biện cụ thể hơn với các member khác về việc liệu AI có thực sự cần thiết trong bối cảnh vấn đề và cần đánh đổi gì.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
