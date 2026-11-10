@@ -129,7 +129,7 @@ Nhóm cần xác định việc đối chiếu thực sự là điểm nghẽn h
 | Trường | Nội dung |
 |---|---|
 | Người được hỏi Hùng |  sinh viên thường phụ trách nộp bài nhóm. |
-| Câu nói đáng nhớ nhất (nguyên văn) | Không có trích dẫn thực tế. Ý kiến mô phỏng: khó nhất là tìm đoạn đáp ứng từng yêu cầu. |
+| Câu nói đáng nhớ nhất | Không có trích dẫn thực tế. Ý kiến mô phỏng: khó nhất là tìm đoạn đáp ứng từng yêu cầu. |
 | Lần gần nhất gặp vấn đề này | Bản nộp có phần kết quả nhưng thiếu phần giải thích theo rubric. |
 | Hiện đang xử lý bằng cách nào (workaround)? | Mở đề và bài cạnh nhau, kiểm lần lượt. |
 | Mất bao lâu, bao lần? | Ước lượng 45 phút/bài, khoảng 2 bài/tuần. |
@@ -140,7 +140,7 @@ Nhóm cần xác định việc đối chiếu thực sự là điểm nghẽn h
 | Trường | Nội dung |
 |---|---|
 | Người được hỏi Lan |  Sinh viên tổng hợp nội dung của các thành viên. |
-| Câu nói đáng nhớ nhất (nguyên văn) | Không có trích dẫn thực tế. Ý kiến mô phỏng: có mục đã được làm nhưng chưa đưa vào bản cuối. |
+| Câu nói đáng nhớ nhất | Không có trích dẫn thực tế. Ý kiến mô phỏng: có mục đã được làm nhưng chưa đưa vào bản cuối. |
 | Lần gần nhất gặp vấn đề này | Thành viên gửi phần bổ sung riêng, người tổng hợp chưa cập nhật trước lượt kiểm cuối. |
 | Hiện đang xử lý bằng cách nào (workaround)? | Nhắn từng người xác nhận và kiểm lại file chung. |
 | Mất bao lâu, bao lần? | Ước lượng 50 phút/bài; có thời gian chờ được ghi riêng. |
@@ -151,7 +151,7 @@ Nhóm cần xác định việc đối chiếu thực sự là điểm nghẽn h
 | Trường | Nội dung |
 |---|---|
 | Người được hỏi Tú | Sinh viên kiểm bài bằng checklist cá nhân. |
-| Câu nói đáng nhớ nhất (nguyên văn) | Không có trích dẫn thực tế. Ý kiến mô phỏng: checklist giúp nhớ mục nhưng vẫn phải đọc lại để xác nhận. |
+| Câu nói đáng nhớ nhất | Không có trích dẫn thực tế. Ý kiến mô phỏng: checklist giúp nhớ mục nhưng vẫn phải đọc lại để xác nhận. |
 | Lần gần nhất gặp vấn đề này | Bài có đủ tiêu đề nhưng một phần chưa trình bày đủ nội dung được yêu cầu. |
 | Hiện đang xử lý bằng cách nào (workaround)? | Đánh dấu checklist rồi đọc lại các mục chưa rõ. |
 | Mất bao lâu, bao lần? | Ước lượng 40 phút/bài. |
@@ -438,7 +438,6 @@ Giữ checklist, Rule kiểm cấu trúc, phân công người kiểm và kiểm
 
 ---
 
-## 10. Tài liệu tham khảo
 ## 10. Tài liệu tham khảo
 
 1. Grammarly Support. *AI Grader user guide*. Hướng dẫn phản hồi bài viết theo rubric trước khi nộp.  
