@@ -158,16 +158,16 @@ Thời gian chờ phản hồi được ghi riêng, chưa nằm trong 35 phút.
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card |Lựa chọn các problem liên quan tới học sinh, sinh viên về nhiều mặt như là đóng tiền trọ, lên kế hoạch học tập và kiểm tra các bài lab có đạt yêu cầu hay không trước khi nộp | Cả nhóm có thêm một góc nhìn mới nhưng có tính khả quan cao trong tương lai đó chính là sử dụng LLM trong mô trường học thuật để tự dộng rà soát bài, kiểm tra bài |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Tổng hợp và so sánh kết quả; chưa đo. Bước ghi dữ liệu cũng có thể là điểm nghẽn. Có nhật ký đủ để so sánh không? Nếu chưa ghi dữ liệu, giải tổng hợp có đúng vấn đề gốc không? | Đóng góp góc nhìn cá nhân về đề tài của các bạn xem nó có hợp lý hay không, có đủ để trở thành một vấn đề hợp lý. |
-| Nhận phản biện | Câu hỏi tôi nhận được: Thời gian còn 1 giờ trước khi nộp bài là quá ngắn, liệu có đủ thời gian để khắc phục vấn đề AI tìm ra trong bài nộp? | Tôi đã sửa gì:  |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Tôi đưa ra ba problem: kiểm tra đủ yêu cầu bài lab, đối soát chi phí phòng trọ và chốt lịch học nhóm. Tôi mô tả actor, quy trình hiện tại, bottleneck và mục tiêu cho từng card. | Nhóm có thêm các vấn đề gần với đời sống sinh viên, phạm vi nhỏ và có thể xây dựng cách đo cụ thể. |
+| Phản biện bài của bạn khác | Với problem theo dõi tiến độ tập của Nam, tôi hỏi: “Có nhật ký đủ để so sánh không? Nếu chưa ghi dữ liệu, giải tổng hợp có đúng vấn đề gốc không?”. Với problem đối chiếu lỗ hổng của Lâm, tôi hỏi: “Danh mục tài sản có đủ phiên bản không? Ai kiểm tra kết quả đối chiếu để phát hiện bỏ sót?”. | Các câu hỏi hướng nhóm xem lại chất lượng đầu vào và cách kiểm chứng kết quả trước khi nghĩ đến công cụ tổng hợp hoặc AI. |
+| Nhận phản biện | Lâm hỏi tôi: “Thời gian còn 1 giờ trước khi nộp bài là quá ngắn, liệu có đủ thời gian để khắc phục vấn đề AI tìm ra trong bài nộp?”. Tôi tiếp thu và điều chỉnh lượt kiểm đầu sang trước hạn ít nhất 2 giờ. | Phương án có thêm thời gian bổ sung nội dung. Tôi cũng phân biệt thời gian kiểm với thời gian sửa và chờ thành viên. |
+| Gom cluster / cây OST | Từ các problem được pitch, tôi nhận diện điểm chung giữa kiểm bài lab và đối chiếu lỗ hổng: đều cần so đối tượng hiện có với yêu cầu hoặc điều kiện. Tôi xác định nhu cầu tìm yêu cầu, tìm bằng chứng và nhận biết mục còn thiếu trong OST của problem được chọn. | Làm rõ pattern chung nhưng vẫn giữ riêng domain, mức rủi ro và cách kiểm chứng. Các nhánh OST tập trung vào pain thay vì tên công cụ. |
+| Chọn candidate problem | Tôi nêu lý do ưu tiên card kiểm bài lab: actor rõ, nhóm hiểu bối cảnh, có thể giới hạn ở một bài và khoảng 10 yêu cầu bắt buộc. | Card được chọn để phân tích tiếp. Tôi hiểu rằng điểm shortlist chỉ hỗ trợ lựa chọn ban đầu, chưa chứng minh cần dùng AI. |
+| Kiểm chứng / research | Tôi tập trung vào hai giả định: bước đối chiếu có thực sự chiếm nhiều thời gian không và bài thiếu mục do kiểm sót hay do chưa hoàn thành. Tôi đối chiếu các hướng Grammarly AI Grader, Gradescope và GitHub Classroom trong phần research. | Phân biệt được phản hồi theo rubric, chấm bài và kiểm bằng quy tắc. Phần phỏng vấn trong bài là mô phỏng, chưa phải bằng chứng thực tế. |
+| Quy trình nhóm | Tôi làm rõ quy trình từ mở nguồn yêu cầu, lập danh sách, đối chiếu, ghi mục thiếu đến kiểm file và nộp. Tôi đưa việc lập checklist và gắn vị trí bằng chứng vào phương án cải tiến. | Quy trình có đầu vào, đầu ra và thời gian theo bước; tránh chỉ mô tả chung là “dùng AI kiểm bài”. |
+| Problem Statement | Tôi giới hạn problem vào kiểm độ đầy đủ của yêu cầu bắt buộc, bổ sung metric thời gian và số bài còn thiếu mục. | Tránh mở rộng thành chấm toàn bộ bài hoặc cam kết AI đánh giá đúng mọi nội dung. |
+| Mức can thiệp AI | Tôi ưu tiên checklist kết hợp Rule. Workflow chỉ được cân nhắc nếu bước đối chiếu vẫn chậm; Agent chưa phù hợp vì thứ tự bước đã rõ. | Mức can thiệp được gắn với bottleneck và điều kiện thử, thay vì chọn AI ngay từ đầu. |
+| Quyết định | Tôi xác định Not Yet là phù hợp với trạng thái hiện tại: cần thử checklist và xác nhận nguyên nhân trước khi triển khai Workflow AI. | Có hướng tiếp theo và điều kiện xem xét lại; chưa kết luận hiệu quả từ số liệu ước lượng hoặc mô phỏng. |
 
 ---
 
@@ -175,32 +175,44 @@ Thời gian chờ phản hồi được ghi riêng, chưa nằm trong 35 phút.
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Gợi ý thêm tình huống và chỉnh cách diễn đạt Job Story. | Giúp mở rộng góc nhìn và trình bày rõ hơn. | Một số ý còn rộng, số liệu chưa có căn cứ. | Chọn tình huống gần bối cảnh của mình và ghi rõ số liệu ước lượng. |
+| CP2 Problem Card | Sắp xếp actor, quy trình, bottleneck và metric. | Giúp phát hiện phần mô tả còn thiếu. | Dễ mở rộng kiểm đủ mục thành chấm đúng toàn bộ bài. | Giới hạn ở yêu cầu bắt buộc và vị trí bằng chứng. |
+| CP4 Research | Gợi ý hướng kiểm chứng và tìm giải pháp liên quan. | Hỗ trợ tổng hợp, so sánh công cụ. | Các link ban đầu quá chung; mô phỏng không phải bằng chứng thực tế. | Dùng nguồn sát problem và phân biệt research với kết quả thử nghiệm. |
+| CP5 Quy trình | Hỗ trợ trình bày quy trình trước/sau. | Làm rõ các bước và điểm kiểm tra. | Dễ bỏ qua công sức chuẩn bị và kiểm lại. | Tính cả thời gian lập checklist, kiểm lại và xử lý lỗi. |
+| CP5–6 Problem Statement | Gợi ý diễn đạt và phản biện phạm vi. | Giúp liên kết actor, pain, metric và boundary. | Có xu hướng đưa giải pháp vào mô tả vấn đề quá sớm. | Mô tả problem trước, để phương án can thiệp ở phần riêng. |
+| CP6 Mức can thiệp / quyết định | So sánh No AI, Rule, Workflow và Agent. | Giúp nhìn rõ điều kiện và rủi ro từng mức. | Chưa đủ dữ liệu để khẳng định mức nào hiệu quả nhất. | Chọn phương án đơn giản để thử trước và giữ quyết định Not Yet với Workflow AI. |
 
 ---
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
+### 6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?
 
-**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Khi nghe các problem về tập luyện của Nam và vận hành IT của Lâm, tôi thấy mỗi lĩnh vực có dữ liệu và tiêu chí đánh giá khác nhau. Với theo dõi tiến độ tập, phải có nhật ký đủ rõ mới so sánh được. Với đối chiếu lỗ hổng, cần biết sản phẩm và phiên bản tài sản. Tôi học được rằng trước khi đề xuất tổng hợp hay tự động hóa, cần hỏi đầu vào có đủ để xử lý vấn đề không.
 
-**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+### 6.2. Nhóm có lúc nào bị "solution-first" không? Lúc đó nhóm nhận ra và xử lý thế nào?
 
-**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+Trong phần trình bày ban đầu của mình, tôi đã nhấn mạnh khả năng dùng LLM để rà soát bài. Cách nghĩ đó khiến tôi chú ý đến công cụ trước khi xác định checklist có thể giải quyết được bao nhiêu. Khi xem lại quy trình và các câu hỏi phản biện, tôi điều chỉnh sang mô tả công việc người nộp cần làm, xác định bottleneck rồi mới so sánh mức can thiệp.
 
-**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+### 6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.
 
-**6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Có. Ban đầu tôi đặt tình huống kiểm bài khi chỉ còn một giờ trước hạn nộp. Lâm hỏi liệu thời gian đó có đủ để khắc phục vấn đề được phát hiện không. Câu hỏi giúp tôi thấy kiểm nhanh chưa chắc tạo ra kết quả tốt nếu không còn thời gian sửa. Tôi đổi lượt kiểm đầu sang trước hạn ít nhất hai giờ và tách thời gian kiểm khỏi thời gian chờ bổ sung.
 
-**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+### 6.4. Kết quả kiểm chứng có làm tôi bất ngờ không? Điều gì?
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+Phần kiểm chứng hiện là mô phỏng nên tôi chưa thể xem đó là kết quả phỏng vấn thực tế. Tuy vậy, phân tích tình huống cho thấy bài thiếu mục có thể do nội dung chưa được đưa vào bản cuối, không chỉ do người kiểm bỏ sót. Research cũng cho thấy đã có các công cụ phản hồi theo rubric và kiểm bằng test. Vì vậy, cần thử giải pháp sẵn có trước khi kết luận phải xây một công cụ mới.
+
+### 6.5. Điều khó nhất khi viết Problem Statement là gì?
+
+Điều khó nhất là giữ phạm vi đủ rõ. “Kiểm tra bài lab” có thể bao gồm kiểm tên file, kiểm đủ mục, đánh giá nội dung và chấm điểm. Tôi phải tách các việc này để tránh đặt mục tiêu vượt khả năng thử nghiệm. Tôi cũng nhận ra metric thời gian cần đi cùng chất lượng, vì kiểm nhanh hơn nhưng bỏ sót nhiều hơn không thể coi là thành công.
+
+### 6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?
+
+Tôi sẽ bắt đầu từ một trường hợp gần nhất, xác định đầu vào và nguyên nhân gây chậm trước khi viết phương án. Tôi sẽ hỏi rõ hơn về cách tạo chuẩn đối chiếu và người chịu trách nhiệm kiểm kết quả. Với problem của mình, tôi sẽ thử checklist sớm hơn. Với các problem khác, tôi tiếp tục tập trung vào dữ liệu thiếu, nguyên nhân gốc và cách phát hiện bỏ sót.
+
+### 6.7. Hiểu bài
+
+Problem của nhóm là người nộp mất nhiều thời gian đối chiếu yêu cầu với bài nhưng vẫn có nguy cơ thiếu mục bắt buộc. Quy trình gồm gom yêu cầu, lập danh sách, đối chiếu bằng chứng, yêu cầu bổ sung và kiểm bản cuối. Nhóm đặt mục tiêu từ 45 xuống không quá 25 phút mỗi bài và từ 2/8 xuống 0/8 bài còn thiếu mục, với số liệu ban đầu là ước lượng. Boundary là chỉ kiểm độ đầy đủ, không tự chấm toàn bộ nội dung, sửa hoặc nộp bài. Mức can thiệp đầu tiên là checklist kết hợp Rule kiểm cấu trúc. Nếu đối chiếu vẫn là bottleneck, nhóm mới thử Workflow gợi ý bằng chứng và để con người xác nhận. Quyết định hiện tại là Not Yet đối với Workflow AI vì cần kiểm chứng thêm và so sánh với phương án đơn giản.
 
 ---
 
