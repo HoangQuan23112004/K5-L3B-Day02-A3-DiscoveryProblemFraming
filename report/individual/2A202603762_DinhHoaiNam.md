@@ -1,35 +1,31 @@
-# Báo cáo cá nhân — MSSV_HoTen
+# Báo cáo cá nhân — 2A202603762_DinhHoaiNam
+
 ## 1. Thông tin học viên
 
 - Họ tên: Đinh Hoài Nam
-- MSSV : 2A202603672
-- Email trường (không bắt buộc): 
-- Tên nhóm: K5-L3B-Day02-A3-DiscoveryProblemFraming
+- MSSV: 2A202603762
+- Email trường (không bắt buộc):
+- Tên nhóm: A3
 - Link repo nhóm: https://github.com/HoangQuan23112004/K5-L3B-Day02-A3-DiscoveryProblemFraming.git
 
 ---
 
 ## 2. Scan problem (CP1)
 
-**Chủ đề:** Thể thao / Tập luyện.
-
-**Lăng kính:** Lặp lại · Tốn thời gian · Cần đọc, tổng hợp nhiều thông tin · Pain từ người khác.
-
-> **Tình trạng bằng chứng:** Các Job Story dưới đây được giữ từ bản nháp. Tài liệu được cung cấp chưa có nhật ký, số phút đo được hoặc sự kiện người thật đủ cụ thể để điền cột “Dấu hiệu thật”. `TBD` là phần người làm cần điền từ hành vi đã xảy ra, **không phải bằng chứng**. Không được tự chuyển các ví dụ thành số liệu.
+**Bối cảnh:** Tôi tự tập gym (solo-lifter) hơn 1 năm, 4 buổi/tuần tại một phòng gym thương mại, khung giờ 18h00–19h30 (giờ cao điểm). Tôi không thuê PT và không có bạn tập cố định. Số liệu dưới đây là ước lượng từ các buổi tập thật của tôi trong 1–2 tháng gần nhất, cộng với tin nhắn Zalo của một người bạn cũng tập gym (không ghi tên).
 
 | # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng) |
 |---:|---|---|---|---|
-| 1 | **Lặp lại / Pain từ người khác** | **Khi** tôi tự tập một động tác như squat, deadlift hoặc push-up, **tôi muốn** biết tư thế của mình có đúng hay không **để** tránh duy trì kỹ thuật sai và giảm nguy cơ đau hoặc chấn thương. | Người mới tập gym, người tự tập tại nhà, người tập không có HLV | **Chưa có bằng chứng thật được cung cấp.** TBD: lần gần nhất tự kiểm tra động tác; thời gian (phút); số lần/buổi; ghi chú hoặc video nếu có. |
-| 2 | **Tốn thời gian / Cần đọc, tổng hợp nhiều thông tin** | **Khi** tôi mới bắt đầu tập luyện và có một mục tiêu cụ thể, **tôi muốn** biết nên tập những bài nào và theo lịch như thế nào **để** không phải tự thử nhiều chương trình khác nhau. | Người mới tập gym, người bắt đầu chơi thể thao | **Chưa có bằng chứng thật được cung cấp.** TBD: lần gần nhất tìm lịch tập; thời gian đã dùng (phút); các trang/clip thực sự xem; lịch sử tìm kiếm nếu có. |
-| 3 | **Lặp lại / Tốn thời gian** | **Khi** kết thúc một buổi tập, **tôi muốn** ghi lại mức tạ, số hiệp, số lần lặp và kết quả tập luyện **để** biết bản thân có tiến bộ theo thời gian hay không. | Người tập gym thường xuyên, người chạy bộ, người chơi thể thao cá nhân | **Chưa có bằng chứng thật được cung cấp.** TBD: những buổi đã ghi/không ghi kết quả; số phút ghi chép; nhật ký hoặc lịch sử app nếu có. |
-| 4 | **Lặp lại / Pain từ người khác** | **Khi** tôi đã lên kế hoạch tập luyện trong tuần, **tôi muốn** duy trì đủ số buổi đã đặt ra **để** đạt mục tiêu thay vì liên tục bỏ hoặc dời lịch tập. | Sinh viên, nhân viên văn phòng, người có lịch sinh hoạt bận rộn | **Chưa có bằng chứng thật được cung cấp.** TBD: các buổi đã lên lịch và thực tế thực hiện; số lần dời/bỏ trong một khoảng thời gian xác định; lịch/ghi chú nếu có. |
-| 5 | **Lặp lại / Tốn thời gian** | **Khi** tôi đến phòng gym vào giờ đông người, **tôi muốn** biết thiết bị hoặc máy tập mình cần có đang được sử dụng hay không **để** không phải chờ hoặc thay đổi toàn bộ thứ tự bài tập. | Người tập tại phòng gym, đặc biệt vào giờ cao điểm | **Chưa có bằng chứng thật được cung cấp.** TBD: một lần chờ máy thực tế; số phút chờ; số lần đổi bài/buổi; ghi chú quan sát nếu có. |
-| 6 | **Cần đọc, tổng hợp nhiều thông tin / Tốn thời gian** | **Khi** tôi muốn cải thiện kết quả tập luyện, **tôi muốn** hiểu mình nên tăng mức tạ, số lần lặp hoặc thay đổi bài tập như thế nào **để** tiếp tục tiến bộ mà không tập quá sức. | Người đã tập một thời gian nhưng không có HLV hướng dẫn | **Chưa có bằng chứng thật được cung cấp.** TBD: lần thay đổi mức tạ/bài tập gần nhất; thời gian tìm hiểu; lịch sử ghi chép hoặc tìm kiếm nếu có. |
-| 7 | **Cần đọc, tổng hợp nhiều thông tin / Pain từ người khác** | **Khi** tôi cảm thấy đau hoặc khó chịu sau một bài tập, **tôi muốn** phân biệt đây là mỏi cơ thông thường hay dấu hiệu cần dừng tập và tìm hỗ trợ chuyên môn **để** không tiếp tục một hoạt động có thể làm tình trạng nghiêm trọng hơn. | Người mới tập, người tự tập, người chơi thể thao phong trào | **Chưa có bằng chứng thật được cung cấp.** TBD: sự kiện đau/khó chịu đã xảy ra (nếu có); hành động thực tế sau đó; ghi chú không chứa chẩn đoán suy đoán. |
-| 8 | **Lặp lại / Cần tổng hợp nhiều thông tin** | **Khi** tôi đã tập luyện trong nhiều tuần hoặc nhiều tháng, **tôi muốn** nhìn thấy sự thay đổi của các chỉ số tập luyện một cách dễ hiểu **để** biết chương trình hiện tại đang hiệu quả hay cần điều chỉnh. | Người tập gym, người chạy bộ, người tập luyện dài hạn | **Chưa có bằng chứng thật được cung cấp.** TBD: lần gần nhất tổng hợp tiến độ; số nơi lưu dữ liệu; số phút đối chiếu; nhật ký/app nếu có. |
+| 1 | Lặp lại · Pain từ người khác | **Khi** tôi tập Barbell Squat hoặc Deadlift nặng một mình ở phòng gym, **tôi muốn** biết ngay sau set là lưng có giữ thẳng và độ sâu có đủ không, **để** chỉnh ở set tiếp theo thay vì lặp lại lỗi. | Tôi; người tự tập bài compound nặng không có PT | 6 phút/bài (căn góc 2' + quay 1' + xem lại 2' + xóa clip 1'), 1–2 bài/buổi → 6–12 phút/buổi, 24–48 phút/tuần. Phải kê điện thoại vào chai nước để quay. 1 người bạn nhắn Zalo: *"Hôm qua tao gánh tạ xong đau thắt lưng quá, chả biết form có bị cong lưng không, không có ai xem hộ rén thật"* |
+| 2 | Tốn thời gian · Cần đọc, tổng hợp nhiều thông tin | **Khi** lịch tập hiện tại làm tôi quá tải một nhóm cơ hoặc mệt không theo nổi, **tôi muốn** dựng lại lịch hợp với thiết bị phòng tập và sức của mình, **để** không phải đổi lịch thêm lần nữa sau vài tuần. | Tôi; người tự lên giáo án | Tổng hợp từ 3 nguồn (YouTube, TikTok, 1 trang web thể hình). 1,5–2 tiếng/lần, vào cuối tuần. **3 lần đổi lịch trong 2 tháng** do quá tải cơ hoặc quá mệt |
+| 3 | Lặp lại · Tốn thời gian | **Khi** vừa xong 3–4 hiệp của một bài và đang mệt, **tôi muốn** lưu lại đúng mức tạ và số rep mà không bị đứt mạch tập trung, **để** buổi sau biết chính xác phải đẩy bao nhiêu kg. | Tôi; người tự theo dõi progressive overload | Ghi bằng Apple Notes, khoảng 7 phút/buổi. **6/16 buổi** trong 4 tuần gần nhất không ghi hoặc ghi hời hợt → buổi sau quên mức tạ tuần trước. Đã thử Strong và Hevy rồi bỏ |
+| 4 | Lặp lại | **Khi** trong tuần bị kẹt OT hoặc trời mưa ngập, **tôi muốn** xếp lại các buổi còn lại trong tuần, **để** vẫn đủ 4 buổi đã đặt ra. | Tôi; người đi làm có lịch không cố định | Tháng gần nhất (khoảng 16 buổi theo kế hoạch): **dời 3 buổi** (do OT, mưa ngập), **bỏ hẳn 1 buổi** không tập bù |
+| 5 | Tốn thời gian · Pain từ người khác | **Khi** tôi đến phòng gym lúc 18h00–19h30, **tôi muốn** biết giá Squat và khu máy cáp có trống không, **để** không phải đứng chờ hoặc đảo cả thứ tự bài tập. | Người tập giờ cao điểm | **10–15 phút/buổi** chờ hoặc đi tìm máy thay thế × 4 buổi = **40–60 phút/tuần**. Bạn tập nhắn Zalo: *"Phòng tập 6h tối đông như cái chợ, chờ cái máy cáp mốc mỏ"* |
+| 6 | Cần đọc, tổng hợp nhiều thông tin · Pain từ người khác | **Khi** tôi hoặc bạn tập thấy đau thắt lưng sau bài gánh tạ, **tôi muốn** phân biệt mỏi cơ bình thường với dấu hiệu cần dừng tập và đi khám, **để** không tập tiếp khiến tình trạng nặng hơn. | Người tự tập không có PT | 1 người bạn, 1 lần than đau thắt lưng sau gánh tạ (tin nhắn Zalo ở dòng #1). Dấu hiệu còn yếu, chưa đếm được số lần |
+
+**Dòng đã bỏ so với bản nháp:** Bỏ 2 problem: "hiểu nên tăng tạ hoặc đổi bài thế nào để tiếp tục tiến bộ" và "xem thay đổi chỉ số tập qua nhiều tháng". Lý do: tôi không có dấu hiệu thật đo được cho hai problem này, giữ lại thì chỉ là giả định.
 
 ---
-
 
 ## 3. Top 3 Problem Cards + quy trình nháp (CP2)
 
@@ -37,134 +33,127 @@
 
 | Rank | Problem | Vì sao chọn để đào sâu | Điều còn chưa chắc |
 |---:|---|---|---|
-| 1 | Người tập không nhận ra mình thực hiện sai tư thế | Giả thuyết có điểm nghẽn cụ thể khi tự quan sát động tác và có thể vẽ quy trình hiện tại. | Chưa có số lần xảy ra, thời gian kiểm tra hoặc bằng chứng rằng cách hiện tại không đủ. |
-| 2 | Người mới không biết nên chọn bài tập/lịch tập nào | Có thể mô tả từng bước tìm, đọc, so sánh và chọn lịch, phù hợp phạm vi phân tích CP2. | Chưa rõ người thật mất thời gian ở khâu tìm, so sánh hay quyết định. |
-| 3 | Người tập khó theo dõi tiến độ | Có thể mô tả chu trình ghi, tìm lại và tổng hợp kết quả theo thời gian. | Chưa rõ tỷ lệ người ghi dữ liệu, số nguồn và thời gian tổng hợp. |
+| 1 | Tự kiểm tra form bài compound (#1) | Lặp lại mỗi buổi, quy trình 4 bước rõ, có số phút, có pain từ người khác | Sau khi xem video tôi vẫn không chắc form đúng. Chưa đếm số buổi bị căng/đau sai nhóm cơ |
+| 2 | Lịch tập không khớp phòng gym (#2 gộp với #5) | Có số liệu đổi lịch (3 lần/2 tháng) và chờ máy (10–15'/buổi). Gộp #5 vào vì cùng một nguyên nhân: lịch không tính đến máy có hay không, có trống hay không | Chưa đếm số bài phải bỏ hoặc thay ngay giữa buổi |
+| 3 | Ghi mức tạ và tiến độ (#3) | Bằng chứng mạnh nhất: 6/16 buổi thiếu log, đã thử 2 app rồi bỏ | Con số 7'/buổi mới là ước lượng, chưa bấm giờ |
+
+**Vì sao không chọn:** #4 vì nguyên nhân là yếu tố bên ngoài (OT, thời tiết) và chỉ bỏ 1 buổi/tháng. #5 vì đã gộp vào card 2. #6 vì chỉ có 1 tin nhắn làm dấu hiệu và chạm tới vùng chẩn đoán y khoa, không vừa sức một buổi lab.
 
 ---
 
-### Problem Card #1 — Không nhận ra sai tư thế khi tập
+### Problem Card #1 — Tự kiểm tra form bài compound
 
 | Trường | Nội dung |
 |---|---|
-| **Job Story** | Khi tôi tự thực hiện một động tác như squat hoặc push-up, tôi muốn biết tư thế có đúng hay không, để tránh duy trì kỹ thuật sai và tập hiệu quả hơn. |
-| **Actor** | Ưu tiên kiểm chứng: người mới hoặc người tự tập không có HLV theo sát. |
-| **Thời điểm / bối cảnh** | Trong buổi tập tại nhà hoặc phòng gym, khi thực hiện một động tác còn chưa tự tin về kỹ thuật. |
-| **Quy trình hiện tại (3–7 bước)** | 6 bước như sơ đồ dưới; có bước tùy chọn nếu người tập chưa chắc tư thế. |
-| **Bottleneck (bước nào, mất bao nhiêu phút)** | **Bước 4 — tự kiểm tra tư thế [BOTTLENECK]**, chưa đo/TBD phút. Khó quan sát đồng thời mọi góc cơ thể khi đang vận động là một giả thuyết cần kiểm tra. |
-| **Impact (nếu không giải thì sao)** | Có thể tiếp tục kỹ thuật chưa phù hợp, khó tự điều chỉnh; tác động đến hiệu quả và các sự cố liên quan cần kiểm chứng, không khẳng định đã gây chấn thương. |
-| **Success metric (baseline → target)** | **Baseline:** chưa đo. **Metric cần đo:** thời gian tự kiểm tra/hiệp (phút), số lần phải dừng/nhờ hỗ trợ mỗi buổi, số lỗi được người hướng dẫn phát hiện mà người tập tự bỏ sót. **Cách đo dự kiến:** quan sát cùng một động tác, ghi thời gian và đối chiếu nhận xét với người đủ chuyên môn. **Target:** TBD sau kiểm chứng. |
-| **Phương án không dùng AI** | Checklist kỹ thuật, gương, quay video xem lại hoặc nhờ HLV/bạn tập có kinh nghiệm kiểm tra. |
-| **Giả thuyết về AI (nếu có)** | Có thể thử phân tích hình ảnh động tác để đưa phản hồi, nhưng chưa chứng minh AI cần thiết hoặc đủ tin cậy. |
-| **Cảm nhận nhanh** | **Chưa biết** — chưa chọn No AI / Rule / Workflow / Agent; quyết định thuộc CP6 của nhóm. |
+| **Job Story** | Khi tôi tập Barbell Squat hoặc Deadlift nặng một mình ở phòng gym, tôi muốn biết ngay sau set là lưng có giữ thẳng và độ sâu có đủ không, để chỉnh ở set tiếp theo thay vì lặp lại lỗi. |
+| **Actor** | Người tự tập gym hơn 1 năm (đã qua giai đoạn mới tập), không có PT, chưa cảm nhận được cơ đủ tốt để bỏ gương hoặc video |
+| **Thời điểm / bối cảnh** | Giữa các set của 1–2 bài compound nặng nhất trong buổi (Squat, Deadlift, Barbell Row), ở phòng gym đông người lúc 18h00–19h30 |
+| **Quy trình hiện tại (3–7 bước)** | 1. Tìm chỗ đặt điện thoại, căn góc quay · 2. Bấm quay và tập set · 3. Xem lại video, đối chiếu bằng trí nhớ · 4. Xóa clip hỏng hoặc không cần |
+| **Bottleneck** | **Bước 3, xem lại và đối chiếu bằng trí nhớ (2 phút/bài).** Không có mẫu chuẩn để so, nên xem xong vẫn phải tự đoán lưng có cong, gối có đúng, độ sâu có đủ không |
+| **Impact** | 24–48 phút/tuần cho việc quay và xem lại mà vẫn không chắc kết quả. Nếu không giải, có thể duy trì lỗi form ở các bài nặng nhất. Lỗi này *có thể* liên quan đến căng/đau sai nhóm cơ (ví dụ đau thắt lưng sau Squat), nhưng mối liên hệ chưa được kiểm chứng, không khẳng định nguyên nhân y khoa |
+| **Success metric** | **(1) Metric chính:** số buổi bị căng/đau sai nhóm cơ sau bài compound. *Baseline:* chưa đếm, sẽ ghi Có/Không kèm vị trí đau sau mỗi buổi trong 2 tuần (8 buổi). *Target:* giảm so với baseline trong 4 tuần tiếp theo. **(2) Metric phụ:** thời gian check form từ 6 phút/bài xuống ≤ 3 phút/bài, và không còn clip nháp phải xóa tay (hiện mất 1'/bài). *Cách đo:* bấm giờ 1 buổi/tuần |
+| **Phương án không dùng AI** | Chân kẹp điện thoại để giải bước 1. Một album riêng, xóa hàng loạt cuối buổi, để giải bước 4. Lưu sẵn một video form chuẩn để xem song song với clip của mình. Checklist 3 điểm (độ sâu, lưng trung lập, hướng gối). Thuê 1 buổi PT chỉ để chỉnh form. *Nhờ người lạ quay hộ không khả thi:* lúc 18h ai cũng đeo tai nghe, quay hộ 3–4 set rất phiền, và họ không biết căn góc để thấy rõ lưng và gối |
+| **Giả thuyết về AI** | Bước 3 là bước duy nhất cần nhận định mà các cách đơn giản chưa làm được. Có thể thử công cụ phân tích tư thế từ video để đánh dấu độ sâu và góc lưng. Rủi ro: công cụ bỏ sót lỗi cong lưng thì nguy hiểm hơn báo nhầm. Chưa có bằng chứng về độ tin cậy |
+| **Cảm nhận nhanh** | **Chưa biết.** Bước 1 và 4 thì No AI là đủ. Bước 3 có thể cần Workflow |
 
 #### Quy trình nháp hiện tại — Card 1
 
 ```text
-[1] Chọn động tác muốn tập (chưa đo/TBD phút)
-  ↓
-[2] Tìm và xem hướng dẫn động tác (chưa đo/TBD phút)
-  ↓
-[3] Thực hiện một hiệp tập (chưa đo/TBD phút)
-  ↓
-[4] Tự kiểm tra bằng gương hoặc cảm giác [BOTTLENECK] (chưa đo/TBD phút)
-  ↓
-[5] Nếu chưa chắc: quay/xem video hoặc hỏi người khác (chưa đo/TBD phút; tùy chọn)
-  ↓
-[6] Điều chỉnh và tiếp tục tập (chưa đo/TBD phút)
+HIỆN TẠI — 6 phút/bài × 1–2 bài/buổi = 6–12 phút/buổi (24–48 phút/tuần)
+
+[1 Tìm chỗ đặt điện thoại, căn góc: 2'] → [2 Bấm quay + tập set: 1']
+→ [3 Xem lại, đối chiếu bằng trí nhớ: 2'] ← BOTTLENECK (không có mẫu chuẩn, xem xong vẫn đoán)
+→ [4 Xóa clip hỏng/không cần: 1']
 ```
+
 ---
 
-### Problem Card #2 — Người mới không biết nên tập bài gì
+### Problem Card #2 — Lịch tập không khớp với phòng gym
 
 | Trường | Nội dung |
 |---|---|
-| **Job Story** | Khi tôi mới bắt đầu tập và có mục tiêu cụ thể, tôi muốn biết nên chọn bài tập và lịch tập nào, để không phải thử nhiều chương trình thiếu căn cứ. |
-| **Actor** | Người mới bắt đầu tập gym hoặc một môn thể thao, chưa có lịch tập ổn định. |
-| **Thời điểm / bối cảnh** | Trước khi bắt đầu chương trình tập đầu tiên hoặc khi quay lại tập và cần quyết định lịch. |
-| **Quy trình hiện tại (3–7 bước)** | 7 bước như sơ đồ; bước thay lịch chỉ phát sinh nếu lịch ban đầu không phù hợp. |
-| **Bottleneck (bước nào, mất bao nhiêu phút)** | **Bước 4 — so sánh và xác định lịch phù hợp [BOTTLENECK]**, chưa đo/TBD phút. Chưa xác nhận đây có phải bước tốn nhiều thời gian nhất với người thật. |
-| **Impact (nếu không giải thì sao)** | Có thể mất thời gian chọn lịch, thay đổi lịch nhiều lần hoặc gặp khó khăn khi duy trì kế hoạch; cần xác minh mức độ. |
-| **Success metric (baseline → target)** | **Baseline:** chưa đo. **Metric cần đo:** số phút từ lúc bắt đầu tìm đến khi quyết định lịch, số nguồn đã xem, số lần đổi lịch trong khoảng quan sát. **Cách đo dự kiến:** ghi lại một lần chọn lịch có thật và lịch sử tìm kiếm/quyết định tương ứng. **Target:** TBD sau kiểm chứng. |
-| **Phương án không dùng AI** | Lịch tập mẫu, checklist chọn lịch theo mục tiêu/số buổi/thiết bị, hoặc cây quyết định dựa trên quy tắc. |
-| **Giả thuyết về AI (nếu có)** | AI có thể giúp tổng hợp thông tin hoặc so sánh phương án; chưa xác định có vượt trội hơn checklist/cây quyết định. |
-| **Cảm nhận nhanh** | **Chưa biết** — chưa chọn No AI / Rule / Workflow / Agent; quyết định thuộc CP6 của nhóm. |
+| **Job Story** | Khi tôi dựng lại lịch tập, tôi muốn các bài trong lịch khớp với máy mà phòng gym có, máy còn trống lúc 18h00–19h30, và không làm đau khớp, để không phải bỏ hoặc thay bài giữa buổi và không phải làm lại lịch sau vài tuần. |
+| **Actor** | Người tự tập gym hơn 1 năm, tự lên giáo án từ nhiều nguồn, tập ở phòng gym thương mại giờ cao điểm |
+| **Thời điểm / bối cảnh** | Cuối tuần khi dựng lại lịch, và giữa buổi tập khi phát hiện máy không có hoặc đang có người dùng |
+| **Quy trình hiện tại (3–7 bước)** | 1. Xem video hướng dẫn, liệt kê bài · 2. Xếp bài vào các ngày · 3. Ra phòng gym tập thử, phát hiện thiếu máy hoặc bài gây đau khớp · 4. Về tra bài thay thế, sửa lịch |
+| **Bottleneck** | **Bước 2, xếp bài vào lịch (20 phút)** khi chưa đối chiếu ràng buộc: máy có hay không, giờ nào đông, khớp nào hay đau. Hậu quả là bước 3–4 (40 phút) phải làm lại |
+| **Impact** | 90 phút/lần × 3 lần/2 tháng ≈ 270 phút/2 tháng. Thêm 10–15 phút/buổi chờ hoặc tìm máy thay thế (40–60 phút/tuần). Thứ tự bài bị đảo giữa buổi |
+| **Success metric** | **(1)** Số bài phải bỏ hoặc thay ngay giữa buổi vì không có máy hoặc máy bị chiếm lâu. *Baseline:* chưa đếm, sẽ đếm trong 8 buổi tới. *Target:* ≤ 1 bài/buổi. **(2)** Thời gian chờ/tìm máy từ 10–15 phút/buổi xuống ≤ 5 phút/buổi. **(3)** Số lần phải dựng lại lịch từ 3 lần/2 tháng xuống ≤ 1 lần/2 tháng (vẫn cho phép đổi khi có lý do chính đáng). *Cách đo:* ghi 1 dòng sau mỗi buổi |
+| **Phương án không dùng AI** | Checklist ràng buộc làm *trước* khi xếp lịch: danh sách máy phòng gym có, máy hay đông lúc 18h–19h30, bài từng gây đau khớp. Mỗi bài chính ghi kèm sẵn 1 bài thay thế. Hoặc theo một chương trình có sẵn cho người tập trung cấp thay vì tự ghép từ 3 nguồn |
+| **Giả thuyết về AI** | Có thể hỗ trợ tổng hợp và gợi ý bài thay thế theo ràng buộc. Chưa có bằng chứng là tốt hơn checklist cộng danh sách bài dự phòng |
+| **Cảm nhận nhanh** | **Rule** (checklist ràng buộc + bài dự phòng) |
 
 #### Quy trình nháp hiện tại — Card 2
 
 ```text
-[1] Xác định mục tiêu và điều kiện tập (chưa đo/TBD phút)
-  ↓
-[2] Tìm nguồn hướng dẫn/lịch tập (chưa đo/TBD phút)
-  ↓
-[3] Xem các lịch tập tìm được (chưa đo/TBD phút)
-  ↓
-[4] So sánh, đánh giá lịch phù hợp [BOTTLENECK] (chưa đo/TBD phút)
-  ↓
-[5] Chọn một lịch để thực hiện (chưa đo/TBD phút)
-  ↓
-[6] Thử buổi tập đầu tiên theo lịch (chưa đo/TBD phút)
-  ↓
-[7] Nếu không phù hợp: tìm/chọn lịch khác (chưa đo/TBD phút; tùy chọn)
+HIỆN TẠI — ~90 phút/lần đổi lịch, 3 lần/2 tháng
+
+[1 Xem video, liệt kê bài: 30']
+→ [2 Xếp bài vào các ngày: 20'] ← BOTTLENECK (xếp khi chưa đối chiếu máy / giờ đông / khớp)
+→ [3 Tập thử, phát hiện thiếu máy hoặc đau khớp: 15']
+→ [4 Tra bài thay thế, sửa lịch: 25']
+     ↺ nếu vẫn không hợp → quay lại bước 2
+
+Bước 3–4 (40') là chi phí làm lại do bước 2 gây ra.
 ```
+
 ---
 
-### Problem Card #3 — Khó theo dõi tiến độ tập luyện
+### Problem Card #3 — Ghi mức tạ và tiến độ
 
 | Trường | Nội dung |
 |---|---|
-| **Job Story** | Khi tôi đã tập trong nhiều tuần, tôi muốn xem bản thân thay đổi ra sao qua kết quả đã ghi, để đánh giá lịch tập và quyết định điều chỉnh nếu cần. |
-| **Actor** | Người tập gym/chạy bộ/thể thao cá nhân muốn theo dõi kết quả nhiều buổi. |
-| **Thời điểm / bối cảnh** | Cuối mỗi buổi tập, đầu buổi tiếp theo hoặc lúc xem lại kết quả theo tuần/tháng. |
-| **Quy trình hiện tại (3–7 bước)** | 6 bước như sơ đồ; có thể không có dữ liệu để xem nếu trước đó không ghi. |
-| **Bottleneck (bước nào, mất bao nhiêu phút)** | **Bước 5 — tổng hợp và so sánh kết quả [BOTTLENECK]**, chưa đo/TBD phút. Khâu ghi dữ liệu (bước 2) cũng có thể là pain khác, nhưng chưa đo để kết luận. |
-| **Impact (nếu không giải thì sao)** | Khó đánh giá sự thay đổi dựa trên dữ liệu, dễ dựa vào trí nhớ hoặc quyết định điều chỉnh thiếu căn cứ. |
-| **Success metric (baseline → target)** | **Baseline:** chưa đo. **Metric cần đo:** tỷ lệ buổi có ghi dữ liệu, số phút ghi/buổi, số phút tìm và so sánh kết quả/lần, số nơi lưu dữ liệu. **Cách đo dự kiến:** đối chiếu nhật ký tập có thật và bấm giờ một lần tổng hợp. **Target:** TBD sau kiểm chứng. |
-| **Phương án không dùng AI** | Sổ tập, một Google Sheet có cấu trúc, biểu mẫu cố định, biểu đồ thông thường hoặc app ghi workout. |
-| **Giả thuyết về AI (nếu có)** | AI có thể tóm tắt xu hướng nếu dữ liệu đủ tốt; vẫn phải so sánh với biểu đồ/quy tắc thường. |
-| **Cảm nhận nhanh** | **Chưa biết** — chưa chọn No AI / Rule / Workflow / Agent; quyết định thuộc CP6 của nhóm. |
+| **Job Story** | Khi vừa xong 3–4 hiệp của một bài và đang mệt, tôi muốn lưu lại đúng mức tạ và số rep mà không bị đứt mạch tập trung, để buổi sau biết chính xác phải đẩy bao nhiêu kg. |
+| **Actor** | Người tự tập gym hơn 1 năm, tự theo dõi progressive overload, 5–6 bài/buổi |
+| **Thời điểm / bối cảnh** | Ngay sau khi kết thúc mỗi bài trong buổi tập, và đầu buổi sau khi cần biết mức tạ lần trước |
+| **Quy trình hiện tại (3–7 bước)** | 1. Mở điện thoại, tìm Note của ngày · 2. Nhớ lại kg/rep của 3–4 hiệp vừa xong · 3. Gõ vào Note · (lặp lại cho 5–6 bài) |
+| **Bottleneck** | **Bước 2, nhớ lại gộp 3–4 hiệp (30 giây/bài).** Bước này ngắn nhưng làm hỏng dữ liệu: hay quên hiệp đầu đẩy bao nhiêu, và khi mệt thì bỏ luôn cả lượt ghi |
+| **Impact** | **6/16 buổi (37,5%)** trong 4 tuần không ghi hoặc ghi hời hợt, nên buổi sau quên mức tạ tuần trước và tiến độ overload bị sai. Cầm điện thoại 5–6 lần/buổi làm đứt mạch tập trung giữa các hiệp |
+| **Success metric** | **(1) Metric chính:** tỷ lệ buổi có log đủ (bài, kg, rep từng hiệp) từ 10/16 (62,5%) lên ≥ 15/16 trong 4 tuần. **(2)** Số buổi không biết mức tạ lần trước từ 6/16 xuống ≤ 1/16. **(3)** Thời gian ghi không vượt ~7 phút/buổi hiện tại. *Cách đo:* cuối tuần đếm lại Note của 4 buổi |
+| **Phương án không dùng AI** | Template Note copy từ buổi trước, có sẵn tên bài và mức tạ cũ, chỉ sửa số thay đổi. Ghi 1 con số ngay sau mỗi hiệp thay vì gộp. *Đã thử Strong và Hevy rồi bỏ:* thao tác ban đầu rườm rà, và khi phải đổi bài giữa buổi vì máy bận thì xóa/thêm bài trên app mất thời gian hơn gõ vào Notes |
+| **Giả thuyết về AI** | Chưa thấy chỗ cần AI: dữ liệu có cấu trúc (bài, kg, rep), đúng sai rõ ràng |
+| **Cảm nhận nhanh** | **No AI / Rule** (template) |
 
 #### Quy trình nháp hiện tại — Card 3
 
 ```text
-[1] Thực hiện một buổi tập (chưa đo/TBD phút)
-  ↓
-[2] Ghi kết quả hoặc chọn không ghi (chưa đo/TBD phút)
-  ↓
-[3] Lưu dữ liệu vào sổ/Notes/app/thiết bị nếu có (chưa đo/TBD phút)
-  ↓
-[4] Tìm lại kết quả các buổi trước (chưa đo/TBD phút)
-  ↓
-[5] Tổng hợp và so sánh thủ công [BOTTLENECK] (chưa đo/TBD phút)
-  ↓
-[6] Đánh giá và cân nhắc điều chỉnh lịch tập (chưa đo/TBD phút)
+HIỆN TẠI — ~7 phút/buổi (ước lượng), lặp sau mỗi bài, 5–6 bài/buổi
+
+[1 Mở điện thoại, tìm Note: 30"]
+→ [2 Nhớ lại kg/rep 3–4 hiệp vừa xong: 30"] ← BOTTLENECK (quên hiệp đầu; mệt thì bỏ ghi → 6/16 buổi thiếu log)
+→ [3 Gõ vào Note: 1']
+→ lặp lại cho bài tiếp theo
+
+Ghi chú: cộng từng bước được ~2'/bài × 5–6 bài = 10–12'/buổi, lệch với ước lượng 7'. Sẽ bấm giờ 1 buổi để chốt.
 ```
+
 ---
 
-### Nhận xét sau CP2 (đánh giá sơ bộ, chưa phải kết quả kiểm chứng)
+### Nhận xét sau CP2
 
-Trong ba ứng viên, **Card 1 là lựa chọn muốn mang đi pitch**, vì có thể chỉ ra một bước cần tìm hiểu kỹ: người tập tự kiểm tra kỹ thuật khi thực hiện động tác. Đây là **ưu tiên thảo luận**, không phải kết luận rằng pain phổ biến, nghiêm trọng hay cần giải pháp AI. Muốn xác nhận, cần bằng chứng từ hành vi thật về số lần phải tự kiểm tra, cách họ đang làm và thời gian tiêu tốn.
+Card 2 và Card 3 có chung một nguyên nhân: **máy bận khiến tôi phải đổi bài giữa buổi**. Chính việc đổi bài này làm lịch bị xáo trộn, và cũng là lý do tôi bỏ Strong/Hevy để quay về Notes. Đây là ghi chú để nhóm cân nhắc khi gom cluster, chưa phải kết luận.
 
-### Card muốn pitch nhất (thuộc CP2, không phải CP3)
+### Card muốn pitch nhất
 
-- **Card số:** 1 — Người tập không nhận ra mình thực hiện sai tư thế.
-- **Vì sao:** Dễ mô tả một bước nghẽn cụ thể trong quy trình để nhóm phản biện; mức độ pain thật chưa có dữ liệu.
-- **Câu hỏi muốn nhóm phản biện:** Cách kiểm tra hiện tại có thực sự gây trở ngại đủ lớn để cần giải pháp mới, hay gương/video/HLV đã đáp ứng tốt?
+- **Card số:** 1. Tự kiểm tra form bài compound.
+- **Vì sao:** Có bottleneck là một bước cụ thể (bước 3, không có mẫu chuẩn để so), có pain từ người khác, và hệ quả nghiêm trọng nhất trong 3 card.
+- **Câu hỏi muốn nhóm phản biện:** Tôi không có PT và cũng không nhờ được người lạ. Vậy chân kẹp điện thoại cộng video form chuẩn để so đã đủ chưa, hay vẫn còn bước "tự phán đoán form" mà không cách đơn giản nào giải được?
 
 ### AI đã phản biện card thế nào (CP2)
 
-*Các điểm phản biện dưới đây được giữ từ bản nháp đã cung cấp. Cột “Đã sửa gì” mô tả chỉnh sửa thực tế trong phiên bản này; người làm tự kiểm tra và xác nhận trước khi nộp.*
+Tôi đưa 3 card cho AI (Claude) đóng vai "PM hoài nghi". Bảng dưới ghi các điểm AI nêu và quyết định của tôi.
 
-| Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì cụ thể trong bản này |
+| Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì cụ thể |
 |---|---|---|
-| Chưa có bằng chứng rằng sai tư thế là pain xảy ra thường xuyên. | Có (theo bản nháp) | Chuyển các câu khẳng định về tần suất thành giả thuyết, gắn nhãn **chưa có bằng chứng thật** tại CP1. |
-| Thời gian quay video/kiểm tra trong bản cũ chỉ là ước lượng. | Có (theo bản nháp) | Bỏ mốc **2–5 phút**, chuyển thời gian từng bước Card 1 thành **chưa đo/TBD phút**. |
-| Có nguy cơ nhảy thẳng sang AI nhận diện tư thế. | Có (theo bản nháp) | Giữ checklist/gương/video/HLV là phương án không AI; đổi **Cảm nhận nhanh** thành **Chưa biết**. |
-| Actor còn quá rộng. | Có (theo bản nháp) | Ghi rõ nhóm **ưu tiên kiểm chứng** là người mới/tự tập không có HLV theo sát, chưa coi đó là nhóm đã được kiểm chứng. |
-| “Sai tư thế” chưa xác định động tác cụ thể. | Có (theo bản nháp) | Nêu ví dụ squat hoặc push-up, đồng thời để việc chọn một động tác nghiên cứu là việc cần xác nhận khi khảo sát. |
-| Chấn thương không thể suy ra chỉ từ giả định sai tư thế. | Có (theo bản nháp) | Diễn đạt impact ở dạng **có thể**, không khẳng định đã có chấn thương hay nguyên nhân y khoa. |
-| Chưa biết người tập muốn sử dụng camera/phản hồi tự động. | Có (theo bản nháp) | Để sử dụng camera ở mức giả thuyết giải pháp; không coi sự sẵn sàng sử dụng là bằng chứng người dùng. |
----
+| Card 1: cách đơn giản hơn là nhờ người bên cạnh hoặc nhân viên gym xem hộ | **Không đồng ý** | Giữ quy trình tự quay. Lý do: lúc 18h phòng rất đông, ai cũng đeo tai nghe, nhờ người lạ quay 3–4 set rất phiền, và họ không biết căn góc để thấy rõ lưng và gối. Ghi lý do này vào ô "Phương án không dùng AI" |
+| Card 1: đo pain bằng "6 phút quay video" là sai trọng tâm, pain thật là không chắc form đúng | **Đồng ý** | Đổi metric chính sang "số buổi bị căng/đau sai nhóm cơ", hạ thời gian xuống metric phụ, thêm chỉ số clip nháp phải xóa tay. Chuyển bottleneck từ "thời gian" sang bước 3, đối chiếu bằng trí nhớ |
+| Card 1 và Card 3: số phút tự mâu thuẫn (theo buổi hay theo bài; ghi sau mỗi hiệp hay mỗi bài) | **Đồng ý** | Chốt Card 1 là 6'/bài × 1–2 bài/buổi. Card 3 ghi sau mỗi bài, gộp 3–4 hiệp. Ghi rõ chỗ còn lệch (7' so với 10–12') và cách kiểm |
+| Card 2: tần suất đổi lịch thấp (3 lần/2 tháng), có khi chỉ là quá trình học bình thường | **Đồng ý một phần** | Giữ số liệu thời gian, nhưng chuyển trọng tâm sang việc bối rối giữa buổi khi không có máy. Gộp problem #5 (chờ máy) vào card này, thêm metric "số bài phải bỏ/thay giữa buổi" |
+| Card 2: actor "người mới" không khớp với người đã tập Squat/Deadlift 4 buổi/tuần | **Đồng ý** | Đổi actor thành "người tự tập hơn 1 năm, tự lên giáo án" |
+| Card 3: pain thật không phải 7 phút gõ mà là 6/16 buổi thiếu log | **Đồng ý** | Đổi impact và metric chính sang tỷ lệ buổi có log đủ và số buổi quên mức tạ. Thêm việc đứt mạch tập trung giữa các hiệp |
+| Card 3: app ghi workout có sẵn (Strong, Hevy) đã giải gần hết bài toán | **Không đồng ý hoàn toàn** | Tôi đã thử cả hai rồi bỏ, vì đổi bài giữa buổi trên app rườm rà hơn Notes. Ghi trải nghiệm này vào ô "Phương án không dùng AI" làm bằng chứng |
+| CP1: 3 dòng chưa có dấu hiệu thật | **Đồng ý** | Bỏ 2 dòng không có số liệu. Giữ dòng đau thắt lưng nhưng ghi rõ dấu hiệu còn yếu |
+
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 

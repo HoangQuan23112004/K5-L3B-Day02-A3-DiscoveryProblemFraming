@@ -11,7 +11,7 @@
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
 | 1 | Hoàng Dương Anh Quân | 2A202603735 | Phụ trách CP5–CP6: quy trình, Problem Statement, mức can thiệp và quyết định | HoangQuan23112004 |
-| 2 | Đinh Hoài Nam | 2A202603672 | Điều phối thời gian, ghi chép và tổng hợp nội dung | |
+| 2 | Đinh Hoài Nam | 2A202603762 | Điều phối thời gian, ghi chép và tổng hợp nội dung; phụ trách CP4 | hoainamdnu-arch |
 | 3 | Lê Đức Trúc Lâm | 2A202603787 | Hỗ trợ vẽ quy trình, phản biện và rà soát Problem Statement | |
 
 ## Phân công theo checkpoint
@@ -67,3 +67,22 @@
 - Tôi nhận ra checklist và Rule có thể đủ cho một số bước; cần so sánh trước khi bổ sung AI.
 - Tôi học được rằng phải tính cả công sức chuẩn bị, kiểm lại và xử lý lỗi khi đánh giá hiệu quả.
 - Tôi phân biệt rõ số liệu ước lượng, tình huống mô phỏng và bằng chứng thực tế khi đưa ra quyết định.
+
+### DinhHoaiNam-2A202603762
+
+**Phần việc phụ trách:**
+
+- CP4 (người chính): kiểm chứng (assumption map, phỏng vấn/survey) và research giải pháp đã có.
+- CP5 (hỗ trợ): quy trình trước/sau và Problem Statement v0.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+-
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- `report/team/group_report.md` mục 3 (CP4).
+
+**Điều mình học được từ phần nhóm:**
+
+-
