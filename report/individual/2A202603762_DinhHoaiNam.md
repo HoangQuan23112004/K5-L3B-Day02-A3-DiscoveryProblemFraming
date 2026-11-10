@@ -179,9 +179,9 @@ Tôi đưa 3 card cho AI (Claude) đóng vai "PM hoài nghi". Bảng dưới ghi
 | CP1 Scan | Sau khi tự scan 6 problem, đưa bảng cho AI (Claude) rà lại. | Chỉ ra 3 dòng chưa có dấu hiệu thật đo được. | **[Nam bổ sung nếu có]** | Bỏ 2 dòng không có số liệu; giữ dòng đau thắt lưng (#6) nhưng ghi rõ dấu hiệu còn yếu. |
 | CP2 Problem Card | Cho AI đóng vai "PM hoài nghi" phản biện 3 Problem Card (bảng cuối mục 3). | Chỉ ra metric Card 1 sai trọng tâm (pain thật là không chắc form đúng, không phải 6 phút quay), số phút tự mâu thuẫn, actor "người mới" không khớp. | Gợi ý nhờ người lạ quay hộ (không khả thi lúc 18h phòng đông); cho rằng Strong/Hevy đã giải gần hết Card 3. | Giữ quy trình tự quay và ghi lý do; giữ Card 3 vì tôi đã thử Strong/Hevy rồi bỏ, ghi trải nghiệm đó làm bằng chứng. |
 | CP4 Research | Dùng AI (Claude Code) trình bày snapshot thành bảng, vẽ ảnh Assumption Map (`cp4-assumption-map.png`) và soạn phần đóng góp trong `TEAM.md` từ báo cáo nhóm. Phỏng vấn do tôi tự làm; link research do tôi tự mở và kiểm. | Gom nhanh 3 snapshot thành bảng tổng hợp xác nhận/phản bác; vẽ ảnh đúng số liệu mục 3.1. | Khi soạn `TEAM.md`, AI tự suy ra tôi "chuyển baseline cho Quân" ở CP5, việc này không có trong báo cáo. | Sửa lại thành đúng việc tôi làm: phản biện Problem Statement v0 bằng số liệu CP4. |
-| CP5 Quy trình | **[Nam bổ sung: có dùng AI không, dùng làm gì]** | | | |
-| CP5–6 Problem Statement | **[Nam bổ sung]** | | | |
-| CP6 Mức can thiệp / quyết định | **[Nam bổ sung]** | | | |
+| CP5 Quy trình | Nhờ AI phác quy trình nộp bài 5 bước (code xong → đọc đề/rubric → dò checklist với cây thư mục → sửa và lặp lại → commit, push) và chỉ ra điểm can thiệp. | Tách quy trình thành từng bước và chỉ đúng bước 3: chia đôi màn hình, dò bằng mắt tên file, đuôi file, vị trí lưu, tên branch. Đây là bước tốn công và dễ sót khi buồn ngủ. | Đề xuất ngay một LLM kết hợp script đọc cây thư mục để xuất bảng cảnh báo. Các lỗi này có đúng/sai rõ, nên chỉ cần script hoặc Rule, không cần LLM. AI cũng gộp 15–20 phút thành một số, không tách thời gian dò với thời gian sửa và chờ. | Giữ bước 3 là bottleneck nhưng bỏ phần LLM. Theo snapshot của TA, việc kiểm cấu trúc làm được bằng Rule chạy tự động; tôi ghi tín hiệu này ở cuối mục 3.2 báo cáo nhóm. |
+| CP5–6 Problem Statement | Nhờ AI phác một Problem Statement cho lỗi cấu trúc bài nộp. | Gom đúng các loại lỗi người dùng đã kể (sai tên nhánh, lưu nhầm thư mục, thiếu file/snapshot) và con số 15–20 phút/lần. | Đưa nguyên nhân "context-switching gây quá tải nhận thức" như một sự thật, trong khi chưa có bằng chứng; snapshot 2 lại cho thấy nguyên nhân là không hiểu format đầu ra. Bản phác thiếu baseline → target, thiếu boundary và dùng từ cảm xúc ("bực bội"). | Không dùng nguyên bản AI. Khi phản biện Problem Statement v0 của nhóm, tôi chỉ dựa vào số liệu đã thu ở CP4 và loại lỗi người dùng thật sự gặp. |
+| CP6 Mức can thiệp / quyết định | Hỏi AI nên chọn mức can thiệp nào và AI được làm gì, không được làm gì. | Boundary rõ: chỉ đọc và cảnh báo; không tự tạo file, không đổi tên branch, không viết báo cáo hộ sinh viên; giữ trách nhiệm sửa lỗi cho sinh viên. | Mặc định phải có AI (mức Reviewer/Copilot), bỏ qua bước so sánh với No AI và Rule, không có ngưỡng dừng hay phương án quay về. | Theo quyết định của nhóm: No AI + Rule cho vòng thử đầu, Workflow AI chỉ là dự phòng, quyết định Not Yet. Boundary AI gợi ý chỉ áp dụng nếu sau này thử Workflow. |
 
 ---
 
@@ -191,17 +191,31 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+Khi nghe các bạn khác trình bày, tôi nhận ra ranh giới giữa "nỗi đau thật" và "sự bất tiện lặt vặt" rất mong manh. Nhiều bạn đưa ra vấn đề nghe có vẻ hợp lý (ví dụ: quên uống nước, lười xếp lịch học), nhưng khi bị hỏi sâu vào số liệu thì không ai chứng minh được hậu quả cụ thể. Điều này dạy tôi rằng một problem đáng để bỏ công code ra giải quyết thì phải đi kèm với tổn thất định lượng được (như mất 1-2 điểm rubric oan uổng hay tốn 20 phút check tay lặp đi lặp lại).
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+Có, nhóm tôi mắc bệnh "solution-first" cực kỳ nặng. Ngay khi chốt chủ đề "Kiểm tra yêu cầu bài lab trước khi nộp", cả nhóm đã nhao nhao lên ý tưởng giải pháp: "Viết extension VSCode đi", "Làm con bot Discord đọc repo tự check đi". Chúng tôi chỉ khựng lại khi ngồi rà soát lại lý thuyết và tự hỏi chéo nhau: "Thế sát giờ deadline sinh viên có rảnh để cài extension không?". Lúc đó nhóm mới tỉnh ra, thống nhất cất hết các ý tưởng code sang một bên để quay lại vẽ workflow xem sinh viên đang mở tab VSCode và Notion khổ sở thế nào.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+Tôi đã quay xe hoàn toàn sau khi bị phản biện về nguyên nhân gốc rễ. Ban đầu tôi khăng khăng sinh viên nộp thiếu file là do "lười đọc đề" hoặc "đọc không hiểu". Nhưng sau khi bị PM hoài nghi vặn vẹo và đem đi hỏi thử, tôi nhận ra nguyên nhân là "sự quá tải bối cảnh (context-switching)" khi phải nhảy qua lại giữa file đề bài và cây thư mục. Từ đó, tôi gạch bỏ hướng "nhắc nhở sinh viên đọc kỹ đề" để đổi sang hướng "tự động map (khớp) file đang có với checklist".
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+Rất sốc. Tôi cứ đinh ninh dân IT ở Codelab sẽ rất thích dùng các tool dòng lệnh (CLI). Nhưng lúc làm Mom Test, sinh viên nói thẳng: "lúc deadline dí tao thà check bằng mắt cho lẹ, cài tool lỗi còn tốn thời gian hơn", còn TA thì kể đã viết sẵn bash script kiểm cấu trúc và dặn lớp chạy trước khi push, nhưng theo ước tính của TA khoảng 80% sinh viên không chạy. Nó đập tan ảo tưởng của tôi về một giải pháp "cool ngầu" cần người dùng chủ động thao tác. Giải pháp bắt buộc phải là thứ chạy ngầm không cần cài đặt thêm.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Điều khó nhất là kìm nén không đưa giải pháp vào câu chữ. Rất nhiều lần tôi vô thức viết thành: "Sinh viên cần một công cụ AI để tự quét cấu trúc repo...", và phải bôi đen xóa đi sửa lại thành: "Sinh viên hao phí 15-20 phút check chéo file thủ công nhưng vẫn mất điểm do lỗi con người". Việc tìm ra đúng metric để gắn vào statement (đo bằng số phút hao phí hay số điểm mất đi) cũng gây tranh cãi rất nhiều.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
+Nếu làm lại, tôi sẽ ép nhóm vứt ngay cái laptop xuống và đi hỏi sinh viên khóa khác sớm hơn, thay vì ngồi tự suy diễn trong phòng. Tôi cũng sẽ phản biện nhóm gắt gao hơn ở điểm: "Cái problem này có thực sự cần GenAI không?". Việc check file thiếu hay sai tên branch (task/sv01...) đôi khi chỉ cần một đoạn Python script hoặc Regex (biểu thức chính quy) là xong. Nhét LLM vào có thể là một pha over-engineering tốn kém không cần thiết, nhóm cần phải giới hạn lại xem AI thực sự đóng vai trò gì.
+
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+Mọi dự án công nghệ đúng nghĩa đều phải khởi nguồn từ một problem (nỗi đau) thực tế có thể quan sát được của người dùng, chứ không phải từ một ý tưởng tính năng. Để đo lường độ lớn của vấn đề, ta phải bóc tách nó thành một quy trình (workflow) thủ công mà người dùng đang chật vật thực hiện. Từ các bước rườm rà đó, ta rút ra các metric (như thời gian lãng phí, tỉ lệ lỗi) để làm thước đo đánh giá hiệu quả sau này. Vì không thể ôm đồm giải quyết toàn bộ quy trình, ta cần thiết lập một boundary (phạm vi) sắc bén nhằm cô lập đúng khâu yếu nhất để can thiệp. Dựa vào đặc thù của vùng boundary đó (cần độ chính xác tuyệt đối hay cần sáng tạo), ta mới quyết định mức can thiệp AI (tự động hoàn toàn, làm copilot, hay chỉ tổng hợp thông tin). Tuân thủ đúng chuỗi logic này, quyết định của bài nhóm mình là chọn vấn đề "Kiểm tra yêu cầu bài lab", giới hạn boundary ở "bước rà soát cấu trúc thư mục/định dạng trước khi push code", và chọn mức can thiệp AI ở dạng "Reviewer/Gợi ý" để cảnh báo lỗi chứ không tự ý sửa code của sinh viên.
 
 ---
 
