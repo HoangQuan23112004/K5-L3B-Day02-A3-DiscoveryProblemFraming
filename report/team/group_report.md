@@ -101,6 +101,8 @@ Thang điểm bằng chứng: 1 = mới có giả định; 5 = có nhiều bằn
 | 5 | Người dùng có thể hiểu và kiểm lại kết quả AI mà không mất quá nhiều thời gian. | Usability | 4 | 1 | Có — quan sát thao tác kiểm lại. |
 | 6 | Tài liệu được phép đưa vào công cụ AI và chi phí phù hợp với quy mô nhóm. | Viability | 4 | 1 | Có — kiểm quy định môn học và công cụ dự kiến. |
 
+![Assumption Map CP4: 6 giả định theo mức quan trọng và mức bằng chứng, tô màu theo kết quả phỏng vấn](../assets/cp4-assumption-map.png)
+
 **Giả định nhóm ưu tiên kiểm chứng trong buổi này:** #1 và #2.
 
 Nhóm cần xác định việc đối chiếu thực sự là điểm nghẽn hay thời gian chủ yếu nằm ở chờ thành viên bổ sung. Nếu nguyên nhân là bài chưa hoàn thành, công cụ kiểm tra sẽ không giải quyết được vấn đề chính.

@@ -90,6 +90,7 @@
 - `report/team/group_report.md` mục 3.1 (Assumption Map), 3.2 (kiểm chứng, tổng hợp, đối chiếu giả định, cách sửa problem) và 3.3 (research giải pháp đã có).
 - `report/team/group_report.md` mục 5 (Problem Statement v0) và ghi chú cuối mục 3.2: "Mục 4–5 (CP5) cần cập nhật theo các số này".
 - `report/assets/cp4-interview-snapshot-1.md`, `cp4-interview-snapshot-2.md`, `cp4-interview-snapshot-3.md` (người phỏng vấn: Đinh Hoài Nam).
+- `report/assets/cp4-assumption-map.png`: Assumption Map theo 2 trục quan trọng × bằng chứng, tô màu theo kết quả phỏng vấn (chèn ở mục 3.1).
 - Commit `f250dd0` — "CP4: thay dữ liệu mô phỏng bằng 3 interview snapshot thật"; các commit `c6083ea`, `bdda9d7`, `5320059` tạo và chỉnh snapshot 1.
 
 **Điều mình học được từ phần nhóm:**
