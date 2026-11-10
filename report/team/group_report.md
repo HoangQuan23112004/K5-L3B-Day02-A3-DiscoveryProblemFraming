@@ -19,13 +19,13 @@
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
 | 1 | Hoàng Dương Anh Quân | **Kiểm tra đủ yêu cầu bài lab:** Khi còn 1 giờ trước hạn nộp, tôi muốn biết bài đã đủ yêu cầu bắt buộc chưa, để tránh mất điểm vì thiếu mục. | Sinh viên phụ trách nộp bài nhóm 4 người. | Đối chiếu 10 yêu cầu với bản nộp: giả định 20/45 phút/bài, 2 bài/tuần. | Thời gian còn 1 giờ trước khi nộp bài là quá ngắn, liệu có đủ thời gian để khắc phục vấn đề AI tìm ra trong bài nộp?(Lâm) |
-| 2 | Hoàng Dương Anh Quân | **Đối soát chi phí phòng trọ:** Khi chốt tiền cuối tháng, tôi muốn biết mỗi người đã trả và còn phải trả bao nhiêu, để chia đúng chi phí. | Sinh viên tổng hợp chi cho phòng 3 người. | Đối chiếu người trả, người chịu và khoản trùng: giả định 30/80 phút/kỳ, 30 khoản/tháng. | Chậm vì tính toán hay vì 4 khoản chưa đủ thông tin? Nếu ghi đầy đủ ngay từ đầu, vấn đề còn đáng giải không? |
+| 2 | Hoàng Dương Anh Quân | **Đối soát chi phí phòng trọ:** Khi chốt tiền cuối tháng, tôi muốn biết mỗi người đã trả và còn phải trả bao nhiêu, để chia đúng chi phí. | Sinh viên tổng hợp chi cho phòng 4 người. | Đối chiếu người trả, người chịu và khoản trùng: giả định 30/80 phút/kỳ, 30 khoản/tháng. | Chậm vì tính toán hay vì 4 khoản chưa đủ thông tin? Nếu ghi đầy đủ ngay từ đầu, vấn đề còn đáng giải không? |
 | 3 | Hoàng Dương Anh Quân | **Chốt lịch học nhóm:** Khi 4 người cần học chung, tôi muốn tìm được khung giờ đủ người, để sớm chốt lịch trước bài kiểm tra. | Sinh viên điều phối nhóm học 4 người. | So sánh lịch và hỏi lại phản hồi mơ hồ: giả định 15/35 phút/lần, 1 lần/tuần. | 35 phút có gồm thời gian chờ không? Nếu không có khung chung, kết quả hợp lệ là gì? |
 | 4 | Đinh Hoài Nam | **Không nhận ra sai tư thế:** Khi tự thực hiện squat hoặc push-up, tôi muốn biết tư thế có đúng không, để điều chỉnh kỹ thuật và tập hiệu quả hơn. | Người mới hoặc người tự tập không có HLV theo sát. | Tự kiểm tra tư thế khi đang vận động; chưa đo thời gian và số lỗi bỏ sót. |Sử dụng AI để phân tích hình ảnh động tác, liệu có ảnh hưởng gì đến quyền riêng tư không?(Lâm) |
 | 5 | Đinh Hoài Nam | **Người mới khó chọn bài/lịch tập:** Khi mới tập và có mục tiêu cụ thể, tôi muốn chọn bài và lịch phù hợp, để tránh thử nhiều chương trình thiếu căn cứ. | Người mới tập, chưa có lịch ổn định. | So sánh và xác định lịch phù hợp; chưa đo thời gian. |Với vấn đề này, liệu bạn đã có những tiêu chí cụ thể nào để xác định bài tập phù hợp không?(Lâm) |
-| 6 | Đinh Hoài Nam | **Khó theo dõi tiến độ tập:** Khi đã tập nhiều tuần, tôi muốn xem thay đổi từ kết quả đã ghi, để đánh giá tiến độ và cân nhắc điều chỉnh. | Người tập muốn theo dõi kết quả qua nhiều buổi. | Tổng hợp và so sánh kết quả; chưa đo. Bước ghi dữ liệu cũng có thể là điểm nghẽn. | Có nhật ký đủ để so sánh không? Nếu chưa ghi dữ liệu, giải tổng hợp có đúng vấn đề gốc không? |
+| 6 | Đinh Hoài Nam | **Khó theo dõi tiến độ tập:** Khi đã tập nhiều tuần, tôi muốn xem thay đổi từ kết quả đã ghi, để đánh giá tiến độ và cân nhắc điều chỉnh. | Người tập muốn theo dõi kết quả qua nhiều buổi. | Tổng hợp và so sánh kết quả; chưa đo. Bước ghi dữ liệu cũng có thể là điểm nghẽn. | Có nhật ký đủ để so sánh không? Nếu chưa ghi dữ liệu, giải tổng hợp có đúng vấn đề gốc không?(Quân) |
 | 7 | Lê Đức Trúc Lâm | **Phân loại sự cố thiết bị nhân viên:** Khi nhiều yêu cầu hỗ trợ đến cùng lúc, tôi muốn xác định loại sự cố và mức ưu tiên, để chuyển đúng người và xử lý việc cấp thiết trước. | Nhân viên IT tiếp nhận yêu cầu hỗ trợ thiết bị. | Đọc mô tả, hỏi bổ sung và xác định mức ưu tiên; chưa có quy trình chi tiết hoặc thời gian. | Tiêu chí cấp thiết là gì? Có bao nhiêu ticket/tuần và bao nhiêu ticket bị phân loại lại? |
-| 8 | Lê Đức Trúc Lâm | **Đối chiếu lỗ hổng với hệ thống công ty:** Khi có thông báo lỗ hổng mới, tôi muốn biết tài sản nào có thể liên quan, để ưu tiên kiểm tra đúng phạm vi. | Nhân viên IT/bảo mật theo dõi thông báo và danh mục tài sản. | Đối chiếu sản phẩm, phiên bản và điều kiện ảnh hưởng với danh mục tài sản; chưa đo thời gian. | Danh mục tài sản có đủ phiên bản không? Ai kiểm tra kết quả đối chiếu để phát hiện bỏ sót? |
+| 8 | Lê Đức Trúc Lâm | **Đối chiếu lỗ hổng với hệ thống công ty:** Khi có thông báo lỗ hổng mới, tôi muốn biết tài sản nào có thể liên quan, để ưu tiên kiểm tra đúng phạm vi. | Nhân viên IT/bảo mật theo dõi thông báo và danh mục tài sản. | Đối chiếu sản phẩm, phiên bản và điều kiện ảnh hưởng với danh mục tài sản; chưa đo thời gian. | Danh mục tài sản có đủ phiên bản không? Ai kiểm tra kết quả đối chiếu để phát hiện bỏ sót?(Quân) |
 | 9 | Lê Đức Trúc Lâm | **Tổng hợp tình trạng mạng:** Khi đến kỳ kiểm tra vận hành, tôi muốn biết bất thường nào cần chú ý từ dữ liệu mạng, để ưu tiên xác minh và báo cáo kịp thời. | Nhân viên IT phụ trách theo dõi mạng nội bộ. | Gom dữ liệu và phân biệt bất thường đáng chú ý với cảnh báo thông thường; chưa rõ nguồn, chu kỳ hoặc thời gian. | Bất thường được xác định bằng ngưỡng nào? Đã có dữ liệu chứng minh báo cáo hiện tại bỏ sót vấn đề chưa? |
 
 ### 2.2. Cluster
@@ -82,7 +82,7 @@ Những ý **loại khỏi tầng opportunity** vì là solution:
 | #8 — Đối chiếu lỗ hổng | Phụ thuộc danh mục tài sản, phiên bản và điều kiện ảnh hưởng; chưa rõ dữ liệu đầu vào hoặc cách phát hiện bỏ sót. | Có bộ thông báo và tài sản được phép dùng, cùng người phụ trách kiểm tra kết quả. |
 | #9 — Tình trạng mạng | Chưa rõ nguồn log, chu kỳ báo cáo và tiêu chí bất thường; phạm vi dễ mở rộng vượt một buổi lab. | Giới hạn một nguồn dữ liệu, một kỳ báo cáo và bộ tiêu chí bất thường xác nhận được. |
 
-**Xử lý bất đồng (nếu có):** chưa có thông tin về thảo luận thực tế nên không ghi nhận tên hoặc ý kiến của thành viên. Đề xuất cách xử lý: nếu nhóm ưu tiên #2 hoặc #7, đối chiếu khả năng lấy dữ liệu, tái hiện một trường hợp gần nhất và đo bottleneck trước khi chấm lại. Nếu #1 không xác nhận được bước đối chiếu là điểm nghẽn hoặc checklist đã xử lý đủ, cập nhật cây OST và thứ hạng theo bằng chứng; không giữ lựa chọn chỉ vì điểm dự đoán cao hơn. Kết quả đồng thuận thực tế và người đặt câu hỏi sẽ được bổ sung sau buổi pitch.
+**Xử lý bất đồng (nếu có):**  Mối người thực hiện đưa ra các câu hỏi cho các bạn trong nhóm nhưng kèm theo đó là lý do vì sao đưa ra câu hỏi như vậy để thể hiện quan điểm của mình trước nhóm bày tỏ cách suy nghĩ để cả nhóm xem có hợp lý hay không. Tương tự đối với bạn giải thích, điều này giúp nhóm có thể hiểu được cách suy nghĩ của nhau và giải quyết các vấn đề còn tồn tại.    
 
 ---
 
@@ -90,89 +90,208 @@ Những ý **loại khỏi tầng opportunity** vì là solution:
 
 ### 3.1. Assumption Map
 
+Thang điểm bằng chứng: 1 = mới có giả định; 5 = có nhiều bằng chứng trực tiếp, nhất quán.
+
 | # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 |---:|---|---|---:|---:|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
+| 1 | Người nộp mất khoảng 45 phút kiểm bài, trong đó đối chiếu yêu cầu chiếm 20 phút. | Value | 5 | 1 | Có — bấm giờ theo từng bước. |
+| 2 | Một số bài thiếu mục vì người kiểm không phát hiện yêu cầu chưa đáp ứng, không chỉ vì thành viên chưa làm xong. | Value | 5 | 1 | Có — xem bản nộp và nguyên nhân thiếu mục. |
+| 3 | Checklist có vị trí bằng chứng có thể giảm thời gian kiểm xuống ≤25 phút/bài. | Usability | 5 | 1 | Có — thử phương án không AI trước. |
+| 4 | AI có thể gợi ý vị trí bằng chứng để giảm công sức đối chiếu mà vẫn giữ chất lượng kiểm tra. | Feasibility | 5 | 1 | Có — so với kết quả kiểm độc lập. |
+| 5 | Người dùng có thể hiểu và kiểm lại kết quả AI mà không mất quá nhiều thời gian. | Usability | 4 | 1 | Có — quan sát thao tác kiểm lại. |
+| 6 | Tài liệu được phép đưa vào công cụ AI và chi phí phù hợp với quy mô nhóm. | Viability | 4 | 1 | Có — kiểm quy định môn học và công cụ dự kiến. |
 
-*Điền 4–6 giả định; xóa dòng thừa.*
+![Assumption Map CP4: 6 giả định theo mức quan trọng và mức bằng chứng, tô màu theo kết quả phỏng vấn](../assets/cp4-assumption-map.png)
 
-Giả định nhóm kiểm chứng trong buổi này:
+**Giả định nhóm ưu tiên kiểm chứng trong buổi này:** #1 và #2.
+
+Nhóm cần xác định việc đối chiếu thực sự là điểm nghẽn hay thời gian chủ yếu nằm ở chờ thành viên bổ sung. Nếu nguyên nhân là bài chưa hoàn thành, công cụ kiểm tra sẽ không giải quyết được vấn đề chính.
 
 ### 3.2. Kiểm chứng
 
-Cách đã dùng: Phỏng vấn / Survey / Log, ticket, review
+**Cách làm:** Phỏng vấn nhanh 3 người thật theo The Mom Test, hỏi về lần gần nhất họ gặp vấn đề. Không ai là thành viên nhóm A3. Ghi theo vai trò, không ghi tên. Snapshot đầy đủ nằm trong `report/assets/`.
 
-Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
+| # | Vai trò | Thời gian, cách hỏi | Snapshot |
+|---:|---|---|---|
+| 1 | Sinh viên cùng khóa, hay nộp sát deadline | 22:30 ngày 09/11/2026, gọi Discord | [cp4-interview-snapshot-1.md](../assets/cp4-interview-snapshot-1.md) |
+| 2 | Sinh viên khóa dưới, mới làm quen repo Codelab | 14:00 ngày 10/11/2026, trực tiếp | [cp4-interview-snapshot-2.md](../assets/cp4-interview-snapshot-2.md) |
+| 3 | Trợ giảng (TA) review bài nộp | 10:00 ngày 10/11/2026, nhắn Zalo | [cp4-interview-snapshot-3.md](../assets/cp4-interview-snapshot-3.md) |
+
+**Câu hỏi dẫn dắt** (hỏi về hành vi đã xảy ra, không hỏi ý kiến về giải pháp):
+
+1. Lần gần nhất bạn kiểm bài trước khi nộp (hoặc chấm bài) là khi nào? Kể lại từng bước.
+2. Lần đó mất bao lâu? Bước nào lâu nhất?
+3. Lần gần nhất bài bị thiếu hoặc sai yêu cầu, bạn phát hiện ra lúc nào và bằng cách nào?
+4. Hiện bạn đang làm gì để khỏi bỏ sót? Đã thử cách nào khác chưa, giờ còn dùng không?
+5. Chuyện này đã làm bạn mất gì: điểm, thời gian sửa, thời gian chờ người khác?
+
+#### Interview snapshot 1 — Sinh viên cùng khóa
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | |
-| Câu nói đáng nhớ nhất (nguyên văn) | |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | |
-| Hiện đang xử lý bằng cách nào (workaround)? | |
-| Mất bao lâu, bao lần? | |
-| Insight / opportunity rút ra | |
+| Người được hỏi | Sinh viên cùng khóa, thường làm bài và nộp sát deadline vào ban đêm |
+| Câu nói đáng nhớ nhất | "Má, tao push code nộp xong xuôi hết rồi mới nhớ ra quên tạo file `agent_changelog.md` ở thư mục gốc, bay mất 2 điểm rubric oan uổng." |
+| Lần gần nhất gặp vấn đề này | Tối Chủ nhật tuần trước, khi nộp bài lab Day 01 |
+| Hiện đang xử lý bằng cách nào (workaround)? | Chia đôi màn hình: checklist Notion tự gõ lại từ đề bài và VSCode để dò từng file |
+| Mất bao lâu, bao lần? | Khoảng 15–20 phút mỗi lần nộp |
+| Insight / opportunity rút ra | Lỗi gây mất điểm là thiếu file bắt buộc (lỗi cấu trúc). Người dùng sẽ không dùng cách kiểm nào phải cài đặt hoặc gõ lệnh dài |
 
-Tổng hợp:
+#### Interview snapshot 2 — Sinh viên khóa dưới
 
-| Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
+| Trường | Nội dung |
+|---|---|
+| Người được hỏi | Sinh viên khóa dưới, mới làm quen cấu trúc repo Codelab |
+| Câu nói đáng nhớ nhất | "Em đọc cái `CHECKPOINTS.md` mà lú luôn, không biết cái file báo cáo đuôi `.md` phải vứt vào thư mục `docs/` hay `report/` mới đúng chuẩn đầu ra, cứ nộp bừa rồi cầu nguyện." |
+| Lần gần nhất gặp vấn đề này | Cuối tuần vừa rồi, bài Assignment đầu tiên |
+| Hiện đang xử lý bằng cách nào (workaround)? | Chụp màn hình cây thư mục gửi group chat lớp để nhờ xác nhận |
+| Mất bao lâu, bao lần? | Khoảng 10 phút tự kiểm, cộng thêm 30–45 phút chờ người khác trả lời |
+| Insight / opportunity rút ra | Nguyên nhân là không hiểu format đầu ra, không phải quên. Phần tốn thời gian nhất là chờ xác nhận. Cảnh báo phải chỉ rõ đường dẫn hoặc tên file đúng |
+
+#### Interview snapshot 3 — Trợ giảng
+
+| Trường | Nội dung |
+|---|---|
+| Người được hỏi | Trợ giảng (TA), thường xuyên review bài nộp của sinh viên |
+| Câu nói đáng nhớ nhất | "Mỗi lần chấm bài mình phát mệt. Bài thì quên file ảnh screenshot terminal, bài thì sai quy tắc đặt tên branch (ví dụ `task/sv01...`), lại phải comment bắt các bạn sửa lại từng tí." |
+| Lần gần nhất gặp vấn đề này | Chiều 09/11/2026, khi chấm một loạt Pull Request |
+| Hiện đang xử lý bằng cách nào (workaround)? | Đã viết sẵn bash script kiểm cấu trúc và dặn lớp chạy trước khi push. Theo ước tính của TA, khoảng 80% sinh viên không chạy |
+| Mất bao lâu, bao lần? | TA mất 3–5 phút/bài kiểm cấu trúc; sinh viên bị trả bài mất thêm khoảng 15 phút sửa và push lại |
+| Insight / opportunity rút ra | Lỗi có đúng/sai rõ, Rule kiểm được và thực tế đã có script. Chỗ thiếu là việc kiểm đang phụ thuộc vào sinh viên tự nhớ chạy |
+
+**Tổng hợp:**
+
+| Nguồn | Số người | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| | | | |
+| Sinh viên nộp bài (#1, #2) | 2 | Cả 2 từng nộp thiếu hoặc không chắc cấu trúc. #1 mất 2 điểm vì thiếu 1 file. Tự kiểm mất 10–20 phút/lần | #1: không dùng công cụ phải cài đặt hoặc gõ lệnh dài. #2: nguyên nhân là không hiểu format đầu ra, không phải quên |
+| Trợ giảng (#3) | 1 | Lỗi cấu trúc lặp lại ở nhiều bài; TA mất 3–5 phút/bài, sinh viên mất thêm khoảng 15 phút sửa lại | Đã có script kiểm cấu trúc (Rule) nhưng khoảng 80% sinh viên không chạy (ước tính của TA) |
+
+**So với Assumption Map (mục 3.1):**
+
+| Giả định | Kết quả kiểm chứng |
+|---|---|
+| #1 — Kiểm bài mất khoảng 45 phút, đối chiếu chiếm 20 phút | **Bị phản bác một phần.** Tự kiểm thực tế 10–20 phút/lần (#1, #2). Thời gian lớn hơn nằm ở chờ người khác xác nhận (30–45 phút, #2) và sửa lại sau khi bị trả bài (khoảng 15 phút, #3) |
+| #2 — Bài thiếu mục vì người kiểm không phát hiện ra | **Xác nhận một phần.** #1 quên file. #2 cho thấy nguyên nhân khác là không hiểu yêu cầu format. Cả 3 người đều nói về lỗi cấu trúc (thiếu file, sai thư mục, sai tên branch, thiếu ảnh); không ai nhắc đến khó đối chiếu nội dung với rubric |
+| #3, #5 — Người dùng sẽ dùng và kiểm lại được kết quả | **Có tín hiệu phản bác.** Cách kiểm tự nguyện đã thất bại (#3), và công cụ phải cài đặt sẽ bị bỏ qua (#1) |
+
+**Hạn chế:** Mẫu nhỏ (3 người). Chỉ có 2 người thuộc đúng actor "sinh viên nộp bài". Con số 80% là ước tính của TA, chưa kiểm bằng dữ liệu.
 
 **Nhóm đã sửa problem thế nào sau kiểm chứng:**
 
+- **Thu hẹp phạm vi:** từ "đối chiếu 10 yêu cầu nội dung với bản nộp" sang "kiểm **yêu cầu cấu trúc** của bài nộp: file bắt buộc, đường dẫn, quy tắc đặt tên". Đây là loại lỗi cả 3 người đã gặp.
+- **Sửa baseline:** bỏ con số giả định 45 phút. Dùng số đã thu: tự kiểm 10–20 phút/lần, chờ xác nhận 30–45 phút, sửa lại khoảng 15 phút/lần bị trả bài, TA 3–5 phút/bài. Mục 4–5 (CP5) cần cập nhật theo các số này.
+- **Thêm yêu cầu cho mọi phương án:** cảnh báo phải chỉ rõ đường dẫn/tên đúng (#2); không bắt cài đặt hoặc gõ lệnh dài (#1); việc kiểm phải tự chạy, không dựa vào việc sinh viên tự nhớ (#3).
+- **Tín hiệu cho CP6:** lỗi có đúng/sai rõ và đã có script Rule, nên bằng chứng nghiêng về **Rule chạy tự động** hơn là Workflow AI. Câu hỏi còn mở: vì sao sinh viên không chạy script của TA (quên, lười, hay không biết cách chạy)?
+
 ### 3.3. Research giải pháp đã có
+
+Nhóm tham khảo các giải pháp liên quan đến kiểm bài theo rubric và kiểm tra tự động. Nội dung dưới đây dựa trên tài liệu chính thức; nhóm chưa chạy thử để đo hiệu quả.
 
 | Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
 |---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| Grammarly AI Grader | [Hướng dẫn AI Grader](https://support.grammarly.com/hc/en-us/articles/38552360525837-AI-Grader-user-guide) | Đọc bài viết và đưa phản hồi dựa trên rubric hoặc hướng dẫn bài tập trước khi nộp. | Cho phép bổ sung rubric; phản hồi ở mức tài liệu và đoạn văn. | Tập trung vào bài viết; chưa chứng minh phù hợp với mọi loại bài lab. Điểm dự đoán không phải điểm chính thức. | Có thể tham khảo cách cung cấp yêu cầu cùng bản nộp để nhận phản hồi cụ thể; nhóm chỉ cần kiểm độ đầy đủ, không cần dự đoán điểm. |
+| Gradescope — Grading submissions with rubrics | [Chấm bài bằng rubric](https://guides.gradescope.com/hc/en-us/articles/22249389005709-Grading-submissions-with-rubrics) | Đối chiếu bài nộp với từng tiêu chí và ghi phản hồi. | Giao diện đặt bài nộp và rubric trong cùng quy trình kiểm; tiêu chí được tổ chức theo câu hỏi. | Chủ yếu phục vụ giảng viên và trợ giảng chấm bài, không phải công cụ sinh viên tự kiểm trước khi nộp. | Tổ chức bảng kiểm theo từng yêu cầu; đặt bằng chứng cạnh tiêu chí để giảm chuyển qua lại giữa các nguồn. |
+| GitHub Classroom — Autograding | [Kiểm tra tự động bài tập](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/use-autograding) | Chạy các bài kiểm tra được cấu hình khi người học đẩy bài lên repo. | Kiểm tra lặp lại theo quy tắc, phù hợp với bài lập trình trên GitHub. | Chỉ kiểm được điều kiện đã cấu hình; vượt qua test không chứng minh đã đáp ứng mọi yêu cầu trong báo cáo. | Dùng Rule cho phần có thể kiểm chính xác; giữ bước con người kiểm nội dung và bằng chứng. |
 
----
+**Kết luận từ research:**
+
+- Đã có giải pháp phản hồi bài viết theo rubric và giải pháp kiểm bài bằng test.
+- Nhóm cần phân biệt kiểm cấu trúc, kiểm độ đầy đủ và chấm chất lượng nội dung.
+- Phương án thử đầu tiên vẫn là checklist kết hợp Rule.
+- Nếu thử Workflow AI, đầu ra cần gồm: yêu cầu, vị trí bằng chứng, trạng thái và điểm cần người dùng xác nhận.
+- Chưa kết luận giải pháp hiện có không đáp ứng nhu cầu; cần thử trên cùng bộ bài trước khi quyết định xây thêm công cụ.
 
 ## 4. Quy trình trước/sau (CP5)
 
 ### 4.1. Quy trình hiện tại
 
-Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
-
 ```text
+[1. Mở đề, rubric, thông báo: 5']
+                ↓
+[2. Liệt kê yêu cầu bắt buộc: 7']
+                ↓
+[3. Đối chiếu với bản nộp: 20'] ← BOTTLENECK
+                ↓
+[4. Ghi mục thiếu, liên hệ bổ sung: 8']
+                ↓
+[5. Kiểm tên file, định dạng và nộp: 5']
 
+Tổng ước lượng: 45 phút thao tác/bài.
+Thời gian chờ và thời gian sửa nội dung được ghi riêng.
 ```
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 | Người nộp | Đề, rubric, thông báo | Bộ nguồn yêu cầu | 5 phút/bài | Xác nhận phiên bản hiện hành. |
+| 2 | Người nộp | Bộ nguồn yêu cầu | Danh sách 10 yêu cầu | 7 phút/bài | Phân biệt bắt buộc và khuyến nghị. |
+| 3 | Người kiểm | Danh sách và bản nộp | Bảng đối chiếu | 20 phút/bài | Phải tìm bằng chứng cho từng mục. |
+| 4 | Người nộp | Danh sách thiếu | Yêu cầu bổ sung cho thành viên | 8 phút/bài | Chỉ tính thao tác liên hệ, ghi nhận. |
+| 5 | Người nộp | Bản cuối | Bài được nộp | 5 phút/bài | Kiểm file trước khi gửi. |
 
-**Bottleneck chính:**
+**Bottleneck chính:** Bước 3 chiếm khoảng 44% tổng thời gian. Người kiểm phải chuyển qua lại giữa nhiều nguồn và tìm đoạn đáp ứng từng yêu cầu.
 
 ### 4.2. Quy trình tương lai
 
-Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người**, **boundary** ở đâu, **phương án quay về** khi AI sai.
+**Vòng thử đầu: No AI kết hợp Rule.**
 
 ```text
+[CON NGƯỜI — 5']
+Lập và xác nhận checklist từ nguồn yêu cầu
+                ↓
+[CON NGƯỜI — 10']
+Gắn từng yêu cầu với vị trí bằng chứng trong bài
+                ↓
+[RULE + CON NGƯỜI — 2']
+Kiểm tên file, đuôi file và file bắt buộc
+                ↓
+[CON NGƯỜI — 5']
+Kiểm mục chưa rõ và giao việc bổ sung
+                ↓
+[CON NGƯỜI — 3']
+Rà bản cuối và tự nộp
 
+Mục tiêu: ≤25 phút thao tác/bài.
 ```
+
+Chi phí lập checklist vẫn được tính vào tổng thời gian dù thực hiện từ lúc nhận đề. Lượt kiểm đầu diễn ra trước hạn ít nhất 2 giờ.
+
+**Workflow AI dự phòng nếu checklist chưa đủ:**
+
+```text
+[CON NGƯỜI]
+Xác nhận yêu cầu và bản nộp được phép sử dụng
+                ↓
+[AI]
+Gợi ý vị trí bằng chứng cho từng yêu cầu
+                ↓
+[CON NGƯỜI — HITL]
+Mở nguồn, kiểm từng gợi ý và xác nhận trạng thái
+                ↓
+[RULE]
+Kiểm cấu trúc file
+                ↓
+[CON NGƯỜI]
+Bổ sung, kiểm bản cuối và tự nộp
+```
+
+**Boundary:**
+
+- AI chỉ gợi ý bằng chứng và mục cần kiểm lại.
+- AI không tự sửa, chấm điểm hoặc nộp bài.
+- Không có bằng chứng thì ghi “chưa đủ cơ sở”.
+- Người nộp chịu trách nhiệm xác nhận bản cuối.
+
+**Phương án quay về:** Khi AI dẫn sai hoặc không đọc được file, chuyển sang checklist và kiểm thủ công. Thời gian xử lý lỗi được tính vào tổng công sức.
 
 ### 4.3. Before / after
 
 | Chỉ số | Trước | Sau (kỳ vọng) | Ghi chú |
-|---|---:|---:|---|
-| Số bước | | | |
-| Tổng thời gian | | | |
-| Số bước thủ công | | | |
-| Bottleneck chính | | | |
-| Rủi ro mới phát sinh | | | |
+|---|---|---|---|
+| Số bước chính | 5 | 5 | Tối ưu công sức trong bước. |
+| Tổng thời gian | 45 phút/bài | ≤25 phút/bài | Bao gồm chuẩn bị và kiểm lại. |
+| Số bước hoàn toàn thủ công | 5 | 4 | Một bước có Rule hỗ trợ. |
+| Bottleneck chính | Đối chiếu: 20 phút | Đối chiếu: ≤10 phút | Cần đo khi thử. |
+| Bài còn thiếu mục | 2/8 bài | 0/8 bài | Chất lượng do người khác kiểm độc lập. |
+| Rủi ro mới phát sinh | Kiểm thiếu nhất quán | Tin checklist hoặc cảnh báo máy quá mức | Cần bằng chứng và người xác nhận. |
 
 ---
 
@@ -180,16 +299,18 @@ Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người*
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | |
+| **Actor** | Sinh viên phụ trách kiểm và nộp bài nhóm 4 người. |
+| **Quy trình** | Gom yêu cầu → liệt kê → đối chiếu → yêu cầu bổ sung → kiểm file và nộp. |
+| **Bottleneck** | Đối chiếu 10 yêu cầu với bản nộp mất khoảng 20/45 phút. |
+| **Impact** | Ước lượng 90 phút kiểm bài/tuần ở tần suất 2 bài; 2/8 bài vẫn thiếu ít nhất một yêu cầu bắt buộc. |
+| **Success Metric** (baseline → target, cách đo) | 45 → ≤25 phút/bài; 2/8 → 0/8 bài thiếu mục. Bấm giờ từng bước và có thành viên kiểm độc lập. |
+| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | Chỉ kiểm độ đầy đủ; không tự sửa, chấm điểm hoặc nộp. Con người kiểm nguồn và xác nhận kết quả cuối. |
 
-Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
+**Phản biện nhận được và hướng điều chỉnh:**
 
--
+- Lâm đặt câu hỏi về việc chỉ còn 1 giờ trước hạn nộp. Nhóm tiếp thu, đề xuất kiểm lượt đầu trước hạn ít nhất 2 giờ.
+- AI hỗ trợ phản biện rằng có tiêu đề chưa đồng nghĩa đáp ứng yêu cầu. Bản đề xuất bổ sung vị trí bằng chứng cho từng mục.
+- AI gợi ý thử checklist trước. Bản đề xuất dùng No AI/Rule làm phương án đầu tiên.
 
 ---
 
@@ -197,38 +318,40 @@ Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng
 
 ### 6.1. Ma trận độ mơ hồ × độ phức tạp
 
-Bài của nhóm nằm ở ô:
+**Bài của nhóm nằm ở ô:** Độ mơ hồ trung bình × độ phức tạp thấp.
 
-Vì sao:
+**Vì sao:** Quy trình có thứ tự rõ và phạm vi nhỏ. Phần mơ hồ nằm ở cách hiểu yêu cầu và xác định bằng chứng; phần tên, đuôi và file bắt buộc có thể kiểm bằng Rule.
 
 ### 6.2. So sánh 4 mức
 
 | Mức | Phương án cho bài của nhóm | Đủ khi nào | Rủi ro | Chọn? |
 |---|---|---|---|---|
-| **No AI** (sửa quy trình) | | | | |
-| **Rule** | | | | |
-| **Workflow** | | | | |
-| **Agent** | | | | |
+| **No AI** (sửa quy trình) | Checklist, phân công người kiểm, kiểm sớm. | Đạt thời gian và chất lượng mục tiêu. | Checklist thiếu hoặc đánh dấu hình thức. | Chọn làm phương án đầu tiên. |
+| **Rule** | Kiểm tên, đuôi và file bắt buộc. | Điều kiện được mô tả chính xác. | Không kiểm được nội dung ngữ nghĩa. | Chọn hỗ trợ cấu trúc. |
+| **Workflow** | AI gợi ý bằng chứng theo trình tự cố định, người dùng xác nhận. | Checklist chưa đủ và bottleneck đối chiếu được xác nhận. | Dẫn sai, bỏ sót, tăng công kiểm lại. | Dự phòng có điều kiện. |
+| **Agent** | Tự chọn hành động, sửa hoặc nộp bài. | Chưa có nhu cầu phù hợp trong phạm vi này. | Vượt quyền, khó kiểm soát thay đổi. | Không chọn. |
 
-**Mức chọn:**
+**Mức chọn:** No AI kết hợp Rule cho vòng thử đầu; Workflow là phương án dự phòng.
 
-**Vì sao không chọn mức đơn giản hơn:**
+**Vì sao không chọn mức đơn giản hơn:** No AI vẫn là đối chứng chính. Rule được thêm cho các điều kiện cấu trúc rõ ràng để giảm thao tác lặp. Nếu chi phí thiết lập lớn hơn lợi ích, nhóm giữ checklist thủ công.
 
 ### 6.3. AI Canvas rút gọn
 
+Canvas áp dụng khi thử Workflow dự phòng.
+
 | Thành phần | Nội dung |
 |---|---|
-| **Prediction** — AI dự đoán / tạo ra gì? | |
-| **Judgment** — con người cân nhắc, quyết định gì? | |
-| **Action** — hành động cuối cùng là gì, ai làm? | |
-| **Outcome** — đo kết quả bằng gì? | |
-| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | |
-| **Feedback** — lấy phản hồi ở đâu để cải thiện? | |
+| **Prediction** — AI dự đoán / tạo ra gì? | Gợi ý vị trí đáp ứng và các yêu cầu chưa đủ bằng chứng. |
+| **Judgment** — con người cân nhắc, quyết định gì? | Bằng chứng có thực sự đáp ứng yêu cầu không. |
+| **Action** — hành động cuối cùng là gì, ai làm? | Thành viên bổ sung; người nộp kiểm cuối và nộp bài. |
+| **Outcome** — đo kết quả bằng gì? | Tổng thời gian, số mục bỏ sót và công sức kiểm lại. |
+| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | Đề, rubric, thông báo và bản nộp. Cần xác nhận phiên bản và quyền sử dụng trước khi chạy. |
+| **Feedback** — lấy phản hồi ở đâu để cải thiện? | Bảng kiểm độc lập và nhật ký lỗi của từng lần thử. |
 
 ### 6.4. Hai câu hỏi của Google PAIR
 
-- Người dùng muốn **được hỗ trợ (augment)** hay **giao hẳn việc (automate)**? Bằng chứng:
-- AI sai kiểu nào tệ hơn, **báo nhầm** hay **bỏ sót**? Vì sao, và thiết kế đã xử lý thế nào:
+- **Người dùng muốn được hỗ trợ hay giao hẳn việc?** Thiết kế đề xuất là hỗ trợ (augment), vì người nộp vẫn cần xác nhận yêu cầu và chịu trách nhiệm với bài. Đây là lựa chọn thiết kế, chưa phải kết luận từ phỏng vấn.
+- **Báo nhầm hay bỏ sót tệ hơn?** Bỏ sót đáng ngại hơn vì làm nhóm tin bài đã đủ. Thiết kế yêu cầu nguồn dẫn, trạng thái “chưa đủ cơ sở” và bước con người xác nhận. Báo nhầm cũng được ghi nhận vì làm tăng thời gian kiểm.
 
 ---
 
@@ -236,29 +359,35 @@ Vì sao:
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** | |
-| **AI intervention point** | |
-| **Mức chọn** | No AI / Rule / Workflow / Agent |
-| **Rủi ro & người kiểm tra** | |
+| **Actor** | Sinh viên phụ trách kiểm và nộp bài nhóm 4 người. |
+| **Quy trình** | Lập checklist → gắn bằng chứng → kiểm cấu trúc → xử lý mục chưa rõ → rà bản cuối và nộp. |
+| **Bottleneck** | Tìm và đối chiếu bằng chứng; cần phân biệt với việc nội dung chưa hoàn thành. |
+| **Impact** | Ước lượng 90 phút/tuần và nguy cơ thiếu mục ảnh hưởng bài chung. |
+| **Success Metric** (baseline → target, cách đo) | 45 → ≤25 phút/bài; 2/8 → 0/8 bài thiếu mục. So 8 bài baseline và 8 bài thử có phạm vi tương đương; ghi riêng chờ và sửa nội dung. |
+| **Boundary** | Kiểm độ đầy đủ; không chấm toàn bộ tính đúng; không tự sửa hoặc nộp; chỉ dùng tài liệu được phép. |
+| **AI intervention point** | Gợi ý vị trí bằng chứng sau khi checklist chưa đạt mục tiêu. |
+| **Mức chọn** | No AI + Rule; Workflow dự phòng. |
+| **Rủi ro & người kiểm tra** | Người nộp kiểm từng mục; một thành viên khác kiểm độc lập bản cuối. |
 
 **Thay đổi so với v0 và lý do:**
 
 | Trường | v0 | v1 | Vì sao đổi |
 |---|---|---|---|
-| | | | |
+| Thời điểm | Kiểm sát hạn | Kiểm lượt đầu trước hạn ít nhất 2 giờ | Có thời gian bổ sung. |
+| Bottleneck | Đối chiếu chậm | Phân biệt đối chiếu chậm với chưa hoàn thành | Tránh giải sai nguyên nhân. |
+| Phương án | Chưa chốt | Checklist và Rule trước | Có đối chứng đơn giản. |
+| Metric | Tổng thời gian | Tính cả chuẩn bị, kiểm lại, xử lý lỗi | Đánh giá đúng công sức. |
+| Boundary | Con người kiểm cuối | Xác nhận từng yêu cầu với bằng chứng | Hạn chế tin kết quả máy quá mức. |
 
-**Tiêu chí đánh giá đầu ra của AI (3–5 tiêu chí):**
+**Tiêu chí đánh giá đầu ra của AI nếu thử Workflow:**
 
 | # | Tiêu chí | Đạt khi | Không đạt khi |
 |---:|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
+| 1 | Bao phủ yêu cầu | Mỗi yêu cầu có một dòng đối chiếu. | Bỏ hoặc tự thêm yêu cầu. |
+| 2 | Bằng chứng chính xác | Dẫn tới nội dung tồn tại, đúng phiên bản. | Bịa đoạn hoặc dẫn sai. |
+| 3 | Thể hiện thiếu chắc chắn | Ghi “chưa đủ cơ sở” khi không xác nhận được. | Suy đoán rồi kết luận hoàn tất. |
+| 4 | Phát hiện mục thiếu | Không bỏ sót mục thiếu trong bộ thử có chuẩn độc lập. | Báo đủ cho mục thực tế thiếu. |
+| 5 | Hiệu quả sử dụng | Tổng quy trình ≤25 phút và giữ chất lượng. | Kiểm lại làm mất lợi ích hoặc tăng bỏ sót. |
 
 ---
 
@@ -266,33 +395,70 @@ Vì sao:
 
 ### 8.1. Bốn rủi ro
 
+Đánh giá áp dụng cho Workflow AI dự kiến.
+
 | Rủi ro | Câu hỏi | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
 |---|---|---|---|
-| **Value** | Người dùng có thật sự cần và sẽ dùng không? | | |
-| **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | | |
-| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | | |
-| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | | |
+| **Value** | Người dùng có thật sự cần và sẽ dùng không? | Cao | Checklist có thể đã đủ; chưa có thử nghiệm so sánh. |
+| **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | TB | Bảng đối chiếu dễ trình bày nhưng chưa thử với người dùng. |
+| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | TB | Phạm vi nhỏ nhưng chưa đánh giá chất lượng tìm bằng chứng. |
+| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | TB | Cần kiểm quy định môn học, quyền dữ liệu và chi phí; nhóm tự vận hành pilot. |
 
 ### 8.2. Kết luận
 
-**Quyết định:** Go / Not Yet / No-Go
+**Quyết định:** Not Yet đối với triển khai Workflow AI.
 
-**Lý do:**
+**Lý do:** Problem có phạm vi rõ nhưng cần xác nhận nguyên nhân và xem checklist có giải quyết đủ không.
 
 **Nếu Go — pilot nhỏ nhất:**
 
+Một đề, một rubric, một bản nộp có khoảng 10 yêu cầu; người kiểm độc lập lập chuẩn đối chiếu. AI chỉ gợi ý bằng chứng, không tự sửa hoặc nộp. Chỉ chuyển sang pilot này sau khi đạt điều kiện kiểm chứng.
+
 **Nếu Not Yet — cần kiểm chứng gì trước:**
+
+- Tái hiện cách kiểm bài của 3 người từng phụ trách nộp.
+- Đo thời gian và xác định nguyên nhân thiếu mục.
+- Thử checklist trên 4 bài đầu.
+- Xác nhận tài liệu được phép dùng với AI.
+- Nếu đối chiếu vẫn là bottleneck và thời gian còn >25 phút/bài, cân nhắc Workflow.
 
 **Nếu No-Go — nên làm gì thay AI:**
 
-**Ngưỡng dừng** (nếu sau … mà … thì quay về …):
+Giữ checklist, Rule kiểm cấu trúc, phân công người kiểm và kiểm sớm. Nếu chậm do nội dung chưa hoàn thành, chuyển trọng tâm sang quản lý tiến độ.
+
+**Ngưỡng dừng:**
+
+- Nếu checklist đạt mục tiêu sau 4 bài đầu, tiếp tục đánh giá bằng phương án này, chưa thêm AI.
+- Nếu Workflow báo đủ cho mục thực tế thiếu, tạm dừng dùng kết quả đó để quyết định nộp và kiểm thủ công.
+- Nếu sau 4 bài dùng Workflow tổng công sức không giảm so với checklist, quay về No AI/Rule.
+- Nếu đổi phương án giữa đợt thử, báo cáo riêng từng giai đoạn.
 
 ---
 
 ## 9. Hạn chế và hướng tiếp theo
 
--
+- Baseline và mục tiêu đang dựa trên số liệu ước lượng.
+- Mới có 3 phỏng vấn (mẫu nhỏ, mục 3.2); chưa có thử nghiệm thực tế.
+- Phạm vi khoảng 10 yêu cầu chưa đại diện cho bài dài hoặc đồ án phức tạp.
+- Chưa đánh giá tài liệu quét, ảnh và bảng biểu khó đọc.
+- Tiếp theo: thu dữ liệu, thử checklist, cập nhật Problem Statement và quyết định theo kết quả.
+
+**AI hỗ trợ:** Nhóm sử dụng AI để gợi ý cách trình bày, tổng hợp ý và phản biện phương án. Nhóm rà soát, điều chỉnh và chịu trách nhiệm về nội dung cuối cùng.
+
+---
 
 ## 10. Tài liệu tham khảo
 
--
+1. Grammarly Support. *AI Grader user guide*. Hướng dẫn phản hồi bài viết theo rubric trước khi nộp.  
+   https://support.grammarly.com/hc/en-us/articles/38552360525837-AI-Grader-user-guide
+
+2. Gradescope Guides. *Grading submissions with rubrics*. Hướng dẫn tổ chức tiêu chí và đối chiếu với bài nộp.  
+   https://guides.gradescope.com/hc/en-us/articles/22249389005709-Grading-submissions-with-rubrics
+
+3. GitHub Docs. *Use autograding*. Hướng dẫn kiểm tra bài tập tự động trong GitHub Classroom.  
+   https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/use-autograding
+
+4. Google PAIR. *People + AI Guidebook*. Tài liệu tham khảo cho phần lựa chọn vai trò AI, quyền kiểm soát của người dùng và xử lý lỗi tại CP6.  
+   https://pair.withgoogle.com/guidebook/
+
+
