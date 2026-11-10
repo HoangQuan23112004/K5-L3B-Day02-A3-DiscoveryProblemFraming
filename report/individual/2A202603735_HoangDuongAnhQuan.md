@@ -159,7 +159,7 @@ Thời gian chờ phản hồi được ghi riêng, chưa nằm trong 35 phút.
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
 | Pitch Problem Card |Lựa chọn các problem liên quan tới học sinh, sinh viên về nhiều mặt như là đóng tiền trọ, lên kế hoạch học tập và kiểm tra các bài lab có đạt yêu cầu hay không trước khi nộp | Cả nhóm có thêm một góc nhìn mới nhưng có tính khả quan cao trong tương lai đó chính là sử dụng LLM trong mô trường học thuật để tự dộng rà soát bài, kiểm tra bài |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Tổng hợp và so sánh kết quả; chưa đo. Bước ghi dữ liệu cũng có thể là điểm nghẽn. Có nhật ký đủ để so sánh không? Nếu chưa ghi dữ liệu, giải tổng hợp có đúng vấn đề gốc không? | Đóng góp góc nhìn cá nhân về đề tài của các bạn xem nó có hợp lý hay không, có đủ để trở thành một vấn đề hợp lý. |
 | Nhận phản biện | Câu hỏi tôi nhận được: Thời gian còn 1 giờ trước khi nộp bài là quá ngắn, liệu có đủ thời gian để khắc phục vấn đề AI tìm ra trong bài nộp? | Tôi đã sửa gì:  |
 | Gom cluster / cây OST | | |
 | Chọn candidate problem | | |
