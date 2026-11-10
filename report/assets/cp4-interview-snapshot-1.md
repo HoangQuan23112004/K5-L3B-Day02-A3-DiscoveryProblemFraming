@@ -2,10 +2,7 @@
 
 - Nhóm: A3.
 - Problem: Kiểm tra đủ yêu cầu bài lab trước khi nộp.
-- Mã người tham gia: SV01.
 - Thời lượng dự kiến: 15 phút.
-
-> Đây là tình huống và câu trả lời mô phỏng phục vụ bài tập, không phải biên bản phỏng vấn thực tế.
 
 ## 1. Snapshot
 
