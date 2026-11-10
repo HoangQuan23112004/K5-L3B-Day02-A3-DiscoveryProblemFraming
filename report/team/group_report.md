@@ -405,8 +405,6 @@ Giữ checklist, Rule kiểm cấu trúc, phân công người kiểm và kiểm
 ---
 
 ## 10. Tài liệu tham khảo
-
-- Báo cáo cá nhân và nội dung pitch của các thành viên nhóm A3.
 - Google Sheets — Checkboxes: https://support.google.com/docs/answer/7684717
 - GitHub Docs — Task lists: https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists
 - Python Documentation — pathlib: https://docs.python.org/3/library/pathlib.html
