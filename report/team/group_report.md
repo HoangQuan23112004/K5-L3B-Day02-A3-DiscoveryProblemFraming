@@ -128,7 +128,7 @@ Nhóm cần xác định việc đối chiếu thực sự là điểm nghẽn h
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | SV01 — sinh viên thường phụ trách nộp bài nhóm. |
+| Người được hỏi Hùng |  sinh viên thường phụ trách nộp bài nhóm. |
 | Câu nói đáng nhớ nhất (nguyên văn) | Không có trích dẫn thực tế. Ý kiến mô phỏng: khó nhất là tìm đoạn đáp ứng từng yêu cầu. |
 | Lần gần nhất gặp vấn đề này | Bản nộp có phần kết quả nhưng thiếu phần giải thích theo rubric. |
 | Hiện đang xử lý bằng cách nào (workaround)? | Mở đề và bài cạnh nhau, kiểm lần lượt. |
@@ -139,7 +139,7 @@ Nhóm cần xác định việc đối chiếu thực sự là điểm nghẽn h
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | SV02 — sinh viên tổng hợp nội dung của các thành viên. |
+| Người được hỏi Lan |  Sinh viên tổng hợp nội dung của các thành viên. |
 | Câu nói đáng nhớ nhất (nguyên văn) | Không có trích dẫn thực tế. Ý kiến mô phỏng: có mục đã được làm nhưng chưa đưa vào bản cuối. |
 | Lần gần nhất gặp vấn đề này | Thành viên gửi phần bổ sung riêng, người tổng hợp chưa cập nhật trước lượt kiểm cuối. |
 | Hiện đang xử lý bằng cách nào (workaround)? | Nhắn từng người xác nhận và kiểm lại file chung. |
@@ -150,7 +150,7 @@ Nhóm cần xác định việc đối chiếu thực sự là điểm nghẽn h
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | SV03 — sinh viên kiểm bài bằng checklist cá nhân. |
+| Người được hỏi Tú | Sinh viên kiểm bài bằng checklist cá nhân. |
 | Câu nói đáng nhớ nhất (nguyên văn) | Không có trích dẫn thực tế. Ý kiến mô phỏng: checklist giúp nhớ mục nhưng vẫn phải đọc lại để xác nhận. |
 | Lần gần nhất gặp vấn đề này | Bài có đủ tiêu đề nhưng một phần chưa trình bày đủ nội dung được yêu cầu. |
 | Hiện đang xử lý bằng cách nào (workaround)? | Đánh dấu checklist rồi đọc lại các mục chưa rõ. |
