@@ -82,7 +82,7 @@ Những ý **loại khỏi tầng opportunity** vì là solution:
 | #8 — Đối chiếu lỗ hổng | Phụ thuộc danh mục tài sản, phiên bản và điều kiện ảnh hưởng; chưa rõ dữ liệu đầu vào hoặc cách phát hiện bỏ sót. | Có bộ thông báo và tài sản được phép dùng, cùng người phụ trách kiểm tra kết quả. |
 | #9 — Tình trạng mạng | Chưa rõ nguồn log, chu kỳ báo cáo và tiêu chí bất thường; phạm vi dễ mở rộng vượt một buổi lab. | Giới hạn một nguồn dữ liệu, một kỳ báo cáo và bộ tiêu chí bất thường xác nhận được. |
 
-**Xử lý bất đồng (nếu có):** chưa có thông tin về thảo luận thực tế nên không ghi nhận tên hoặc ý kiến của thành viên. Đề xuất cách xử lý: nếu nhóm ưu tiên #2 hoặc #7, đối chiếu khả năng lấy dữ liệu, tái hiện một trường hợp gần nhất và đo bottleneck trước khi chấm lại. Nếu #1 không xác nhận được bước đối chiếu là điểm nghẽn hoặc checklist đã xử lý đủ, cập nhật cây OST và thứ hạng theo bằng chứng; không giữ lựa chọn chỉ vì điểm dự đoán cao hơn. Kết quả đồng thuận thực tế và người đặt câu hỏi sẽ được bổ sung sau buổi pitch.
+**Xử lý bất đồng (nếu có):**  Mối người thực hiện đưa ra các câu hỏi cho các bạn trong nhóm nhưng kèm theo đó là lý do vì sao đưa ra câu hỏi như vậy để thể hiện quan điểm của mình trước nhóm bày tỏ cách suy nghĩ để cả nhóm xem có hợp lý hay không. Tương tự đối với bạn giải thích, điều này giúp nhóm có thể hiểu được cách suy nghĩ của nhau và giải quyết các vấn đề còn tồn tại.    
 
 ---
 
@@ -92,14 +92,11 @@ Những ý **loại khỏi tầng opportunity** vì là solution:
 
 | # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 |---:|---|---|---:|---:|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
-
-*Điền 4–6 giả định; xóa dòng thừa.*
+| 1 | Người nộp thường mất nhiều thời gian đối chiếu yêu cầu với nội dung bài; bước này có thể chiếm 20/45 phút. | Value | 5| | Có — quan sát và bấm giờ từng bước.|
+| 2 | Bài thiếu mục chủ yếu vì không phát hiện yêu cầu chưa đáp ứng, thay vì thành viên chưa hoàn thành nội dung. | Value | 5| | Có — xem các trường hợp thiếu mục gần nhất.|
+| 3 | Checklist có vị trí bằng chứng giúp giảm tổng thời gian kiểm xuống ≤25 phút/bài. | Usability | 5| | 	Có — thử phương án không AI trước|
+| 4 | Nếu checklist chưa đủ, AI có thể gợi ý vị trí bằng chứng mà không khiến người kiểm bỏ sót nhiều hơn. | Feasibility | 5| | Có — dùng bản nộp có chuẩn kiểm độc lập|
+| 5 | Người dùng hiểu trạng thái “chưa đủ cơ sở” và kiểm lại đầu ra AI trước khi nộp. | Usability | 5| | Có — quan sát thao tác xác nhận.|
 
 Giả định nhóm kiểm chứng trong buổi này:
 
