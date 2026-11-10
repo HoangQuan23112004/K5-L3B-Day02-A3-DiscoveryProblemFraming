@@ -77,15 +77,29 @@
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
--
+- Tôi lập Assumption Map gồm 6 giả định theo bốn loại Value / Usability / Feasibility / Viability, chấm mức quan trọng và mức bằng chứng, rồi chọn #1 (thời gian kiểm 45 phút, đối chiếu chiếm 20 phút) và #2 (thiếu mục do không phát hiện) để kiểm chứng trước.
+- Tôi soạn 5 câu hỏi phỏng vấn theo The Mom Test, chỉ hỏi về hành vi đã xảy ra, không hỏi ý kiến về giải pháp.
+- Tôi trực tiếp phỏng vấn 3 người thật ngoài nhóm: một sinh viên cùng khóa (gọi Discord), một sinh viên khóa dưới (gặp trực tiếp) và một trợ giảng (nhắn Zalo). Tôi ghi lại 3 interview snapshot với câu nói nguyên văn, workaround, thời gian mất và tín hiệu phản bác.
+- Tôi thay phần dữ liệu mô phỏng ban đầu trong mục 3.2 bằng kết quả phỏng vấn thật, lập bảng tổng hợp tín hiệu xác nhận/phản bác và đối chiếu lại từng giả định: #1 bị phản bác một phần, #2 được xác nhận một phần, #3 và #5 có tín hiệu phản bác.
+- Từ kết quả kiểm chứng, tôi đề xuất thu hẹp problem từ "đối chiếu yêu cầu nội dung" sang "kiểm yêu cầu cấu trúc" (file bắt buộc, đường dẫn, quy tắc đặt tên) và thay baseline 45 phút giả định bằng số đo được: tự kiểm 10–20 phút, chờ xác nhận 30–45 phút, sửa lại khoảng 15 phút, TA 3–5 phút/bài.
+- Tôi research 3 giải pháp đã có (Grammarly AI Grader, Gradescope rubric, GitHub Classroom Autograding) từ tài liệu chính thức, ghi rõ mỗi giải pháp giải bước nào, điểm mạnh, khoảng trống và bài học cho nhóm.
+- Ở CP5, tôi phản biện Problem Statement v0 dựa trên kết quả CP4. Bottleneck "đối chiếu 10 yêu cầu mất 20/45 phút" và baseline 45 phút vẫn là số giả định, trong khi phỏng vấn cho thấy tự kiểm chỉ mất 10–20 phút. Thời gian lớn hơn nằm ở chờ xác nhận và sửa sau khi bị trả bài. Lỗi người dùng gặp là lỗi cấu trúc (thiếu file, sai thư mục, sai tên), không phải khó đối chiếu nội dung với rubric. Tôi đề nghị cập nhật bottleneck, baseline và phạm vi theo số liệu đã thu.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
-- `report/team/group_report.md` mục 3 (CP4).
+- `report/team/group_report.md` mục 3.1 (Assumption Map), 3.2 (kiểm chứng, tổng hợp, đối chiếu giả định, cách sửa problem) và 3.3 (research giải pháp đã có).
+- `report/team/group_report.md` mục 5 (Problem Statement v0) và ghi chú cuối mục 3.2: "Mục 4–5 (CP5) cần cập nhật theo các số này".
+- `report/assets/cp4-interview-snapshot-1.md`, `cp4-interview-snapshot-2.md`, `cp4-interview-snapshot-3.md` (người phỏng vấn: Đinh Hoài Nam).
+- Commit `f250dd0` — "CP4: thay dữ liệu mô phỏng bằng 3 interview snapshot thật"; các commit `c6083ea`, `bdda9d7`, `5320059` tạo và chỉnh snapshot 1.
 
 **Điều mình học được từ phần nhóm:**
 
--
+- Tôi học được rằng một giả định nghe hợp lý (45 phút, đối chiếu là bottleneck) vẫn có thể sai khi hỏi người thật; thời gian lớn nhất lại nằm ở chờ xác nhận và sửa sau khi bị trả bài.
+- Hỏi về lần gần nhất gặp vấn đề (The Mom Test) cho số liệu và câu chuyện cụ thể hơn nhiều so với hỏi "bạn có muốn dùng công cụ này không".
+- Tín hiệu phản bác quan trọng không kém tín hiệu xác nhận: TA đã có script kiểm cấu trúc nhưng phần lớn sinh viên không chạy, nên vấn đề nằm ở việc kiểm không tự động chứ không phải thiếu công cụ.
+- Tôi hiểu rằng kết quả kiểm chứng phải quay lại sửa problem, baseline và phạm vi, chứ không chỉ để minh họa cho problem đã chọn.
+- Research giải pháp đã có giúp tôi phân biệt kiểm cấu trúc, kiểm độ đầy đủ và chấm chất lượng nội dung; mỗi loại phù hợp với một mức can thiệp khác nhau.
+- Tôi cần ghi rõ hạn chế của mẫu (3 người, con số 80% chỉ là ước tính của TA) để nhóm không coi đó là bằng chứng chắc chắn khi ra quyết định.
 
 ### LeDucTrucLam-2A202603787
 
