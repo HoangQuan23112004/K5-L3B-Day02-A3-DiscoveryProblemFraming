@@ -100,7 +100,7 @@
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
-- Phần CP3
+- `report/team/group_report.md` Mục 2 (Hội tụ nhóm - CP3)
 
 **Điều mình học được từ phần nhóm:**
 
