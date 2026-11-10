@@ -159,16 +159,16 @@ Tôi đưa 3 card cho AI (Claude) đóng vai "PM hoài nghi". Bảng dưới ghi
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Pitch 3 candidate về tự tập gym: #4 không nhận ra sai tư thế, #5 khó chọn bài/lịch tập, #6 khó theo dõi tiến độ tập (mục 2.1 báo cáo nhóm). | Không candidate nào của tôi được chọn. Nhóm ghi lý do: #4 chưa có baseline và chuẩn đúng/sai, cần người có chuyên môn; #5 chưa định nghĩa "phù hợp"; #6 có thể nghẽn ở bước ghi dữ liệu chứ không phải tổng hợp. |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: **[Nam bổ sung câu hỏi đã hỏi Quân/Lâm]** | **[Nam bổ sung]** |
+| Nhận phản biện | Câu hỏi tôi nhận được: Lâm hỏi #4 "Dùng AI phân tích hình ảnh động tác có ảnh hưởng quyền riêng tư không?"; Lâm hỏi #5 "Đã có tiêu chí cụ thể nào để xác định bài tập phù hợp chưa?"; Quân hỏi #6 "Có nhật ký đủ để so sánh không? Nếu chưa ghi dữ liệu, giải tổng hợp có đúng vấn đề gốc không?" | Tôi đã sửa gì: Đồng ý với câu của Quân vì khớp với Card 3 của tôi (6/16 buổi thiếu log). Nhóm ghi thêm vào bottleneck #6: "bước ghi dữ liệu cũng có thể là điểm nghẽn". Câu của Lâm về #4 và #5 trở thành lý do chưa chọn hai candidate này. |
+| Gom cluster / cây OST | Tham gia xếp 3 candidate của tôi vào cluster: #6 vào B (tổng hợp dữ liệu đã ghi), #5 vào C (lựa chọn theo ràng buộc), #4 để riêng ở E (tự đánh giá kỹ thuật vận động). | #4 được tách riêng vì khác bản chất dữ liệu (video động tác) và cách kiểm chứng. Lâm là người chính của CP3. |
+| Chọn candidate problem | Cùng nhóm chấm shortlist và chọn #1 "Kiểm tra đủ yêu cầu bài lab" (31 điểm). | Chấp nhận không chọn candidate của mình vì chúng chưa có pain đo được và khó kiểm chứng trong buổi lab. |
+| Kiểm chứng / research | Người chính CP4: lập Assumption Map 6 giả định, soạn câu hỏi theo The Mom Test, phỏng vấn 3 người thật (2 sinh viên, 1 TA), viết 3 interview snapshot, research 3 giải pháp đã có (Grammarly AI Grader, Gradescope, GitHub Classroom Autograding). | Giả định #1 (45 phút) bị phản bác một phần, #2 được xác nhận một phần. Nhóm thu hẹp problem sang kiểm yêu cầu cấu trúc (file bắt buộc, đường dẫn, quy tắc đặt tên) và thêm 3 yêu cầu cho mọi phương án (mục 3.2). |
+| Quy trình nhóm | Hỗ trợ CP5: chỉ ra quy trình hiện tại vẫn dùng số giả định 45 phút, đề nghị cập nhật theo số CP4 (tự kiểm 10–20 phút, chờ xác nhận 30–45 phút, sửa lại ~15 phút). | Ghi chú "Mục 4–5 (CP5) cần cập nhật theo các số này" ở cuối mục 3.2. |
+| Problem Statement | Phản biện Problem Statement v0: bottleneck "đối chiếu 10 yêu cầu mất 20/45 phút" vẫn là giả định; lỗi người dùng gặp là lỗi cấu trúc, không phải khó đối chiếu nội dung với rubric. | v1 đã tách "đối chiếu chậm" với "nội dung chưa hoàn thành" và ghi riêng thời gian chờ. Tuy vậy, baseline 45 → ≤25 phút trong v1 vẫn chưa được thay bằng số CP4. |
+| Mức can thiệp AI | Từ kết quả CP4, ghi tín hiệu cho CP6: lỗi có đúng/sai rõ và TA đã có script kiểm cấu trúc, nên bằng chứng nghiêng về Rule chạy tự động hơn Workflow AI. | Nhóm chọn No AI + Rule cho vòng thử đầu, Workflow chỉ là dự phòng (mục 6.2). |
+| Quyết định | Hỗ trợ Quân ở CP6; cung cấp hạn chế của kiểm chứng (mẫu 3 người, con số 80% chỉ là ước tính của TA). | Nhóm quyết định Not Yet với Workflow AI; hạn chế mẫu nhỏ được ghi ở mục 9. |
 
 ---
 
@@ -176,12 +176,12 @@ Tôi đưa 3 card cho AI (Claude) đóng vai "PM hoài nghi". Bảng dưới ghi
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Sau khi tự scan 6 problem, đưa bảng cho AI (Claude) rà lại. | Chỉ ra 3 dòng chưa có dấu hiệu thật đo được. | **[Nam bổ sung nếu có]** | Bỏ 2 dòng không có số liệu; giữ dòng đau thắt lưng (#6) nhưng ghi rõ dấu hiệu còn yếu. |
+| CP2 Problem Card | Cho AI đóng vai "PM hoài nghi" phản biện 3 Problem Card (bảng cuối mục 3). | Chỉ ra metric Card 1 sai trọng tâm (pain thật là không chắc form đúng, không phải 6 phút quay), số phút tự mâu thuẫn, actor "người mới" không khớp. | Gợi ý nhờ người lạ quay hộ (không khả thi lúc 18h phòng đông); cho rằng Strong/Hevy đã giải gần hết Card 3. | Giữ quy trình tự quay và ghi lý do; giữ Card 3 vì tôi đã thử Strong/Hevy rồi bỏ, ghi trải nghiệm đó làm bằng chứng. |
+| CP4 Research | Dùng AI (Claude Code) trình bày snapshot thành bảng, vẽ ảnh Assumption Map (`cp4-assumption-map.png`) và soạn phần đóng góp trong `TEAM.md` từ báo cáo nhóm. Phỏng vấn do tôi tự làm; link research do tôi tự mở và kiểm. | Gom nhanh 3 snapshot thành bảng tổng hợp xác nhận/phản bác; vẽ ảnh đúng số liệu mục 3.1. | Khi soạn `TEAM.md`, AI tự suy ra tôi "chuyển baseline cho Quân" ở CP5, việc này không có trong báo cáo. | Sửa lại thành đúng việc tôi làm: phản biện Problem Statement v0 bằng số liệu CP4. |
+| CP5 Quy trình | **[Nam bổ sung: có dùng AI không, dùng làm gì]** | | | |
+| CP5–6 Problem Statement | **[Nam bổ sung]** | | | |
+| CP6 Mức can thiệp / quyết định | **[Nam bổ sung]** | | | |
 
 ---
 
@@ -207,4 +207,11 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 ## 7. Tài liệu tham khảo
 
--
+1. Rob Fitzpatrick. *The Mom Test*. Cách đặt câu hỏi phỏng vấn về hành vi đã xảy ra (CP4). https://www.momtestbook.com/
+2. Teresa Torres, Product Talk. *Interview Snapshot*. Mẫu ghi lại mỗi buổi phỏng vấn (CP4). https://www.producttalk.org/interview-snapshot/
+3. Strategyzer. *How assumptions mapping can focus your teams on running experiments that matter*. Xếp giả định theo mức quan trọng và mức bằng chứng (CP4). https://www.strategyzer.com/library/how-assumptions-mapping-can-focus-your-teams-on-running-experiments-that-matter
+4. Teresa Torres, Product Talk. *Opportunity Solution Trees*. Tách opportunity khỏi solution (CP3). https://www.producttalk.org/opportunity-solution-trees/
+5. Grammarly Support. *AI Grader user guide* (research CP4). https://support.grammarly.com/hc/en-us/articles/38552360525837-AI-Grader-user-guide
+6. Gradescope Guides. *Grading submissions with rubrics* (research CP4). https://guides.gradescope.com/hc/en-us/articles/22249389005709-Grading-submissions-with-rubrics
+7. GitHub Docs. *Use autograding* (research CP4). https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/use-autograding
+8. Marty Cagan, SVPG. *The Four Big Risks*. Bốn rủi ro Value / Usability / Feasibility / Viability (CP4, CP6). https://www.svpg.com/four-big-risks/
