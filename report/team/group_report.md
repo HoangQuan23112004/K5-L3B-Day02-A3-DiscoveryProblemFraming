@@ -107,71 +107,78 @@ Nhóm cần xác định việc đối chiếu thực sự là điểm nghẽn h
 
 ### 3.2. Kiểm chứng
 
-**Cách dùng:** Phỏng vấn theo 5 câu hỏi, kết hợp đối chiếu bản nộp và rubric.
+**Cách làm:** Phỏng vấn nhanh 3 người thật theo The Mom Test, hỏi về lần gần nhất họ gặp vấn đề. Không ai là thành viên nhóm A3. Ghi theo vai trò, không ghi tên. Snapshot đầy đủ nằm trong `report/assets/`.
 
-**Quy mô mô phỏng:**
+| # | Vai trò | Thời gian, cách hỏi | Snapshot |
+|---:|---|---|---|
+| 1 | Sinh viên cùng khóa, hay nộp sát deadline | 22:30 ngày 09/11/2026, gọi Discord | [cp4-interview-snapshot-1.md](../assets/cp4-interview-snapshot-1.md) |
+| 2 | Sinh viên khóa dưới, mới làm quen repo Codelab | 14:00 ngày 10/11/2026, trực tiếp | [cp4-interview-snapshot-2.md](../assets/cp4-interview-snapshot-2.md) |
+| 3 | Trợ giảng (TA) review bài nộp | 10:00 ngày 10/11/2026, nhắn Zalo | [cp4-interview-snapshot-3.md](../assets/cp4-interview-snapshot-3.md) |
 
-- 3 sinh viên từng phụ trách nộp bài nhóm.
-- Mỗi người trả lời 5 câu hỏi, tổng cộng 15 lượt trả lời.
-- 8 bản nộp được dùng để đối chiếu mức độ đầy đủ.
-- 3 lượt tái hiện thao tác kiểm bài để ước lượng thời gian.
+**Câu hỏi dẫn dắt** (hỏi về hành vi đã xảy ra, không hỏi ý kiến về giải pháp):
 
-**Năm câu hỏi phỏng vấn:**
+1. Lần gần nhất bạn kiểm bài trước khi nộp (hoặc chấm bài) là khi nào? Kể lại từng bước.
+2. Lần đó mất bao lâu? Bước nào lâu nhất?
+3. Lần gần nhất bài bị thiếu hoặc sai yêu cầu, bạn phát hiện ra lúc nào và bằng cách nào?
+4. Hiện bạn đang làm gì để khỏi bỏ sót? Đã thử cách nào khác chưa, giờ còn dùng không?
+5. Chuyện này đã làm bạn mất gì: điểm, thời gian sửa, thời gian chờ người khác?
 
-1. Lần gần nhất bạn kiểm bài nhóm trước khi nộp diễn ra như thế nào?
-2. Bạn mất bao lâu và bước nào mất nhiều thời gian nhất?
-3. Nếu bài thiếu mục, nguyên nhân là chưa làm xong hay chưa phát hiện ra?
-4. Bạn đang dùng cách nào để hạn chế bỏ sót?
-5. Nếu có bảng yêu cầu kèm vị trí bằng chứng, bạn có dễ kiểm hơn không?
-
-#### Interview snapshot 1
-
-| Trường | Nội dung |
-|---|---|
-| Người được hỏi Hùng |  sinh viên thường phụ trách nộp bài nhóm. |
-| Câu nói đáng nhớ nhất | Không có trích dẫn thực tế. Ý kiến mô phỏng: khó nhất là tìm đoạn đáp ứng từng yêu cầu. |
-| Lần gần nhất gặp vấn đề này | Bản nộp có phần kết quả nhưng thiếu phần giải thích theo rubric. |
-| Hiện đang xử lý bằng cách nào (workaround)? | Mở đề và bài cạnh nhau, kiểm lần lượt. |
-| Mất bao lâu, bao lần? | Ước lượng 45 phút/bài, khoảng 2 bài/tuần. |
-| Insight / opportunity rút ra | Cần gắn từng yêu cầu với vị trí bằng chứng để giảm tìm kiếm. |
-
-#### Interview snapshot 2
+#### Interview snapshot 1 — Sinh viên cùng khóa
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi Lan |  Sinh viên tổng hợp nội dung của các thành viên. |
-| Câu nói đáng nhớ nhất | Không có trích dẫn thực tế. Ý kiến mô phỏng: có mục đã được làm nhưng chưa đưa vào bản cuối. |
-| Lần gần nhất gặp vấn đề này | Thành viên gửi phần bổ sung riêng, người tổng hợp chưa cập nhật trước lượt kiểm cuối. |
-| Hiện đang xử lý bằng cách nào (workaround)? | Nhắn từng người xác nhận và kiểm lại file chung. |
-| Mất bao lâu, bao lần? | Ước lượng 50 phút/bài; có thời gian chờ được ghi riêng. |
-| Insight / opportunity rút ra | Cần xác định bản cuối và trạng thái từng yêu cầu, không chỉ kiểm sự hiện diện của tiêu đề. |
+| Người được hỏi | Sinh viên cùng khóa, thường làm bài và nộp sát deadline vào ban đêm |
+| Câu nói đáng nhớ nhất | "Má, tao push code nộp xong xuôi hết rồi mới nhớ ra quên tạo file `agent_changelog.md` ở thư mục gốc, bay mất 2 điểm rubric oan uổng." |
+| Lần gần nhất gặp vấn đề này | Tối Chủ nhật tuần trước, khi nộp bài lab Day 01 |
+| Hiện đang xử lý bằng cách nào (workaround)? | Chia đôi màn hình: checklist Notion tự gõ lại từ đề bài và VSCode để dò từng file |
+| Mất bao lâu, bao lần? | Khoảng 15–20 phút mỗi lần nộp |
+| Insight / opportunity rút ra | Lỗi gây mất điểm là thiếu file bắt buộc (lỗi cấu trúc). Người dùng sẽ không dùng cách kiểm nào phải cài đặt hoặc gõ lệnh dài |
 
-#### Interview snapshot 3
+#### Interview snapshot 2 — Sinh viên khóa dưới
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi Tú | Sinh viên kiểm bài bằng checklist cá nhân. |
-| Câu nói đáng nhớ nhất | Không có trích dẫn thực tế. Ý kiến mô phỏng: checklist giúp nhớ mục nhưng vẫn phải đọc lại để xác nhận. |
-| Lần gần nhất gặp vấn đề này | Bài có đủ tiêu đề nhưng một phần chưa trình bày đủ nội dung được yêu cầu. |
-| Hiện đang xử lý bằng cách nào (workaround)? | Đánh dấu checklist rồi đọc lại các mục chưa rõ. |
-| Mất bao lâu, bao lần? | Ước lượng 40 phút/bài. |
-| Insight / opportunity rút ra | Checklist cần có bằng chứng và trạng thái “chưa đủ cơ sở”. |
+| Người được hỏi | Sinh viên khóa dưới, mới làm quen cấu trúc repo Codelab |
+| Câu nói đáng nhớ nhất | "Em đọc cái `CHECKPOINTS.md` mà lú luôn, không biết cái file báo cáo đuôi `.md` phải vứt vào thư mục `docs/` hay `report/` mới đúng chuẩn đầu ra, cứ nộp bừa rồi cầu nguyện." |
+| Lần gần nhất gặp vấn đề này | Cuối tuần vừa rồi, bài Assignment đầu tiên |
+| Hiện đang xử lý bằng cách nào (workaround)? | Chụp màn hình cây thư mục gửi group chat lớp để nhờ xác nhận |
+| Mất bao lâu, bao lần? | Khoảng 10 phút tự kiểm, cộng thêm 30–45 phút chờ người khác trả lời |
+| Insight / opportunity rút ra | Nguyên nhân là không hiểu format đầu ra, không phải quên. Phần tốn thời gian nhất là chờ xác nhận. Cảnh báo phải chỉ rõ đường dẫn hoặc tên file đúng |
 
-**Tổng hợp dữ liệu mô phỏng:**
+#### Interview snapshot 3 — Trợ giảng
 
-| Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
+| Trường | Nội dung |
+|---|---|
+| Người được hỏi | Trợ giảng (TA), thường xuyên review bài nộp của sinh viên |
+| Câu nói đáng nhớ nhất | "Mỗi lần chấm bài mình phát mệt. Bài thì quên file ảnh screenshot terminal, bài thì sai quy tắc đặt tên branch (ví dụ `task/sv01...`), lại phải comment bắt các bạn sửa lại từng tí." |
+| Lần gần nhất gặp vấn đề này | Chiều 09/11/2026, khi chấm một loạt Pull Request |
+| Hiện đang xử lý bằng cách nào (workaround)? | Đã viết sẵn bash script kiểm cấu trúc và dặn lớp chạy trước khi push. Theo ước tính của TA, khoảng 80% sinh viên không chạy |
+| Mất bao lâu, bao lần? | TA mất 3–5 phút/bài kiểm cấu trúc; sinh viên bị trả bài mất thêm khoảng 15 phút sửa và push lại |
+| Insight / opportunity rút ra | Lỗi có đúng/sai rõ, Rule kiểm được và thực tế đã có script. Chỗ thiếu là việc kiểm đang phụ thuộc vào sinh viên tự nhớ chạy |
+
+**Tổng hợp:**
+
+| Nguồn | Số người | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| Phỏng vấn | 3 người, 5 câu/người | 2/3 trường hợp xem tìm và đối chiếu bằng chứng là phần khó nhất. | 1/3 trường hợp còn chậm do tổng hợp thiếu nội dung từ thành viên. |
-| Tái hiện thao tác | 3 lượt | Thời gian 40, 45 và 50 phút; trung bình 45 phút/lượt. Bước đối chiếu trung bình 20 phút. | Các lượt có độ dài bài khác nhau nên chưa đủ để suy rộng. |
-| Đối chiếu bản nộp với rubric | 8 bài | 2/8 bài còn thiếu ít nhất một yêu cầu bắt buộc. | Trong 2 bài thiếu, 1 bài liên quan nội dung chưa được đưa vào bản cuối; không phải mọi lỗi đều do kiểm tra. |
+| Sinh viên nộp bài (#1, #2) | 2 | Cả 2 từng nộp thiếu hoặc không chắc cấu trúc. #1 mất 2 điểm vì thiếu 1 file. Tự kiểm mất 10–20 phút/lần | #1: không dùng công cụ phải cài đặt hoặc gõ lệnh dài. #2: nguyên nhân là không hiểu format đầu ra, không phải quên |
+| Trợ giảng (#3) | 1 | Lỗi cấu trúc lặp lại ở nhiều bài; TA mất 3–5 phút/bài, sinh viên mất thêm khoảng 15 phút sửa lại | Đã có script kiểm cấu trúc (Rule) nhưng khoảng 80% sinh viên không chạy (ước tính của TA) |
 
-**Nhóm đã sửa problem thế nào sau phân tích tình huống mô phỏng:**
+**So với Assumption Map (mục 3.1):**
 
-- Giới hạn vấn đề vào tìm và đối chiếu bằng chứng cho yêu cầu bắt buộc.
-- Bổ sung bước xác nhận phiên bản bản nộp trước khi kiểm.
-- Chuyển lượt kiểm đầu sang trước hạn ít nhất 2 giờ.
-- Mỗi yêu cầu có trạng thái, vị trí bằng chứng và người xác nhận.
-- Thử checklist trước; chỉ cân nhắc AI khi bước đối chiếu vẫn chậm.
+| Giả định | Kết quả kiểm chứng |
+|---|---|
+| #1 — Kiểm bài mất khoảng 45 phút, đối chiếu chiếm 20 phút | **Bị phản bác một phần.** Tự kiểm thực tế 10–20 phút/lần (#1, #2). Thời gian lớn hơn nằm ở chờ người khác xác nhận (30–45 phút, #2) và sửa lại sau khi bị trả bài (khoảng 15 phút, #3) |
+| #2 — Bài thiếu mục vì người kiểm không phát hiện ra | **Xác nhận một phần.** #1 quên file. #2 cho thấy nguyên nhân khác là không hiểu yêu cầu format. Cả 3 người đều nói về lỗi cấu trúc (thiếu file, sai thư mục, sai tên branch, thiếu ảnh); không ai nhắc đến khó đối chiếu nội dung với rubric |
+| #3, #5 — Người dùng sẽ dùng và kiểm lại được kết quả | **Có tín hiệu phản bác.** Cách kiểm tự nguyện đã thất bại (#3), và công cụ phải cài đặt sẽ bị bỏ qua (#1) |
+
+**Hạn chế:** Mẫu nhỏ (3 người). Chỉ có 2 người thuộc đúng actor "sinh viên nộp bài". Con số 80% là ước tính của TA, chưa kiểm bằng dữ liệu.
+
+**Nhóm đã sửa problem thế nào sau kiểm chứng:**
+
+- **Thu hẹp phạm vi:** từ "đối chiếu 10 yêu cầu nội dung với bản nộp" sang "kiểm **yêu cầu cấu trúc** của bài nộp: file bắt buộc, đường dẫn, quy tắc đặt tên". Đây là loại lỗi cả 3 người đã gặp.
+- **Sửa baseline:** bỏ con số giả định 45 phút. Dùng số đã thu: tự kiểm 10–20 phút/lần, chờ xác nhận 30–45 phút, sửa lại khoảng 15 phút/lần bị trả bài, TA 3–5 phút/bài. Mục 4–5 (CP5) cần cập nhật theo các số này.
+- **Thêm yêu cầu cho mọi phương án:** cảnh báo phải chỉ rõ đường dẫn/tên đúng (#2); không bắt cài đặt hoặc gõ lệnh dài (#1); việc kiểm phải tự chạy, không dựa vào việc sinh viên tự nhớ (#3).
+- **Tín hiệu cho CP6:** lỗi có đúng/sai rõ và đã có script Rule, nên bằng chứng nghiêng về **Rule chạy tự động** hơn là Workflow AI. Câu hỏi còn mở: vì sao sinh viên không chạy script của TA (quên, lười, hay không biết cách chạy)?
 
 ### 3.3. Research giải pháp đã có
 
@@ -429,7 +436,7 @@ Giữ checklist, Rule kiểm cấu trúc, phân công người kiểm và kiểm
 ## 9. Hạn chế và hướng tiếp theo
 
 - Baseline và mục tiêu đang dựa trên số liệu ước lượng.
-- Chưa có kết quả phỏng vấn và thử nghiệm thực tế.
+- Mới có 3 phỏng vấn (mẫu nhỏ, mục 3.2); chưa có thử nghiệm thực tế.
 - Phạm vi khoảng 10 yêu cầu chưa đại diện cho bài dài hoặc đồ án phức tạp.
 - Chưa đánh giá tài liệu quét, ảnh và bảng biểu khó đọc.
 - Tiếp theo: thu dữ liệu, thử checklist, cập nhật Problem Statement và quyết định theo kết quả.

@@ -19,7 +19,7 @@
 | Checkpoint | Người chính | Người hỗ trợ | Sản phẩm |
 |---|---|---|---|
 | CP3 — Hội tụ nhóm | Lê Đức Trúc Lâm | Hoàng Dương Anh Quân, Lê Đức Trúc Lâm | Cluster, cây OST, bảng chấm điểm |
-| CP4 — Kiểm chứng | Đinh Hoài Nam | Hoàng Dương Anh Quân, Lê Đức Trúc Lâm | Assumption map, snapshot mô phỏng và kế hoạch kiểm chứng |
+| CP4 — Kiểm chứng | Đinh Hoài Nam | Hoàng Dương Anh Quân, Lê Đức Trúc Lâm | Assumption map, 3 interview snapshot thật (`report/assets/cp4-interview-snapshot-1..3.md`) |
 | CP4 — Research | Đinh Hoài Nam | Lê Đức Trúc Lâm, Hoàng Dương Anh Quân | Bảng research có link và nhận xét |
 | CP5 — Quy trình trước/sau | Hoàng Dương Anh Quân | Lê Đức Trúc Lâm, Đinh Hoài Nam | Sơ đồ quy trình, bảng theo bước và before/after |
 | CP5 — Problem Statement v0 | Hoàng Dương Anh Quân | Lê Đức Trúc Lâm, Đinh Hoài Nam | Problem Statement v0, phản biện và điều chỉnh |

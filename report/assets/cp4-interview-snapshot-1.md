@@ -1,38 +1,16 @@
 # CP4 — Interview snapshot 1
 
-- Nhóm: A3.
-- Problem: Kiểm tra đủ yêu cầu bài lab trước khi nộp.
-- Thời lượng dự kiến: 15 phút.
-
-## 1. Snapshot
+- Nhóm: A3
+- Problem: Kiểm tra đủ yêu cầu bài lab trước khi nộp
+- Người phỏng vấn: Đinh Hoài Nam
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi | Vai trò giả định: sinh viên phụ trách kiểm và nộp bài nhóm 4 người. |
-| Câu nói đáng nhớ nhất | Không có trích dẫn thực tế. Ý kiến mô phỏng: khó nhất là tìm đoạn đáp ứng từng yêu cầu. |
-| Lần gần nhất gặp vấn đề | Trong kịch bản, bài có phần kết quả nhưng thiếu giải thích theo rubric. |
-| Workaround | Mở đề và bản nộp cạnh nhau, kiểm lần lượt rồi nhắn thành viên bổ sung. |
-| Thời gian, tần suất | Ước lượng 45 phút/bài, 2 bài/tuần; đối chiếu chiếm 20 phút. |
-| Insight | Cần gắn từng yêu cầu với vị trí bằng chứng và kiểm sớm để còn thời gian sửa. |
-
-## 2. Câu hỏi và câu trả lời mô phỏng
-
-| # | Câu hỏi | Câu trả lời tóm tắt — mô phỏng |
-|---:|---|---|
-| 1 | Lần gần nhất bạn kiểm bài nhóm trước khi nộp diễn ra thế nào? | Mở đề, rubric và thông báo rồi dò bản cuối; phát hiện thiếu giải thích dù đã có kết quả. |
-| 2 | Bạn mất bao lâu và bước nào mất nhiều thời gian nhất? | Khoảng 45 phút thao tác, trong đó tìm và đối chiếu bằng chứng khoảng 20 phút. |
-| 3 | Bài thiếu mục vì chưa làm xong hay chưa phát hiện ra? | Trong tình huống này, người kiểm nghĩ phần kết quả đã đủ nên chưa nhận ra yêu cầu giải thích còn thiếu. |
-| 4 | Bạn đang dùng cách nào để hạn chế bỏ sót? | Đọc lại rubric, kiểm từng mục và nhờ thành viên khác xem bản cuối. |
-| 5 | Bảng yêu cầu kèm vị trí bằng chứng có giúp kiểm dễ hơn không? | Dự kiến dễ tìm lại hơn; vẫn cần mở đoạn liên quan để xác nhận. |
-
-## 3. Nhận định
-
-- Checklist cần có yêu cầu, vị trí bằng chứng, trạng thái và người kiểm.
-- Phân biệt nội dung chưa làm, nội dung chưa cập nhật vào bản cuối và lỗi kiểm bỏ sót.
-- Lượt kiểm đầu nên diễn ra trước hạn ít nhất 2 giờ theo phản biện của Lâm.
-- Thời gian thao tác, sửa nội dung và chờ phản hồi cần ghi riêng.
-- Dữ liệu mô phỏng chưa đủ để xác nhận pain hoặc hiệu quả giải pháp.
-
-## 4. Hướng tiếp theo
-
-Thử checklist trước. Nếu sau 4 bài thời gian vẫn trên 25 phút/bài và đối chiếu vẫn là bottleneck, xem xét Workflow AI gợi ý bằng chứng, có con người xác nhận.
+| Người được hỏi (vai trò) | Sinh viên cùng khóa, thường làm bài và nộp sát deadline vào ban đêm |
+| Thời gian và cách hỏi | 22:30 ngày 09/11/2026, gọi thoại nhanh qua Discord khi người được hỏi đang làm bài |
+| Lần gần nhất gặp vấn đề | Tối Chủ nhật tuần trước, khi nộp bài lab Day 01 |
+| Câu nói nguyên văn | "Má, tao push code nộp xong xuôi hết rồi mới nhớ ra quên tạo file `agent_changelog.md` ở thư mục gốc, bay mất 2 điểm rubric oan uổng." |
+| Workaround hiện tại | Chia đôi màn hình: một bên là checklist trên Notion tự gõ lại từ đề bài, một bên là VSCode để dò từng file |
+| Mất bao lâu, bao lần | Khoảng 15–20 phút mỗi lần nộp, chỉ để đối chiếu qua lại giữa các file và đề bài |
+| Tín hiệu phản bác | Dù sợ mất điểm, người này sẽ không dùng công cụ phải cài đặt lằng nhằng hoặc phải gõ lệnh dài: "lúc deadline dí tao thà check bằng mắt cho lẹ, cài tool lỗi còn tốn thời gian hơn." |
+| Insight | Lỗi gây mất điểm là thiếu một **file bắt buộc** (lỗi cấu trúc), không phải nội dung chưa đạt rubric. Cách kiểm phải gần như không tốn công thiết lập, nếu không người dùng sẽ quay về kiểm bằng mắt |
