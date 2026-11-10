@@ -88,8 +88,6 @@ Những ý **loại khỏi tầng opportunity** vì là solution:
 
 ## 3. Kiểm chứng + research giải pháp đã có (CP4)
 
-> Các số liệu trong báo cáo là ước lượng phục vụ xây dựng phương án và mục tiêu thử nghiệm, chưa phải kết quả đo thực tế.
-
 ### 3.1. Assumption Map
 
 Thang điểm bằng chứng: 1 = mới có giả định; 5 = có nhiều bằng chứng trực tiếp, nhất quán.
