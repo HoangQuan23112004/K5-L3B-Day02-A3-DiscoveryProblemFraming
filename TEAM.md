@@ -18,15 +18,14 @@
 
 | Checkpoint | Người chính | Người hỗ trợ | Sản phẩm |
 |---|---|---|---|
-| CP3 — Hội tụ nhóm | Đinh Hoài Nam | Hoàng Dương Anh Quân, Lê Đức Trúc Lâm | Cluster, cây OST, bảng chấm điểm |
+| CP3 — Hội tụ nhóm | Lê Đức Trúc Lâm | Hoàng Dương Anh Quân, Lê Đức Trúc Lâm | Cluster, cây OST, bảng chấm điểm |
 | CP4 — Kiểm chứng | Đinh Hoài Nam | Hoàng Dương Anh Quân, Lê Đức Trúc Lâm | Assumption map, snapshot mô phỏng và kế hoạch kiểm chứng |
-| CP4 — Research | Lê Đức Trúc Lâm | Đinh Hoài Nam, Hoàng Dương Anh Quân | Bảng research có link và nhận xét |
-| CP5 — Quy trình trước/sau | Hoàng Dương Anh Quân | Lê Đức Trúc Lâm | Sơ đồ quy trình, bảng theo bước và before/after |
-| CP5 — Problem Statement v0 | Hoàng Dương Anh Quân | Lê Đức Trúc Lâm | Problem Statement v0, phản biện và điều chỉnh |
+| CP4 — Research | Đinh Hoài Nam | Lê Đức Trúc Lâm, Hoàng Dương Anh Quân | Bảng research có link và nhận xét |
+| CP5 — Quy trình trước/sau | Hoàng Dương Anh Quân | Lê Đức Trúc Lâm, Đinh Hoài Nam | Sơ đồ quy trình, bảng theo bước và before/after |
+| CP5 — Problem Statement v0 | Hoàng Dương Anh Quân | Lê Đức Trúc Lâm, Đinh Hoài Nam | Problem Statement v0, phản biện và điều chỉnh |
 | CP6 — Mức can thiệp + Problem Statement v1 | Hoàng Dương Anh Quân | Lê Đức Trúc Lâm, Đinh Hoài Nam | Ma trận, so sánh bốn mức, AI Canvas, tiêu chí đánh giá và Problem Statement v1 |
 | CP6 — Quyết định | Hoàng Dương Anh Quân | Đinh Hoài Nam, Lê Đức Trúc Lâm | Bốn rủi ro, quyết định Not Yet và ngưỡng dừng |
 
-> Phân công CP3–CP4 cần được các thành viên xác nhận. Phần phụ trách cá nhân của Quân là CP5–CP6.
 
 ## Cá nhân
 
@@ -37,7 +36,7 @@
 - CP5: phân tích quy trình hiện tại, đề xuất quy trình tương lai, lập bảng before/after và viết Problem Statement v0.
 - CP6: xác định mức can thiệp, xây dựng AI Canvas, hoàn thiện Problem Statement v1, tiêu chí đánh giá và quyết định.
 
-**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+**Đóng góp cụ thể**:
 
 - Tôi chia quy trình kiểm bài thành năm bước, xác định đầu vào, đầu ra và thời gian ước lượng cho từng bước. Bước đối chiếu yêu cầu với bản nộp được xác định là bottleneck cần kiểm chứng, chiếm khoảng 20/45 phút.
 - Tôi xây dựng phương án cải tiến bằng checklist có vị trí bằng chứng, kết hợp Rule kiểm tên file, đuôi file và file bắt buộc.
@@ -48,7 +47,7 @@
 - Tôi hoàn thiện Problem Statement v1 và năm tiêu chí đánh giá: bao phủ yêu cầu, bằng chứng chính xác, thể hiện thiếu chắc chắn, phát hiện mục thiếu và hiệu quả sử dụng.
 - Tôi tổng hợp bốn nhóm rủi ro và đề xuất Not Yet đối với Workflow AI, kèm điều kiện thử tiếp và ngưỡng quay về checklist/Rule.
 
-**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+**Bằng chứng** :
 
 - Mục 4.1 trong `group_report.md`: quy trình hiện tại, bảng theo bước và bottleneck.
 - Mục 4.2–4.3: quy trình tương lai, boundary, phương án quay về và bảng before/after.
