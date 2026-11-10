@@ -175,16 +175,21 @@ Nhóm cần xác định việc đối chiếu thực sự là điểm nghẽn h
 
 ### 3.3. Research giải pháp đã có
 
-Các công cụ và pattern dưới đây được dùng làm hướng tham khảo; nhóm chưa benchmark hiệu quả thực tế.
+Nhóm tham khảo các giải pháp liên quan đến kiểm bài theo rubric và kiểm tra tự động. Nội dung dưới đây dựa trên tài liệu chính thức; nhóm chưa chạy thử để đo hiệu quả.
 
 | Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
 |---|---|---|---|---|---|
-| Google Sheets checklist | https://support.google.com/docs/answer/7684717 | Liệt kê yêu cầu và theo dõi trạng thái. | Dễ dùng chung, thêm vị trí bằng chứng và người kiểm. | Đánh dấu hoàn tất không chứng minh nội dung đã đủ. | Checklist phải gắn với bằng chứng. |
-| GitHub task lists | https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists | Theo dõi các mục trong repo. | Phù hợp cách làm bài trên GitHub. | Vẫn cần người đối chiếu nội dung. | Tách trạng thái “đã làm” và “đã kiểm”. |
-| Script kiểm cấu trúc file | https://docs.python.org/3/library/pathlib.html | Kiểm tên, đuôi và file bắt buộc. | Quy tắc rõ, dễ chạy lại. | Không đánh giá được mức đáp ứng về nội dung. | Dùng Rule cho điều kiện xác định rõ. |
-| Google PAIR Guidebook | https://pair.withgoogle.com/guidebook/ | Thiết kế vai trò AI và bước xác nhận. | Hướng dẫn về kiểm soát, phản hồi và xử lý lỗi. | Không thay thế thử nghiệm trên bài cụ thể. | Người dùng phải hiểu và kiểm được đầu ra. |
+| Grammarly AI Grader | [Hướng dẫn AI Grader](https://support.grammarly.com/hc/en-us/articles/38552360525837-AI-Grader-user-guide) | Đọc bài viết và đưa phản hồi dựa trên rubric hoặc hướng dẫn bài tập trước khi nộp. | Cho phép bổ sung rubric; phản hồi ở mức tài liệu và đoạn văn. | Tập trung vào bài viết; chưa chứng minh phù hợp với mọi loại bài lab. Điểm dự đoán không phải điểm chính thức. | Có thể tham khảo cách cung cấp yêu cầu cùng bản nộp để nhận phản hồi cụ thể; nhóm chỉ cần kiểm độ đầy đủ, không cần dự đoán điểm. |
+| Gradescope — Grading submissions with rubrics | [Chấm bài bằng rubric](https://guides.gradescope.com/hc/en-us/articles/22249389005709-Grading-submissions-with-rubrics) | Đối chiếu bài nộp với từng tiêu chí và ghi phản hồi. | Giao diện đặt bài nộp và rubric trong cùng quy trình kiểm; tiêu chí được tổ chức theo câu hỏi. | Chủ yếu phục vụ giảng viên và trợ giảng chấm bài, không phải công cụ sinh viên tự kiểm trước khi nộp. | Tổ chức bảng kiểm theo từng yêu cầu; đặt bằng chứng cạnh tiêu chí để giảm chuyển qua lại giữa các nguồn. |
+| GitHub Classroom — Autograding | [Kiểm tra tự động bài tập](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/use-autograding) | Chạy các bài kiểm tra được cấu hình khi người học đẩy bài lên repo. | Kiểm tra lặp lại theo quy tắc, phù hợp với bài lập trình trên GitHub. | Chỉ kiểm được điều kiện đã cấu hình; vượt qua test không chứng minh đã đáp ứng mọi yêu cầu trong báo cáo. | Dùng Rule cho phần có thể kiểm chính xác; giữ bước con người kiểm nội dung và bằng chứng. |
 
----
+**Kết luận từ research:**
+
+- Đã có giải pháp phản hồi bài viết theo rubric và giải pháp kiểm bài bằng test.
+- Nhóm cần phân biệt kiểm cấu trúc, kiểm độ đầy đủ và chấm chất lượng nội dung.
+- Phương án thử đầu tiên vẫn là checklist kết hợp Rule.
+- Nếu thử Workflow AI, đầu ra cần gồm: yêu cầu, vị trí bằng chứng, trạng thái và điểm cần người dùng xác nhận.
+- Chưa kết luận giải pháp hiện có không đáp ứng nhu cầu; cần thử trên cùng bộ bài trước khi quyết định xây thêm công cụ.
 
 ## 4. Quy trình trước/sau (CP5)
 
@@ -434,7 +439,18 @@ Giữ checklist, Rule kiểm cấu trúc, phân công người kiểm và kiểm
 ---
 
 ## 10. Tài liệu tham khảo
-- Google Sheets — Checkboxes: https://support.google.com/docs/answer/7684717
-- GitHub Docs — Task lists: https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists
-- Python Documentation — pathlib: https://docs.python.org/3/library/pathlib.html
-- Google PAIR — People + AI Guidebook: https://pair.withgoogle.com/guidebook/
+## 10. Tài liệu tham khảo
+
+1. Grammarly Support. *AI Grader user guide*. Hướng dẫn phản hồi bài viết theo rubric trước khi nộp.  
+   https://support.grammarly.com/hc/en-us/articles/38552360525837-AI-Grader-user-guide
+
+2. Gradescope Guides. *Grading submissions with rubrics*. Hướng dẫn tổ chức tiêu chí và đối chiếu với bài nộp.  
+   https://guides.gradescope.com/hc/en-us/articles/22249389005709-Grading-submissions-with-rubrics
+
+3. GitHub Docs. *Use autograding*. Hướng dẫn kiểm tra bài tập tự động trong GitHub Classroom.  
+   https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/use-autograding
+
+4. Google PAIR. *People + AI Guidebook*. Tài liệu tham khảo cho phần lựa chọn vai trò AI, quyền kiểm soát của người dùng và xử lý lỗi tại CP6.  
+   https://pair.withgoogle.com/guidebook/
+
+
